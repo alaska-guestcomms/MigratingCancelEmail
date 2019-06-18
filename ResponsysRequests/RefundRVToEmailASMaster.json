@@ -8,17 +8,17 @@
 		],
 		"mergeTriggerRecords": [
 			{
-                "_comment": "Version value could be either numeric or string",
+				"_comment": "Version value could be either numeric or string",
 				"fieldValues": [
 					"insik.cho@alaskaair.com",
 					"12345",
 					"H"
 				],
 				"optionalData": [
-                    {
-                        "name": "Version",
-                        "value": "RESIDUALVALUE"
-                    },
+					{
+						"name": "Version",
+						"value": "RESIDUALVALUE"
+					},
 					{
 						"name": "ConfirmationCode",
 						"value": "LBRIQK"
@@ -47,10 +47,10 @@
 						"name": "FeeAndBilling",
 						"value": "{\"PaymentMethod\":\"Alaska Airlines MasterCard\",\"PaymentMaskedNumber\":\"*******2839\",\"CancellationFeeAmount\":75.00}"
 					},
-          {
-            "name": "SendTo",
-            "value": "{\"Method\":\"CreditCertificate\"}"
-          },
+					{
+						"name": "SendTo",
+						"value": "{\"Method\":\"CreditCertificate\"}"
+					},
 					{
 						"name": "GuestPass",
 						"value": "false"

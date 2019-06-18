@@ -8,17 +8,17 @@
 		],
 		"mergeTriggerRecords": [
 			{
-                "_comment": "Version value could be either numeric or string",
+				"_comment": "Version value could be either numeric or string",
 				"fieldValues": [
 					"insik.cho@alaskaair.com",
 					"12345",
 					"H"
 				],
 				"optionalData": [
-                    {
-                        "name": "Version",
-                        "value": "CANCELAWARD"
-                    },
+					{
+						"name": "Version",
+						"value": "CANCELAWARD"
+					},
 					{
 						"name": "ConfirmationCode",
 						"value": "LBRIQK"

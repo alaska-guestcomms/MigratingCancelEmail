@@ -1,0 +1,69 @@
+{
+    "mergeRule": {
+        "defaultPermissionStatus": "OPTIN",
+        "htmlValue": "H",
+        "insertOnNoMatch": true,
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "matchOperator": "NONE",
+        "optinValue": "I",
+        "optoutValue": "O",
+        "rejectRecordIfChannelEmpty": "E",
+        "textValue": "T",
+        "updateOnMatch": "REPLACE_ALL"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "insik.cho@alaskaair.com",
+                    "DID419061811002463",
+                    "H"
+                ],
+                "optionalData": [
+                    {
+                        "name": "Version",
+                        "value": "AWARD"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "BQOJSQ"
+                    },
+                    {
+                        "name": "CancellationDate",
+                        "value": "June 18, 2019"
+                    },
+                    {
+                        "name": "GuestPass",
+                        "value": "False"
+                    },
+                    {
+                        "name": "Travelers",
+                        "value": "[{\"FirstName\":\"Koshy\",\"LastName\":\"Tester\",\"ETicketNumber\":\"0272131761594\",\"ExpirationDate\":\"\"}]"
+                    },
+                    {
+                        "name": "Segments",
+                        "value": "[{\"TripStartDate\":\"Thursday, November 21, 2019\",\"MarketingAirline\":\"British Airways\",\"OperatingAirline\":\"British Airways\",\"OperatingFlightNumber\":\"178\",\"OriginAirport\":\"New York-Kennedy\",\"OriginAirportCode\":\"JFK\",\"OriginDepartureTime\":\"8:05 AM\",\"DestinationAirport\":\"London-Heathrow\",\"DestinationAirportCode\":\"LHR\",\"DestinationArrivalTime\":\"7:50 PM\"}]"
+                    },
+                    {
+                        "name": "FareSummary",
+                        "value": "{\"BasePrice\":0.00,\"TotalTaxPrice\":199.20,\"TotalPrice\":199.20}"
+                    },
+                    {
+                        "name": "Miles",
+                        "value": "{\"Available\":0.0,\"Refunded\":32500.0}"
+                    },
+                    {
+                        "name": "FeeAndBilling",
+                        "value": "{\"PaymentMethod\":null,\"PaymentMaskedNumber\":null,\"CancellationFeeAmount\":0.0}"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,61 +1,61 @@
 {
-	"mergeRule": {
-		"defaultPermissionStatus": "OPTIN",
-		"htmlValue": "H",
-		"insertOnNoMatch": true,
-		"matchColumnName1": "CUSTOMER_ID_",
-		"matchColumnName2": null,
-		"matchOperator": "NONE",
-		"optinValue": "I",
-		"optoutValue": "O",
-		"rejectRecordIfChannelEmpty": "E",
-		"textValue": "T",
-		"updateOnMatch": "REPLACE_ALL"
-	},
-	"mergeTriggerRecordData": {
-		"fieldNames": [
-			"EMAIL_ADDRESS_",
-			"CUSTOMER_ID_",
-			"EMAIL_FORMAT_"
-		],
-		"mergeTriggerRecords": [
-			{
-				"fieldValues": [
-					"insik.cho@alaskaair.com",
-					"DID419061812262385",
-					"H"
-				],
-				"optionalData": [
-					{
-						"name": "Version",
-						"value": "HELD"
-					},
-					{
-						"name": "ConfirmationCode",
-						"value": "GKZQAH"
-					},
-					{
-						"name": "CancellationDate",
-						"value": "June 18, 2019"
-					},
-					{
-						"name": "GuestPass",
-						"value": "False"
-					},
-					{
-						"name": "Travelers",
-						"value": "[{\"FirstName\":\"Balanayeb\",\"LastName\":\"Tester\",\"ETicketNumber\":\"n/a\",\"ExpirationDate\":\"\"}]"
-					},
-					{
-						"name": "Segments",
-						"value": "[{\"TripStartDate\":\"Friday, October 25, 2019\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"Alaska Airlines\",\"OperatingFlightNumber\":\"286\",\"OriginAirport\":\"Seattle\",\"OriginAirportCode\":\"SEA\",\"OriginDepartureTime\":\"5:00 AM\",\"DestinationAirport\":\"Los Angeles, CA\",\"DestinationAirportCode\":\"LAX\",\"DestinationArrivalTime\":\"7:45 AM\"}]"
-					},
-					{
-						"name": "FareSummary",
-						"value": "{\"BasePrice\":87.44,\"TotalTaxPrice\":20.86,\"TotalPrice\":108.30}"
-					}
-				]
-			}
-		]
-	}
+  "mergeRule": {
+    "defaultPermissionStatus": "OPTIN",
+    "htmlValue": "H",
+    "insertOnNoMatch": true,
+    "matchColumnName1": "CUSTOMER_ID_",
+    "matchColumnName2": null,
+    "matchOperator": "NONE",
+    "optinValue": "I",
+    "optoutValue": "O",
+    "rejectRecordIfChannelEmpty": "E",
+    "textValue": "T",
+    "updateOnMatch": "REPLACE_ALL"
+  },
+  "mergeTriggerRecordData": {
+    "fieldNames": [
+      "EMAIL_ADDRESS_",
+      "CUSTOMER_ID_",
+      "EMAIL_FORMAT_"
+    ],
+    "mergeTriggerRecords": [
+      {
+        "fieldValues": [
+          "insik.cho@alaskaair.com",
+          "DID419061812262385",
+          "H"
+        ],
+        "optionalData": [
+          {
+            "name": "Version",
+            "value": "HELD"
+          },
+          {
+            "name": "ConfirmationCode",
+            "value": "GKZQAH"
+          },
+          {
+            "name": "CancellationDate",
+            "value": "June 18, 2019"
+          },
+          {
+            "name": "GuestPass",
+            "value": "False"
+          },
+          {
+            "name": "Travelers",
+            "value": "[{\"FirstName\":\"Balanayeb\",\"LastName\":\"Tester\",\"ETicketNumber\":\"n/a\",\"ExpirationDate\":\"\"}]"
+          },
+          {
+            "name": "Segments",
+            "value": "[{\"TripStartDate\":\"Friday, October 25, 2019\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"Alaska Airlines\",\"OperatingFlightNumber\":\"286\",\"OriginAirport\":\"Seattle\",\"OriginAirportCode\":\"SEA\",\"OriginDepartureTime\":\"5:00 AM\",\"DestinationAirport\":\"Los Angeles, CA\",\"DestinationAirportCode\":\"LAX\",\"DestinationArrivalTime\":\"7:45 AM\"}]"
+          },
+          {
+            "name": "FareSummary",
+            "value": "{\"BasePrice\":87.44,\"TotalTaxPrice\":20.86,\"TotalPrice\":108.30}"
+          }
+        ]
+      }
+    ]
+  }
 }

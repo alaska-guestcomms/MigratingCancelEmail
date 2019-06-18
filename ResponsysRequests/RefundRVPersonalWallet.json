@@ -1,76 +1,76 @@
 {
-	"_comment": "Refund to Residual Value (Personal Wallet)",
-	"mergeTriggerRecordData": {
-		"fieldNames": [
-			"EMAIL_ADDRESS_",
-			"CUSTOMER_ID_",
-			"EMAIL_FORMAT_"
-		],
-		"mergeTriggerRecords": [
-			{
-				"_comment": "Version value could be either numeric or string",
-				"fieldValues": [
-					"insik.cho@alaskaair.com",
-					"12345",
-					"H"
-				],
-				"optionalData": [
-					{
-						"name": "Version",
-						"value": "RESIDUALVALUE"
-					},
-					{
-						"name": "ConfirmationCode",
-						"value": "LBRIQK"
-					},
-					{
-						"name": "CancellationDate",
-						"value": "May 9, 2016"
-					},
-					{
-						"name": "Travelers",
-						"value": "[{\"FirstName\":\"Aer\",\"LastName\":\"Tester\",\"ETicketNumber\":\"0272111014359\",\"ExpirationDate\":\"\"}]"
-					},
-					{
-						"name": "Segments",
-						"value": "[{\"TripStartDate\":\"Wednesday, June 08, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"\",\"OperatingFlightNumber\":\"562\",\"OriginAirport\":\"Los Angeles, CA\",\"OriginAirportCode\":\"LAX\",\"OriginDepartureTime\":\"6:00 AM\",\"DestinationAirport\":\"Portland, OR\",\"DestinationAirportCode\":\"PDX\",\"DestinationArrivalTime\":\"\"},{\"TripStartDate\":\"Thursday, June 09, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"\",\"OperatingFlightNumber\":\"493\",\"OriginAirport\":\"San Diego\",\"OriginAirportCode\":\"SAN\",\"OriginDepartureTime\":\"8:00 AM\",\"DestinationAirport\":\"Seattle\",\"DestinationAirportCode\":\"SEA\",\"DestinationArrivalTime\":\"\"}]"
-					},
-					{
-						"name": "FareSummary",
-						"value": "{\"BasePrice\":621.40,\"TotalTaxPrice\":89.00,\"TotalPrice\":710.40}"
-					},
-					{
-						"name": "Miles",
-						"value": "{\"Refunded\":0,\"Available\":0}"
-					},
-					{
-						"name": "FeeAndBilling",
-						"value": "{\"PaymentMethod\":\"Alaska Airlines commercial account\",\"PaymentMaskedNumber\":\"*******2839\",\"CancellationFeeAmount\":75.00}"
-					},
-					{
-						"name": "SendTo",
-						"value": "{\"Method\":\"PersonalWallet\",\"Name\":\"Insik Cho\"}"
-					},
-					{
-						"name": "GuestPass",
-						"value": "false"
-					}
-				]
-			}
-		]
-	},
-	"mergeRule": {
-		"_comment": "Definitions of Rule Parameters for Merging Members into a Profile List, p.211",
-		"htmlValue": "H",
-		"textValue": "T",
-		"matchOperator": "NONE",
-		"matchColumnName1": "CUSTOMER_ID_",
-		"matchColumnName2": null,
-		"optinValue": "I",
-		"optoutValue": "O",
-		"defaultPermissionStatus": "OPTIN",
-		"insertOnNoMatch": true,
-		"updateOnMatch": "REPLACE_ALL",
-		"rejectRecordIfChannelEmpty": "E"
-	}
+  "_comment": "Refund to Residual Value (Personal Wallet)",
+  "mergeTriggerRecordData": {
+    "fieldNames": [
+      "EMAIL_ADDRESS_",
+      "CUSTOMER_ID_",
+      "EMAIL_FORMAT_"
+    ],
+    "mergeTriggerRecords": [
+      {
+        "_comment": "Version value could be either numeric or string",
+        "fieldValues": [
+          "insik.cho@alaskaair.com",
+          "12345",
+          "H"
+        ],
+        "optionalData": [
+          {
+            "name": "Version",
+            "value": "RESIDUALVALUE"
+          },
+          {
+            "name": "ConfirmationCode",
+            "value": "LBRIQK"
+          },
+          {
+            "name": "CancellationDate",
+            "value": "May 9, 2016"
+          },
+          {
+            "name": "Travelers",
+            "value": "[{\"FirstName\":\"Aer\",\"LastName\":\"Tester\",\"ETicketNumber\":\"0272111014359\",\"ExpirationDate\":\"\"}]"
+          },
+          {
+            "name": "Segments",
+            "value": "[{\"TripStartDate\":\"Wednesday, June 08, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"\",\"OperatingFlightNumber\":\"562\",\"OriginAirport\":\"Los Angeles, CA\",\"OriginAirportCode\":\"LAX\",\"OriginDepartureTime\":\"6:00 AM\",\"DestinationAirport\":\"Portland, OR\",\"DestinationAirportCode\":\"PDX\",\"DestinationArrivalTime\":\"\"},{\"TripStartDate\":\"Thursday, June 09, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"\",\"OperatingFlightNumber\":\"493\",\"OriginAirport\":\"San Diego\",\"OriginAirportCode\":\"SAN\",\"OriginDepartureTime\":\"8:00 AM\",\"DestinationAirport\":\"Seattle\",\"DestinationAirportCode\":\"SEA\",\"DestinationArrivalTime\":\"\"}]"
+          },
+          {
+            "name": "FareSummary",
+            "value": "{\"BasePrice\":621.40,\"TotalTaxPrice\":89.00,\"TotalPrice\":710.40}"
+          },
+          {
+            "name": "Miles",
+            "value": "{\"Refunded\":0,\"Available\":0}"
+          },
+          {
+            "name": "FeeAndBilling",
+            "value": "{\"PaymentMethod\":\"Alaska Airlines commercial account\",\"PaymentMaskedNumber\":\"*******2839\",\"CancellationFeeAmount\":75.00}"
+          },
+          {
+            "name": "SendTo",
+            "value": "{\"Method\":\"PersonalWallet\",\"Name\":\"Insik Cho\"}"
+          },
+          {
+            "name": "GuestPass",
+            "value": "false"
+          }
+        ]
+      }
+    ]
+  },
+  "mergeRule": {
+    "_comment": "Definitions of Rule Parameters for Merging Members into a Profile List, p.211",
+    "htmlValue": "H",
+    "textValue": "T",
+    "matchOperator": "NONE",
+    "matchColumnName1": "CUSTOMER_ID_",
+    "matchColumnName2": null,
+    "optinValue": "I",
+    "optoutValue": "O",
+    "defaultPermissionStatus": "OPTIN",
+    "insertOnNoMatch": true,
+    "updateOnMatch": "REPLACE_ALL",
+    "rejectRecordIfChannelEmpty": "E"
+  }
 }

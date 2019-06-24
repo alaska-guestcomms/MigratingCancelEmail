@@ -33,7 +33,7 @@
           },
           {
             "name": "Segments",
-            "value": "[{\"TripStartDate\":\"Thursday, June 09, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"\",\"OperatingFlightNumber\":\"493\",\"OriginAirport\":\"San Diego\",\"OriginAirportCode\":\"SAN\",\"OriginDepartureTime\":\"8:00 AM\",\"DestinationAirport\":\"Seattle\",\"DestinationAirportCode\":\"SEA\",\"DestinationArrivalTime\":\"\"}]"
+            "value": "[{\"TripStartDate\":\"Thursday, June 09, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"Alaska Airlines\",\"OperatingFlightNumber\":\"493\",\"OriginAirport\":\"San Diego\",\"OriginAirportCode\":\"SAN\",\"OriginDepartureTime\":\"8:00 AM\",\"DestinationAirport\":\"Seattle\",\"DestinationAirportCode\":\"SEA\",\"DestinationArrivalTime\":\"\"}]"
           },
           {
             "name": "FareSummary",

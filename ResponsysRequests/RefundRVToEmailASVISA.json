@@ -33,7 +33,7 @@
           },
           {
             "name": "Segments",
-            "value": "[{\"TripStartDate\":\"Wednesday, June 08, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"\",\"OperatingFlightNumber\":\"562\",\"OriginAirport\":\"Los Angeles, CA\",\"OriginAirportCode\":\"LAX\",\"OriginDepartureTime\":\"6:00 AM\",\"DestinationAirport\":\"Portland, OR\",\"DestinationAirportCode\":\"PDX\",\"DestinationArrivalTime\":\"\"},{\"TripStartDate\":\"Thursday, June 09, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"\",\"OperatingFlightNumber\":\"493\",\"OriginAirport\":\"San Diego\",\"OriginAirportCode\":\"SAN\",\"OriginDepartureTime\":\"8:00 AM\",\"DestinationAirport\":\"Seattle\",\"DestinationAirportCode\":\"SEA\",\"DestinationArrivalTime\":\"\"}]"
+            "value": "[{\"TripStartDate\":\"Wednesday, June 08, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"Alaska Airlines\",\"OperatingFlightNumber\":\"562\",\"OriginAirport\":\"Los Angeles, CA\",\"OriginAirportCode\":\"LAX\",\"OriginDepartureTime\":\"6:00 AM\",\"DestinationAirport\":\"Portland, OR\",\"DestinationAirportCode\":\"PDX\",\"DestinationArrivalTime\":\"\"},{\"TripStartDate\":\"Thursday, June 09, 2016\",\"MarketingAirline\":\"Alaska\",\"OperatingAirline\":\"Alaska Airlines\",\"OperatingFlightNumber\":\"493\",\"OriginAirport\":\"San Diego\",\"OriginAirportCode\":\"SAN\",\"OriginDepartureTime\":\"8:00 AM\",\"DestinationAirport\":\"Seattle\",\"DestinationAirportCode\":\"SEA\",\"DestinationArrivalTime\":\"\"}]"
           },
           {
             "name": "FareSummary",

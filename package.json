@@ -1,0 +1,19 @@
+{
+  "name": "migratingcancelemail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaska-guestcomms/MigratingCancelEmail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaska-guestcomms/MigratingCancelEmail/issues"
+  },
+  "homepage": "https://github.com/alaska-guestcomms/MigratingCancelEmail#readme"
+}

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alaska-guestcomms/MigratingCancelEmail/issues"
   },
-  "homepage": "https://github.com/alaska-guestcomms/MigratingCancelEmail#readme"
+  "homepage": "https://github.com/alaska-guestcomms/MigratingCancelEmail#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }

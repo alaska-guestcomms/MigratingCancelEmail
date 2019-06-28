@@ -49,7 +49,7 @@
           },
           {
             "name": "GuestPass",
-            "value": "false"
+            "value": "False"
           }
         ]
       }

@@ -1,8 +1,12 @@
-const searchParams = (params) => Object.keys(params).map((key) => {
+export {};
+const secrets = require('./secrets');
+const fetch = require('node-fetch');
+
+const searchParams = (params: any) => Object.keys(params).map((key) => {
     return encodeURIComponent(key) + '=' + encodeURIComponent(params[key]);
 }).join('&');
 
-const sendEmail = (contents) => {
+const sendEmail = (contents: any) => {
 var authRequest = new fetch.Request(secrets.authUrl, {
     method: 'POST',
     headers: {
@@ -10,9 +14,10 @@ var authRequest = new fetch.Request(secrets.authUrl, {
     },
     body: searchParams(secrets.authenticateCredential)
 });
+
 fetch(authRequest)
-    .then(response => response.json())
-    .then(json => {
+    .then((response: any) => response.json())
+    .then((json: any) => {
         var cancelEmailRequest = new fetch.Request(`${json.endPoint + secrets.cancelEmailPath}`,
             {
                 method: 'POST',
@@ -24,8 +29,8 @@ fetch(authRequest)
             });
         return fetch(cancelEmailRequest);
         })
-        .then(response => response.json())
-        .then(json => console.log(json));
+        .then((response: any) => response.json())
+        .then((json: any) => console.log(json));
 }
 
 module.exports = sendEmail;

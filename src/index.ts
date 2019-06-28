@@ -18,7 +18,7 @@ testFolders.forEach(folder => {
                 const path = folder + file;
                 if (!fs.lstatSync(path).isDirectory()) {
                     var contents = fs.readFileSync(folder + file, 'utf8');
-                    var contents = addRecipients(contents, secrets.recipients);
+                    contents = addRecipients(contents, secrets.recipients);
                     sendEmail(contents);
                     console.log(path);
                 }

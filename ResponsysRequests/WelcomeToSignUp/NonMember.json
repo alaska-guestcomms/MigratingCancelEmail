@@ -1,0 +1,53 @@
+{
+    "mergeTriggerRecordData": {
+      "fieldNames": [
+        "EMAIL_ADDRESS_",
+        "CUSTOMER_ID_",
+        "EMAIL_FORMAT_"
+      ],
+      "mergeTriggerRecords": [
+        {
+          "fieldValues": [
+            "insik.cho@alaskaair.com",
+            "12345",
+            "H"
+          ],
+          "optionalData": [
+            {
+              "name": "Email",
+              "value": "insik.cho@alaskaair.com"
+            },
+            {
+              "name": "Contact_ID",
+              "value": "12345"
+            },
+            {
+              "name": "Email_FirstName",
+              "value": "Insik"
+            },
+            {
+              "name": "Email_LastName",
+              "value": "Cho"
+            },
+            {
+              "name": "Primary_Departure_City",
+              "value": "SEA"
+            }
+          ]
+        }
+      ]
+    },
+    "mergeRule": {
+      "htmlValue": "H",
+      "textValue": "T",
+      "matchOperator": "NONE",
+      "matchColumnName1": "CUSTOMER_ID_",
+      "matchColumnName2": null,
+      "optinValue": "I",
+      "optoutValue": "O",
+      "defaultPermissionStatus": "OPTIN",
+      "insertOnNoMatch": true,
+      "updateOnMatch": "REPLACE_ALL",
+      "rejectRecordIfChannelEmpty": "E"
+    }
+  }

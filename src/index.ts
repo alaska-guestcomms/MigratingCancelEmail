@@ -16,7 +16,7 @@ const addRecipients = require('./addRecipients');
                 if (!fs.lstatSync(path).isDirectory()) {
                     var contents = fs.readFileSync(folder + file, 'utf8');
                     contents = addRecipients(contents, secrets.recipients);
-                    //sendEmail(contents);
+                    sendEmail(contents);
                     console.log(path);
                 }
             });

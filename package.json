@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./out/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/alaska-guestcomms/MigratingCancelEmail#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.10",
+    "typescript": "^3.5.2"
   }
 }

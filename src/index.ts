@@ -6,7 +6,7 @@ const sendEmail = require('./sendEmail');
 const secrets = require('./secrets');
 const addRecipients = require('./addRecipients');
 
-['./ResponsysRequests/', './ResponsysRequests/RefundRVWithMiles/']
+['./ResponsysRequests/CancelEmail/', './ResponsysRequests/CancelEmail/RefundRVWithMiles/']
 .forEach(folder => {
     fs.readdir(folder, (err: any, files: string[]): void => {
         console.log(folder);

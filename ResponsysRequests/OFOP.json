@@ -45,7 +45,7 @@
           },
           {
             "name": "GuestPass",
-            "value": "true"
+            "value": "True"
           }
         ]
       }

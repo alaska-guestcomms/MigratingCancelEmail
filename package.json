@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://alaska-guestcomms:github.com/alaska-guestcomms/MigratingCancelEmail.git"
+    "url": "git+https://github.com/alaska-guestcomms/MigratingCancelEmail.git"
   },
   "author": "",
   "license": "ISC",

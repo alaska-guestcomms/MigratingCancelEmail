@@ -18,5 +18,8 @@
   "homepage": "https://github.com/alaska-guestcomms/MigratingCancelEmail#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.2"
   }
 }

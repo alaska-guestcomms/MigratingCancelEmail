@@ -1,7 +1,7 @@
 export {};
 
 const testFolders = [ 
-    //'./ResponsysRequests/',
+    './ResponsysRequests/',
     './ResponsysRequests/RefundRVWithMiles/'
 ];
 const fs = require('fs');

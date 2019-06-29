@@ -1,7 +1,5 @@
-export {};
-
 require('dotenv').config();
-const readFilesRecursive = require('./readFilesRecursive');
-const sendEmailCallback = require('./sendEmailCallback');
+import { readFilesRecursive } from './readFilesRecursive';
+import { sendEmailCallback } from './sendEmailCallback';
 
 readFilesRecursive('./ResponsysRequests/CancelEmail', sendEmailCallback);

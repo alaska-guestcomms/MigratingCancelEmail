@@ -1,6 +1,6 @@
-const fs = require('fs');
+import fs from 'fs';
 
-const readFilesRecursive = (folder: any, callBack: any) => {
+export const readFilesRecursive = (folder: any, callBack: any) => {
     fs.readdir(folder, (err: any, files: string[]): void => {
         try {
             files.forEach((file: string): void => {
@@ -20,5 +20,3 @@ const readFilesRecursive = (folder: any, callBack: any) => {
         }
     });
 };
-
-module.exports = readFilesRecursive;

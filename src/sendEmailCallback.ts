@@ -1,14 +1,10 @@
-export {};
-const fs = require('fs');
-const sendEmail = require('./sendEmail');
-const secrets = require('./secrets');
-const addRecipients = require('./addRecipients');
+import fs from 'fs';
+import { sendEmail } from './sendEmail';
+import { secrets } from './secrets';
+import { addRecipients } from './addRecipients';
 
-
-const sendEmailCallback = (path: string): void => {
+export const sendEmailCallback = (path: string): void => {
     var contents = fs.readFileSync(path, 'utf8');
     contents = addRecipients(contents, secrets.recipients);
     sendEmail(contents);
 }
-
-module.exports = sendEmailCallback;

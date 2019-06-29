@@ -1,8 +1,7 @@
-export {};
-const { Map } = require('immutable');
+import { Map } from 'immutable';
 const magicNumber = 12345;
 
-const addRecipients = (contents: string, recipients: string[]): string => {
+export const addRecipients = (contents: string, recipients: string[]): string => {
     var customerID = magicNumber;
     var jsonContents = JSON.parse(contents);
     var firstObj = jsonContents.mergeTriggerRecordData.mergeTriggerRecords.pop();
@@ -16,5 +15,3 @@ const addRecipients = (contents: string, recipients: string[]): string => {
     
     return JSON.stringify(jsonContents);
 }
-
-module.exports = addRecipients;

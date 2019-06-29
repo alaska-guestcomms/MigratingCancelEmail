@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "tsc -p .",
     "start": "node ./out/index.js"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/alaska-guestcomms/MigratingCancelEmail#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
+    "immutable": "^4.0.0-rc.12",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {

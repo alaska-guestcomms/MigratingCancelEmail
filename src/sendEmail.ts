@@ -20,21 +20,21 @@ interface IDictionary<TValue> {
 
 const sendEmail = (contents: string) => {
     fetch(authRequest)
-        .then((response: any) => response.json())
-        .then((json: any) => {
-            var cancelEmailRequest = new fetch.Request(`${json.endPoint + secrets.cancelEmailPath}`,
-                {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': json.authToken
-                    },
-                    body: `${contents}`
-                });
-            return fetch(cancelEmailRequest);
-            })
-            .then((response: any) => response.json())
-            .then((json: any) => console.log(json));
+    .then((response: any) => response.json())
+    .then((json: any) => {
+        var cancelEmailRequest = new fetch.Request(`${json.endPoint + secrets.cancelEmailPath}`,
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': json.authToken
+                },
+                body: `${contents}`
+            });
+        return fetch(cancelEmailRequest);
+    })
+    .then((response: any) => response.json())
+    .then((json: any) => console.log(JSON.stringify(json, null, 2)));
 }
 
 module.exports = sendEmail;

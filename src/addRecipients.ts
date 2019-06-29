@@ -1,14 +1,16 @@
-const addRecipients = (contents: string, recipients: number[]): any => {
+export {};
+const { Map } = require('immutable');
+
+const addRecipients = (contents: string, recipients: string[]): any => {
     var customerID = 12345;
     var jsonContents = JSON.parse(contents);
     var firstObj = jsonContents.mergeTriggerRecordData.mergeTriggerRecords.pop();
+    var immutableObj = Map(firstObj);
 
-    recipients.forEach((recipient: number): void => {
-        var clonedObj = JSON.parse(JSON.stringify(firstObj));
-        clonedObj.fieldValues[0] = recipient;
-        customerID = customerID + 1;
-        clonedObj.fieldValues[1] = customerID.toString();
-        jsonContents.mergeTriggerRecordData.mergeTriggerRecords.push(clonedObj);
+    recipients.forEach((recipient: string): void => {
+        customerID++;
+        var newObj = immutableObj.set('fieldValues', [recipient, customerID.toString(), 'H'])
+        jsonContents.mergeTriggerRecordData.mergeTriggerRecords.push(newObj);
     });
     
     return JSON.stringify(jsonContents);

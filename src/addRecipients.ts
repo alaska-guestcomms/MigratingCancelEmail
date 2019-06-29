@@ -1,8 +1,9 @@
 export {};
 const { Map } = require('immutable');
+const magicNumber = 12345;
 
 const addRecipients = (contents: string, recipients: string[]): string => {
-    var customerID = 12345;
+    var customerID = magicNumber;
     var jsonContents = JSON.parse(contents);
     var firstObj = jsonContents.mergeTriggerRecordData.mergeTriggerRecords.pop();
     var immutableObj = Map(firstObj);

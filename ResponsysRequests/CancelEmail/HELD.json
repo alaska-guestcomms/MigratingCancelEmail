@@ -21,7 +21,7 @@
     "mergeTriggerRecords": [
       {
         "fieldValues": [
-          "insik.cho@alaskaair.com",
+          "natasha.wadia@alaskaair.com",
           "DID419061812262385",
           "H"
         ],
@@ -44,7 +44,7 @@
           },
           {
             "name": "Travelers",
-            "value": "[{\"FirstName\":\"Balanayeb\",\"LastName\":\"Tester\",\"ETicketNumber\":\"n/a\",\"ExpirationDate\":\"\"}]"
+            "value": "[{\"FirstName\":\"Natasha\",\"LastName\":\"Wadia\",\"ETicketNumber\":\"n/a\",\"ExpirationDate\":\"\"}]"
           },
           {
             "name": "Segments",

@@ -8,14 +8,14 @@
       "mergeTriggerRecords": [
         {
           "fieldValues": [
-            "insik.cho@alaskaair.com",
+            "natasha.wadia@alaskaair.com",
             "12345",
             "H"
           ],
           "optionalData": [
             {
               "name": "Email",
-              "value": "insik.cho@alaskaair.com"
+              "value": "natasha.wadia@alaskaair.com"
             },
             {
               "name": "Contact_ID",

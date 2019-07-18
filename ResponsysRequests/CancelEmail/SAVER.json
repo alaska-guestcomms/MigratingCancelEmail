@@ -10,7 +10,7 @@
       {
         "_comment": "Version value could be either numeric or string",
         "fieldValues": [
-          "insik.cho@alaskaair.com",
+          "natasha.wadia@alaskaair.com",
           "12345",
           "H"
         ],
@@ -29,7 +29,7 @@
           },
           {
             "name": "Travelers",
-            "value": "[{\"FirstName\":\"Aer\",\"LastName\":\"Tester\",\"ETicketNumber\":\"0272111014359\",\"ExpirationDate\":\"\"}]"
+            "value": "[{\"FirstName\":\"Natasha\",\"LastName\":\"Wadia\",\"ETicketNumber\":\"0272111014359\",\"ExpirationDate\":\"\"}]"
           },
           {
             "name": "Segments",

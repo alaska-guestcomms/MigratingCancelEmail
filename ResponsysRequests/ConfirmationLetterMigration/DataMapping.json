@@ -10,10 +10,9 @@
             "ConfirmationCode": "DBBOLQ"
         },
         "Features": {
-            "HasGuestPass": true,
             "IsRefundable": true,
-            "_commnet06": "What 'noneRevenueType' means?",
-            "NoneRevenueType": "None",
+            "_commnet06": "NnoneRevenueType can be None or GuestPass",
+            "NoneRevenueType": "GuestPass",
             "HasMexicanSegment": false,
             "HasCanadianSegment": false,
             "HasLAXSegment": true,

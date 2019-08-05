@@ -1,0 +1,184 @@
+{
+    "IsGuestPass": "True",
+    "Passngers": [
+        {
+            "Name": {
+                "First": "Beth",
+                "Last": "Tester"
+            }
+        },
+        {
+            "Name": {
+                "First": "Claire",
+                "Last": "Tester"
+            }
+        }
+    ],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 1077.20,
+            "Tickets": [
+                {
+                    "PassengerIndex": 0,
+                    "Number":"0272117831720",
+                    "Status":"OK",
+                    "Items": [
+                        {
+                            "EquivBaseFareAmount": 0,
+                            "Description": "Base Fare and Surcharges",
+                            "Amount": 474.42
+                        },
+                        {
+                            "EquivBaseFareAmount": 0,
+                            "Description": "Taxes and Other Fees",
+                            "Amount": 64.18
+                        }
+                    ],
+                    "DisplayNewTicketValue": true,
+                    "PassengerTotalAmount": 538.60
+                },
+                {
+                    "PassengerIndex": 1,
+                    "Number":"0272117831721",
+                    "Status":"OK",
+                    "Items": [
+                        {
+                            "EquivBaseFareAmount": 0,
+                            "Description": "Base Fare and Surcharges",
+                            "Amount": 474.42
+                        },
+                        {
+                            "EquivBaseFareAmount": 0,
+                            "Description": "Taxes and Other Fees",
+                            "Amount": 64.18
+                        }
+                    ],
+                    "DisplayNewTicketValue": true,
+                    "PassengerTotalAmount": 538.60
+                }
+            ]
+        },
+        "SeatUpgradePurchases": {
+            "GrandTotalAmount": 120.00,
+            "Tickets": [
+                {
+                    "PassengerIndex": 0,
+                    "NumberOfSeats": 2,
+                    "Amount": {
+                        "Base": 55.82,
+                        "Tax": 4.18,
+                        "Total": 60.00
+                    }
+                },
+                {
+                    "PassengerIndex": 1,
+                    "NumberOfSeats": 2,
+                    "Amount": {
+                        "Base": 55.82,
+                        "Tax": 4.18,
+                        "Total": 60.00
+                    }
+                }
+            ]
+        },
+        "PaymentInformation": [
+            {
+                "DateTime": "2019-07-19 10:00:00",
+                "CardType": "Visa",
+                "CardNumber": "************1111",
+                "Amount": 1197.20,
+                "EWalletSubTotalAmount": 0.0
+            }
+        ]
+    },
+    "FlightSegments": [
+        {
+            "Departure": {
+                "AirportCode": "SEA",
+                "AirportName": "Seattle",
+                "DateTime": "2019-07-19 10:00:00"
+            },
+            "Arrival": {
+                "AirportCode": "LAX",
+                "AirportName": "Los Angeles, CA",
+                "DateTime": "2019-07-19 12:00:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "H",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "6152",
+                "ConfirmationCode": "DBBOLQ"
+            },
+            "OperatingAirline": {
+                "Code": "AA",
+                "Name": "American",
+                "Number": "2105",
+                "ConfirmationCode": "VLYYKM"
+            },
+            "DisplayAirline": {
+                "Code": "AA",
+                "Name": "American 2105 (Alaska 6152)"
+            },
+            "CheckInInfo": "Check in with American Airlines",
+            "EquipmentType": "Boeing 737-900",
+            "Seats": [
+                {
+                    "PassengerIndex": 0,
+                    "SeatAssignment": "6C",
+                    "SeatType": "PremiumClass"
+                },
+                {
+                    "PassengerIndex": 1,
+                    "SeatAssignment": null,
+                    "SeatType": null
+                }
+            ]
+        },
+        {
+            "Departure": {
+                "AirportCode": "LAX",
+                "AirportName": "Los Angeles, CA",
+                "DateTime": "2019-07-20 10:00:00"
+            },
+            "Arrival": {
+                "AirportCode": "SEA",
+                "AirportName": "Seattle",
+                "DateTime": "2019-07-20 12:00:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "M",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "1347",
+                "ConfirmationCode": "DBBOLQ"
+            },
+            "OperatingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "1347",
+                "ConfirmationCode": "DBBOLQ"
+            },
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 1347"
+            },
+            "CheckInInfo": null,
+            "EquipmentType": "Airbus Series",
+            "Seats": [
+                {
+                    "PassengerIndex": 0,
+                    "SeatAssignment": "11C",
+                    "SeatType": null
+                },
+                {
+                    "PassengerIndex": 1,
+                    "SeatAssignment": null,
+                    "SeatType": null
+                }
+            ]
+        }
+    ]
+}

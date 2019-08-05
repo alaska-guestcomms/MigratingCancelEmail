@@ -1,168 +1,235 @@
 {
-    "IsGuestPass": "True",
-    "Passengers": [
-        {
-            "Name": {
-                "First": "Beth",
-                "Last": "Tester"
-            }
+    "Environment": "Test",
+    "RequestedDateTime": "2019-07-10 10:00:00",
+    "EmailRecipient": "john.doe@alaskaair.com",
+    "Reservation": {
+        "General": {
+            "Source": "Web",
+            "Type": "Personal",
+            "LetterType": "New",
+            "ConfirmationCode": "DBBOLQ"
         },
-        {
-            "Name": {
-                "First": "Claire",
-                "Last": "Tester"
-            }
-        }
-    ],
-    "BillingSummary": {
-        "Fares": {
-            "GrandTotalAmount": 1077.20,
-            "Tickets": [
-                {
-                    "PaxIndex": 0,
-                    "Number":"0272117831720",
-                    "Status":"OK",
-                    "Amount": {
-                        "Base": 474.42,
-                        "Tax": 64.18,
-                        "Total": 538.60
-                    },
-                    "DisplayNewTicketValue": true
-                },
-                {
-                    "PaxIndex": 1,
-                    "Number":"0272117831721",
-                    "Status":"OK",
-                    "Amount": {
-                        "Base": 474.42,
-                        "Tax": 64.18,
-                        "Total": 538.60
-                    },
-                    "DisplayNewTicketValue": true
-                }
-            ]
+        "Features": {
+            "HasGuestPass": true,
+            "IsRefundable": true,
+            "_commnet06": "What 'noneRevenueType' means?",
+            "NoneRevenueType": "None",
+            "HasMexicanSegment": false,
+            "HasCanadianSegment": false,
+            "HasLAXSegment": true,
+            "HasGeneralTraverlerAdvisories": false,
+            "HasOtherAirlineSegment": false,
+            "HasAlaskaAirlinesSegment": true,
+            "HasHorizonAirSegment": false,
+            "HasDeltaOrNorthwestSegment": false,
+            "AreAllSegmentsOtherAirlines": false,
+            "HasPennAirSegment": false,
+            "HasAeromexicoSegment": false,
+            "HasQantasAirSegment": false,
+            "HasFijiAirSegment": false,
+            "HasKoreanAirSegment": false,
+            "HasLanAirSegment": false,
+            "HasUnaccompaniedMinor": false,
+            "SomeSeatsNotSelected": false,
+            "HasSegmentWithOpenSeatingCarrier": false,
+            "IsPartnerAward": false,
+            "IsASQXAward": false,
+            "IsCanadianAddress": false,
+            "HasInternationalStop": false,
+            "WetLeaseCheckInRequired": false,
+            "_comment06": "Trip insurance url is needed.",
+            "TripInsurancePurchased": false,
+            "HasLapInfant": false,
+            "IsSaverFare": false,
+            "IsReservationNonChangeable": false,
+            "IsInternationalItinerary": false,
+            "CanChangeReservationOnline": false
         },
-        "SeatUpgradePurchases": {
-            "GrandTotalAmount": 120.00,
-            "Tickets": [
-                {
-                    "PaxIndex": 0,
-                    "NumberOfSeats": 2,
-                    "Amount": {
-                        "Base": 55.82,
-                        "Tax": 4.18,
-                        "Total": 60.00
-                    }
-                },
-                {
-                    "PaxIndex": 1,
-                    "NumberOfSeats": 2,
-                    "Amount": {
-                        "Base": 55.82,
-                        "Tax": 4.18,
-                        "Total": 60.00
-                    }
-                }
-            ]
+        "CarRental": {
+            "PickupLocation": "LAX",
+            "PickupDateTime": "2019-07-26 09:55:00",
+            "DropoffDateTime": "2019-07-30 05:55:00",
         },
-        "PaymentInformation": [
+        "Passengers": [
             {
-                "DateTime": "2019-07-19 10:00:00",
-                "CardType": "Visa",
-                "CardNumber": "************1111",
-                "Amount": 1197.20,
-                "EWalletSubTotalAmount": 0.0
+                "Name": {
+                    "First": "Beth",
+                    "Last": "Tester"
+                }
+            },
+            {
+                "Name": {
+                    "First": "Claire",
+                    "Last": "Tester"
+                }
+            }
+        ],
+        "BillingSummary": {
+            "Fares": {
+                "GrandTotalAmount": 1077.20,
+                "Tickets": [
+                    {
+                        "_comment01": "Status can be OK (or Refunded).",
+                        "PaxIndex": 0,
+                        "Number":"0272117831720",
+                        "Status":"OK",
+                        "Amount": {
+                            "Base": 474.42,
+                            "Tax": 64.18,
+                            "Total": 538.60
+                        },
+                        "DisplayNewTicketValue": true,
+                        "_comment02": "Additional due can be null if not needed.",
+                        "_comment03": "How do we handle the refund?",
+                        "AdditionalDue": {
+                            "Amount": null,
+                            "ExchangedTicketNumber": null
+                        }
+                    },
+                    {
+                        "PaxIndex": 1,
+                        "Number":"0272117831721",
+                        "Status":"OK",
+                        "Amount": {
+                            "Base": 474.42,
+                            "Tax": 64.18,
+                            "Total": 538.60
+                        },
+                        "DisplayNewTicketValue": true,
+                        "AdditionalDue": {
+                            "Amount": null,
+                            "ExchangedTicketNumber": null
+                        }
+                    }
+                ]
+            },
+            "SeatUpgradePurchases": {
+                "GrandTotalAmount": 120.00,
+                "Tickets": [
+                    {
+                        "PaxIndex": 0,
+                        "NumberOfSeats": 2,
+                        "Amount": {
+                            "Base": 55.82,
+                            "Tax": 4.18,
+                            "Total": 60.00
+                        }
+                    },
+                    {
+                        "PaxIndex": 1,
+                        "NumberOfSeats": 2,
+                        "Amount": {
+                            "Base": 55.82,
+                            "Tax": 4.18,
+                            "Total": 60.00
+                        }
+                    }
+                ]
+            },
+            "_comment07": "I will fill it out for purchase with miles.",
+            "FlyAndBuyMiles": {},
+            "PaymentInformation": [
+                {
+                    "DateTime": "2019-07-19 10:00:00",
+                    "CardType": "Visa",
+                    "CardNumber": "************1111",
+                    "Amount": 1197.20,
+                    "EWalletSubTotalAmount": 0.0
+                }
+            ],
+            "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples, though.",
+            "CreditInformation": []
+        },
+        "FlightSegments": [
+            {
+                "Departure": {
+                    "AirportCode": "SEA",
+                    "AirportName": "Seattle",
+                    "DateTime": "2019-07-19 10:00:00"
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "AirportName": "Los Angeles, CA",
+                    "DateTime": "2019-07-19 12:00:00"
+                },
+                "Cabin": "Coach",
+                "ClassOfService": "H",
+                "MarketingAirline": {
+                    "Code": "AS",
+                    "Name": "Alaska",
+                    "Number": "6152",
+                    "ConfirmationCode": "DBBOLQ"
+                },
+                "OperatingAirline": {
+                    "Code": "AA",
+                    "Name": "American",
+                    "Number": "2105",
+                    "ConfirmationCode": "VLYYKM"
+                },
+                "DisplayAirline": {
+                    "Code": "AA",
+                    "Name": "American 2105 (Alaska 6152)"
+                },
+                "CheckInInfo": "Check in with American Airlines",
+                "EquipmentType": "Boeing 737-900",
+                "Seats": [
+                    {
+                        "PaxIndex": 0,
+                        "Assignment": "6C",
+                        "Type": "PremiumClass"
+                    },
+                    {
+                        "PaxIndex": 1,
+                        "Assignment": null,
+                        "Type": null
+                    }
+                ]
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "AirportName": "Los Angeles, CA",
+                    "DateTime": "2019-07-20 10:00:00"
+                },
+                "Arrival": {
+                    "AirportCode": "SEA",
+                    "AirportName": "Seattle",
+                    "DateTime": "2019-07-20 12:00:00"
+                },
+                "Cabin": "Coach",
+                "ClassOfService": "M",
+                "MarketingAirline": {
+                    "Code": "AS",
+                    "Name": "Alaska",
+                    "Number": "1347",
+                    "ConfirmationCode": "DBBOLQ"
+                },
+                "OperatingAirline": {
+                    "_comment03": "I can leave this object null if not needed.",
+                    "Code": "AS",
+                    "Name": "Alaska",
+                    "Number": "1347",
+                    "ConfirmationCode": "DBBOLQ"
+                },
+                "DisplayAirline": {
+                    "Code": "AS",
+                    "Name": "Alaska 1347"
+                },
+                "CheckInInfo": null,
+                "EquipmentType": "Airbus Series",
+                "Seats": [
+                    {
+                        "PassengerIndex": 0,
+                        "SeatAssignment": "11C",
+                        "SeatType": null
+                    },
+                    {
+                        "PassengerIndex": 1,
+                        "SeatAssignment": null,
+                        "SeatType": null
+                    }
+                ]
             }
         ]
-    },
-    "FlightSegments": [
-        {
-            "Departure": {
-                "AirportCode": "SEA",
-                "AirportName": "Seattle",
-                "DateTime": "2019-07-19 10:00:00"
-            },
-            "Arrival": {
-                "AirportCode": "LAX",
-                "AirportName": "Los Angeles, CA",
-                "DateTime": "2019-07-19 12:00:00"
-            },
-            "Cabin": "Coach",
-            "ClassOfService": "H",
-            "MarketingAirline": {
-                "Code": "AS",
-                "Name": "Alaska",
-                "Number": "6152",
-                "ConfirmationCode": "DBBOLQ"
-            },
-            "OperatingAirline": {
-                "Code": "AA",
-                "Name": "American",
-                "Number": "2105",
-                "ConfirmationCode": "VLYYKM"
-            },
-            "DisplayAirline": {
-                "Code": "AA",
-                "Name": "American 2105 (Alaska 6152)"
-            },
-            "CheckInInfo": "Check in with American Airlines",
-            "EquipmentType": "Boeing 737-900",
-            "Seats": [
-                {
-                    "PaxIndex": 0,
-                    "Assignment": "6C",
-                    "Type": "PremiumClass"
-                },
-                {
-                    "PaxIndex": 1,
-                    "Assignment": null,
-                    "Type": null
-                }
-            ]
-        },
-        {
-            "Departure": {
-                "AirportCode": "LAX",
-                "AirportName": "Los Angeles, CA",
-                "DateTime": "2019-07-20 10:00:00"
-            },
-            "Arrival": {
-                "AirportCode": "SEA",
-                "AirportName": "Seattle",
-                "DateTime": "2019-07-20 12:00:00"
-            },
-            "Cabin": "Coach",
-            "ClassOfService": "M",
-            "MarketingAirline": {
-                "Code": "AS",
-                "Name": "Alaska",
-                "Number": "1347",
-                "ConfirmationCode": "DBBOLQ"
-            },
-            "OperatingAirline": {
-                "Code": "AS",
-                "Name": "Alaska",
-                "Number": "1347",
-                "ConfirmationCode": "DBBOLQ"
-            },
-            "DisplayAirline": {
-                "Code": "AS",
-                "Name": "Alaska 1347"
-            },
-            "CheckInInfo": null,
-            "EquipmentType": "Airbus Series",
-            "Seats": [
-                {
-                    "PassengerIndex": 0,
-                    "SeatAssignment": "11C",
-                    "SeatType": null
-                },
-                {
-                    "PassengerIndex": 1,
-                    "SeatAssignment": null,
-                    "SeatType": null
-                }
-            ]
-        }
-    ]
+    }
 }

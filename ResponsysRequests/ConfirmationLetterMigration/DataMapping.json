@@ -1,6 +1,6 @@
 {
     "IsGuestPass": "True",
-    "Passngers": [
+    "Passengers": [
         {
             "Name": {
                 "First": "Beth",
@@ -19,42 +19,26 @@
             "GrandTotalAmount": 1077.20,
             "Tickets": [
                 {
-                    "PassengerIndex": 0,
+                    "PaxIndex": 0,
                     "Number":"0272117831720",
                     "Status":"OK",
-                    "Items": [
-                        {
-                            "EquivBaseFareAmount": 0,
-                            "Description": "Base Fare and Surcharges",
-                            "Amount": 474.42
-                        },
-                        {
-                            "EquivBaseFareAmount": 0,
-                            "Description": "Taxes and Other Fees",
-                            "Amount": 64.18
-                        }
-                    ],
-                    "DisplayNewTicketValue": true,
-                    "PassengerTotalAmount": 538.60
+                    "Amount": {
+                        "Base": 474.42,
+                        "Tax": 64.18,
+                        "Total": 538.60
+                    },
+                    "DisplayNewTicketValue": true
                 },
                 {
-                    "PassengerIndex": 1,
+                    "PaxIndex": 1,
                     "Number":"0272117831721",
                     "Status":"OK",
-                    "Items": [
-                        {
-                            "EquivBaseFareAmount": 0,
-                            "Description": "Base Fare and Surcharges",
-                            "Amount": 474.42
-                        },
-                        {
-                            "EquivBaseFareAmount": 0,
-                            "Description": "Taxes and Other Fees",
-                            "Amount": 64.18
-                        }
-                    ],
-                    "DisplayNewTicketValue": true,
-                    "PassengerTotalAmount": 538.60
+                    "Amount": {
+                        "Base": 474.42,
+                        "Tax": 64.18,
+                        "Total": 538.60
+                    },
+                    "DisplayNewTicketValue": true
                 }
             ]
         },
@@ -62,7 +46,7 @@
             "GrandTotalAmount": 120.00,
             "Tickets": [
                 {
-                    "PassengerIndex": 0,
+                    "PaxIndex": 0,
                     "NumberOfSeats": 2,
                     "Amount": {
                         "Base": 55.82,
@@ -71,7 +55,7 @@
                     }
                 },
                 {
-                    "PassengerIndex": 1,
+                    "PaxIndex": 1,
                     "NumberOfSeats": 2,
                     "Amount": {
                         "Base": 55.82,
@@ -125,14 +109,14 @@
             "EquipmentType": "Boeing 737-900",
             "Seats": [
                 {
-                    "PassengerIndex": 0,
-                    "SeatAssignment": "6C",
-                    "SeatType": "PremiumClass"
+                    "PaxIndex": 0,
+                    "Assignment": "6C",
+                    "Type": "PremiumClass"
                 },
                 {
-                    "PassengerIndex": 1,
-                    "SeatAssignment": null,
-                    "SeatType": null
+                    "PaxIndex": 1,
+                    "Assignment": null,
+                    "Type": null
                 }
             ]
         },

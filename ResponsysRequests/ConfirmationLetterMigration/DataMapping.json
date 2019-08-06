@@ -54,13 +54,15 @@
                 "Name": {
                     "First": "Beth",
                     "Last": "Tester"
-                }
+                },
+                "PassengerId": "1.1"
             },
             {
                 "Name": {
                     "First": "Claire",
                     "Last": "Tester"
-                }
+                },
+                "PassengerId": "2.1"
             }
         ],
         "BillingSummary": {
@@ -69,7 +71,7 @@
                 "Tickets": [
                     {
                         "_comment01": "Status can be OK (or Refunded).",
-                        "PaxIndex": 0,
+                        "PassengerId": "1.1",
                         "Number":"0272117831720",
                         "Status":"OK",
                         "Amount": {
@@ -86,7 +88,7 @@
                         }
                     },
                     {
-                        "PaxIndex": 1,
+                        "PassengerId": "2.1",
                         "Number":"0272117831721",
                         "Status":"OK",
                         "Amount": {
@@ -107,8 +109,12 @@
                 "GrandTotalAmount": 120.00,
                 "Tickets": [
                     {
-                        "PaxIndex": 0,
-                        "NumberOfSeats": 2,
+                        "PassengerId": "1.1",
+                        "_comment10": "FlightId in FlightSegments",
+                        "FlightSegments": [
+                            {"FlightId": "0"},
+                            {"FlightId": "1"}
+                        ],
                         "Amount": {
                             "Base": 55.82,
                             "Tax": 4.18,
@@ -116,8 +122,12 @@
                         }
                     },
                     {
-                        "PaxIndex": 1,
-                        "NumberOfSeats": 2,
+                        "PassengerId": "2.1",
+                        "_comment10": "FlightId in FlightSegments",
+                        "FlightSegments": [
+                            {"FlightId": "0"},
+                            {"FlightId": "1"}
+                        ],
                         "Amount": {
                             "Base": 55.82,
                             "Tax": 4.18,
@@ -138,10 +148,12 @@
                 }
             ],
             "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples, though.",
-            "CreditInformation": []
+            "CreditInformation": [],
+            "_comment09": "Where is GuestPass info?"
         },
         "FlightSegments": [
             {
+                "FlightId": "0",
                 "Departure": {
                     "AirportCode": "SEA",
                     "AirportName": "Seattle",
@@ -174,18 +186,19 @@
                 "EquipmentType": "Boeing 737-900",
                 "Seats": [
                     {
-                        "PaxIndex": 0,
+                        "PassengerId": "1.1",
                         "Assignment": "6C",
                         "Type": "PremiumClass"
                     },
                     {
-                        "PaxIndex": 1,
+                        "PassengerId": "2.1",
                         "Assignment": null,
                         "Type": null
                     }
                 ]
             },
             {
+                "FlightId": "1",
                 "Departure": {
                     "AirportCode": "LAX",
                     "AirportName": "Los Angeles, CA",
@@ -219,12 +232,12 @@
                 "EquipmentType": "Airbus Series",
                 "Seats": [
                     {
-                        "PassengerIndex": 0,
+                        "PassengerId": "1.1",
                         "SeatAssignment": "11C",
                         "SeatType": null
                     },
                     {
-                        "PassengerIndex": 1,
+                        "PassengerId": "2.1",
                         "SeatAssignment": null,
                         "SeatType": null
                     }

@@ -7,7 +7,9 @@
             "Source": "Web",
             "Type": "Personal",
             "LetterType": "New",
-            "ConfirmationCode": "DBBOLQ"
+            "ConfirmationCode": "DBBOLQ",
+            "_comment12": "Apply for all discount codes",
+            "DiscountCode": "ECGP1XTDT1688402"
         },
         "Features": {
             "IsRefundable": true,
@@ -44,11 +46,6 @@
             "IsInternationalItinerary": false,
             "CanChangeReservationOnline": false
         },
-        "CarRental": {
-            "PickupLocation": "LAX",
-            "PickupDateTime": "2019-07-26 09:55:00",
-            "DropoffDateTime": "2019-07-30 05:55:00"
-        },
         "Passengers": [
             {
                 "Name": {
@@ -65,92 +62,6 @@
                 "PassengerId": "2.1"
             }
         ],
-        "BillingSummary": {
-            "Fares": {
-                "GrandTotalAmount": 1077.20,
-                "Tickets": [
-                    {
-                        "_comment01": "Status can be OK (or Refunded).",
-                        "PassengerId": "1.1",
-                        "Number":"0272117831720",
-                        "Status":"OK",
-                        "Amount": {
-                            "Base": 474.42,
-                            "Tax": 64.18,
-                            "Total": 538.60
-                        },
-                        "DisplayNewTicketValue": true,
-                        "_comment02": "Additional due can be null if not needed.",
-                        "_comment03": "How do we handle the refund?",
-                        "AdditionalDue": {
-                            "Amount": null,
-                            "ExchangedTicketNumber": null
-                        }
-                    },
-                    {
-                        "PassengerId": "2.1",
-                        "Number":"0272117831721",
-                        "Status":"OK",
-                        "Amount": {
-                            "Base": 474.42,
-                            "Tax": 64.18,
-                            "Total": 538.60
-                        },
-                        "DisplayNewTicketValue": true,
-                        "AdditionalDue": {
-                            "Amount": null,
-                            "ExchangedTicketNumber": null
-                        }
-                    }
-                ]
-            },
-            "_comment08": "SeatUpgradePurchase can be empty for a while.",
-            "SeatUpgradePurchases": {
-                "GrandTotalAmount": 120.00,
-                "Tickets": [
-                    {
-                        "PassengerId": "1.1",
-                        "_comment10": "FlightId in FlightSegments",
-                        "FlightSegments": [
-                            {"FlightId": "0"},
-                            {"FlightId": "1"}
-                        ],
-                        "Amount": {
-                            "Base": 55.82,
-                            "Tax": 4.18,
-                            "Total": 60.00
-                        }
-                    },
-                    {
-                        "PassengerId": "2.1",
-                        "_comment10": "FlightId in FlightSegments",
-                        "FlightSegments": [
-                            {"FlightId": "0"},
-                            {"FlightId": "1"}
-                        ],
-                        "Amount": {
-                            "Base": 55.82,
-                            "Tax": 4.18,
-                            "Total": 60.00
-                        }
-                    }
-                ]
-            },
-            "_comment07": "I will fill it out for purchase with miles.",
-            "FlyAndBuyMiles": {},
-            "PaymentInformation": [
-                {
-                    "DateTime": "2019-07-19 10:00:00",
-                    "CardType": "Visa",
-                    "CardNumber": "************1111",
-                    "Amount": 1197.20,
-                    "EWalletSubTotalAmount": 0.0
-                }
-            ],
-            "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples, though.",
-            "CreditInformation": [],
-            "_comment09": "Where is GuestPass info?"
-        },
         "FlightSegments": [
             {
                 "FlightId": "0",
@@ -184,6 +95,7 @@
                 },
                 "CheckInInfo": "Check in with American Airlines",
                 "EquipmentType": "Boeing 737-900",
+                "_comment13": "find Travelers associated with PassengerID",
                 "Seats": [
                     {
                         "PassengerId": "1.1",
@@ -230,6 +142,7 @@
                 },
                 "CheckInInfo": null,
                 "EquipmentType": "Airbus Series",
+                "_comment13": "find Travelers associated with PassengerID",
                 "Seats": [
                     {
                         "PassengerId": "1.1",
@@ -243,6 +156,101 @@
                     }
                 ]
             }
-        ]
+        ],
+        "BillingSummary": {
+            "Fares": {
+                "GrandTotalAmount": 1077.20,
+                "Tickets": [
+                    {
+                        "_comment01": "Status can be OK (or Refunded).",
+                        "PassengerId": "1.1",
+                        "Number":"0272117831720",
+                        "Status":"OK",
+                        "Amount": {
+                            "Base": 474.42,
+                            "Tax": 64.18,
+                            "Total": 538.60
+                        },
+                        "DisplayNewTicketValue": true,
+                        "_comment02": "Additional due can be null if not needed.",
+                        "_comment03": "How do we handle the refund?",
+                        "AdditionalDue": {
+                            "Amount": null,
+                            "ExchangedTicketNumber": null
+                        }
+                    },
+                    {
+                        "PassengerId": "2.1",
+                        "Number":"0272117831721",
+                        "Status":"OK",
+                        "Amount": {
+                            "Base": 474.42,
+                            "Tax": 64.18,
+                            "Total": 538.60
+                        },
+                        "DisplayNewTicketValue": true,
+                        "AdditionalDue": {
+                            "Amount": null,
+                            "ExchangedTicketNumber": null
+                        }
+                    }
+                ]
+            },
+            "Ancillaries": {
+                "_comment08": "SeatUpgradePurchase can be empty for a while.",
+                "SeatUpgradePurchases": {
+                    "GrandTotalAmount": 120.00,
+                    "Tickets": [
+                        {
+                            "PassengerId": "1.1",
+                            "_comment10": "FlightId in FlightSegments",
+                            "FlightSegments": [
+                                {"FlightId": "0"},
+                                {"FlightId": "1"}
+                            ],
+                            "Amount": {
+                                "Base": 55.82,
+                                "Tax": 4.18,
+                                "Total": 60.00
+                            }
+                        },
+                        {
+                            "PassengerId": "2.1",
+                            "_comment10": "FlightId in FlightSegments",
+                            "FlightSegments": [
+                                {"FlightId": "0"},
+                                {"FlightId": "1"}
+                            ],
+                            "Amount": {
+                                "Base": 55.82,
+                                "Tax": 4.18,
+                                "Total": 60.00
+                            }
+                        }
+                    ]
+                }
+            },
+            "_comment07": "I will fill it out for purchase with miles.",
+            "FlyAndBuyMiles": {},
+            "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples, though.",
+            "CreditInformation": []
+        },
+        "PaymentInformation": [
+            {
+                "DateTime": "2019-07-19 10:00:00",
+                "CardType": "Visa",
+                "CardNumber": "************1111",
+                "Amount": 1197.20,
+                "EWalletSubTotalAmount": 0.0
+            }
+        ],
+        "CarRental": {
+            "PickupLocation": "LAX",
+            "PickupDateTime": "2019-07-26 09:55:00",
+            "DropoffDateTime": "2019-07-30 05:55:00"
+        },
+        "_comment14": "Carry-on/Checked baggage is dynamic.",
+        "Baggage": {
+        }
     }
 }

@@ -21,7 +21,7 @@
             {
               "_comment": "Optional",
               "name": "SpouseInfo",
-              "value": "{\"FirstName\":\"Spouse\",\"LastName\":\"Tester\",\"MileagePlanNumber\":\"12346\"}"
+              "value": "{\"FirstName\":\"Spouse\",\"LastName\":\"Tester\",\"MileagePlanNumber\":\"\"}"
             },
             {
               "name": "Addresses",

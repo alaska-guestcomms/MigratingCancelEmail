@@ -1,0 +1,51 @@
+{
+    "mergeTriggerRecordData": {
+      "fieldNames": [
+        "EMAIL_ADDRESS_",
+        "CUSTOMER_ID_",
+        "EMAIL_FORMAT_"
+      ],
+      "mergeTriggerRecords": [
+        {
+          "_comment": "Version value could be either numeric or string",
+          "fieldValues": [
+            "insik.cho@alaskaair.com",
+            "12345",
+            "H"
+          ],
+          "optionalData": [
+            {
+              "name": "MemberInfo",
+              "value": "{\"FirstName\":\"Insik\",\"LastName\":\"Tester\",\"MileagePlanNumber\":\"12345\"}"
+            },
+            {
+              "_comment": "Optional",
+              "name": "SpouseInfo",
+              "value": "{\"FirstName\":\"Spouse\",\"LastName\":\"Tester\",\"MileagePlanNumber\":\"12346\"}"
+            },
+            {
+              "name": "Addresses",
+              "value": "{\"Mailing\":\"123 st, Seattle WA 98109\",\"Billing\":\"123 st, Seattle WA 98109\"}"
+            },
+            {
+              "name": "OrderDetail",
+              "value": "{\"OrderNumber\":\"12345\",\"TotalCost\":\"50.00\",\"ExpirationDate\":\"May 9, 2016\"}"
+            }
+          ]
+        }
+      ]
+    },
+    "mergeRule": {
+      "htmlValue": "H",
+      "textValue": "T",
+      "matchOperator": "NONE",
+      "matchColumnName1": "CUSTOMER_ID_",
+      "matchColumnName2": null,
+      "optinValue": "I",
+      "optoutValue": "O",
+      "defaultPermissionStatus": "OPTIN",
+      "insertOnNoMatch": true,
+      "updateOnMatch": "REPLACE_ALL",
+      "rejectRecordIfChannelEmpty": "E"
+    }
+  }

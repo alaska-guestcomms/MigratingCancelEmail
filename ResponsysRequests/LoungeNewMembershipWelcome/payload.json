@@ -19,11 +19,6 @@
               "value": "{\"FirstName\":\"Insik\",\"LastName\":\"Tester\",\"MileagePlanNumber\":\"12345\"}"
             },
             {
-              "_comment": "Optional",
-              "name": "SpouseInfo",
-              "value": "{\"FirstName\":\"Spouse\",\"LastName\":\"Tester\",\"MileagePlanNumber\":\"\"}"
-            },
-            {
               "name": "Addresses",
               "value": "{\"Mailing\":\"123 st, Seattle WA 98109\",\"Billing\":\"123 st, Seattle WA 98109\"}"
             },

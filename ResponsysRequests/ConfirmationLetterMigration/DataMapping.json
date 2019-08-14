@@ -8,8 +8,7 @@
             "Type": "Personal",
             "LetterType": "New",
             "ConfirmationCode": "DBBOLQ",
-            "_comment12": "Apply for all discount codes",
-            "DiscountCode": "ECGP1XTDT1688402"
+            "_comment12": "Apply for all discount codes"
         },
         "Features": {
             "IsRefundable": true,
@@ -67,12 +66,12 @@
                 "FlightId": "0",
                 "Departure": {
                     "AirportCode": "SEA",
-                    "AirportName": "Seattle",
+                    "AirportCity": "Seattle",
                     "DateTime": "2019-07-19 10:00:00"
                 },
                 "Arrival": {
                     "AirportCode": "LAX",
-                    "AirportName": "Los Angeles, CA",
+                    "AirportCity": "Los Angeles, CA",
                     "DateTime": "2019-07-19 12:00:00"
                 },
                 "Cabin": "Coach",
@@ -241,6 +240,7 @@
                 "CardType": "Visa",
                 "CardNumber": "************1111",
                 "Amount": 1197.20,
+                "DiscountCode": "ECGP1XTDT1688402",
                 "EWalletSubTotalAmount": 0.0
             }
         ],

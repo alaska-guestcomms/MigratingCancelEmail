@@ -1,6 +1,6 @@
 {
     "Environment": "Test",
-    "RequestedDateTime": "2019-07-10 10:00:00",
+    "RequestedDateTime": "2019-07-10T10:00:00",
     "EmailRecipient": "john.doe@alaskaair.com",
     "Reservation": {
         "General": {
@@ -67,12 +67,12 @@
                 "Departure": {
                     "AirportCode": "SEA",
                     "AirportCity": "Seattle",
-                    "DateTime": "2019-07-19 10:00:00"
+                    "DateTime": "2019-07-19T10:00:00"
                 },
                 "Arrival": {
                     "AirportCode": "LAX",
                     "AirportCity": "Los Angeles, CA",
-                    "DateTime": "2019-07-19 12:00:00"
+                    "DateTime": "2019-07-19T12:00:00"
                 },
                 "Cabin": "Coach",
                 "ClassOfService": "H",
@@ -113,12 +113,12 @@
                 "Departure": {
                     "AirportCode": "LAX",
                     "AirportName": "Los Angeles, CA",
-                    "DateTime": "2019-07-20 10:00:00"
+                    "DateTime": "2019-07-20T10:00:00"
                 },
                 "Arrival": {
                     "AirportCode": "SEA",
                     "AirportName": "Seattle",
-                    "DateTime": "2019-07-20 12:00:00"
+                    "DateTime": "2019-07-20T12:00:00"
                 },
                 "Cabin": "Coach",
                 "ClassOfService": "M",
@@ -236,7 +236,7 @@
         },
         "PaymentInformation": [
             {
-                "DateTime": "2019-07-19 10:00:00",
+                "DateTime": "2019-07-19T10:00:00",
                 "CardType": "Visa",
                 "CardNumber": "************1111",
                 "Amount": 1197.20,
@@ -246,8 +246,8 @@
         ],
         "CarRental": {
             "PickupLocation": "LAX",
-            "PickupDateTime": "2019-07-26 09:55:00",
-            "DropoffDateTime": "2019-07-30 05:55:00"
+            "PickupDateTime": "2019-07-26T09:55:00",
+            "DropoffDateTime": "2019-07-30T05:55:00"
         },
         "_comment14": "Carry-on/Checked baggage is dynamic. Can we have a link to a sitecore page?",
         "Baggage": {

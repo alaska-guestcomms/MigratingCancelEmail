@@ -103,8 +103,8 @@
                     },
                     {
                         "PassengerId": "2.1",
-                        "Assignment": null,
-                        "Type": null
+                        "Assignment": "",
+                        "Type": ""
                     }
                 ]
             },
@@ -129,7 +129,7 @@
                     "ConfirmationCode": "DBBOLQ"
                 },
                 "OperatingAirline": {
-                    "_comment03": "I can leave this object null if not needed.",
+                    "_comment03": "I can leave this object "" if not needed.",
                     "Code": "AS",
                     "Name": "Alaska",
                     "Number": "1347",
@@ -139,19 +139,19 @@
                     "Code": "AS",
                     "Name": "Alaska 1347"
                 },
-                "CheckInInfo": null,
+                "CheckInInfo": "",
                 "EquipmentType": "Airbus Series",
                 "_comment13": "find Travelers associated with PassengerID",
                 "Seats": [
                     {
                         "PassengerId": "1.1",
                         "SeatAssignment": "11C",
-                        "SeatType": null
+                        "SeatType": ""
                     },
                     {
                         "PassengerId": "2.1",
-                        "SeatAssignment": null,
-                        "SeatType": null
+                        "SeatAssignment": "",
+                        "SeatType": ""
                     }
                 ]
             }
@@ -171,11 +171,11 @@
                             "Total": 538.60
                         },
                         "DisplayNewTicketValue": true,
-                        "_comment02": "Additional due can be null if not needed.",
+                        "_comment02": "Additional due can be "" if not needed.",
                         "_comment03": "How do we handle the refund?",
                         "AdditionalDue": {
-                            "Amount": null,
-                            "ExchangedTicketNumber": null
+                            "Amount": "",
+                            "ExchangedTicketNumber": ""
                         }
                     },
                     {
@@ -189,8 +189,8 @@
                         },
                         "DisplayNewTicketValue": true,
                         "AdditionalDue": {
-                            "Amount": null,
-                            "ExchangedTicketNumber": null
+                            "Amount": "",
+                            "ExchangedTicketNumber": ""
                         }
                     }
                 ]

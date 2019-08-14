@@ -43,7 +43,8 @@
             "IsSaverFare": false,
             "IsReservationNonChangeable": false,
             "IsInternationalItinerary": false,
-            "CanChangeReservationOnline": false
+            "CanChangeReservationOnline": false,
+            "IsSeatPurchased": true
         },
         "Passengers": [
             {
@@ -196,8 +197,8 @@
                 ]
             },
             "Ancillaries": {
-                "_comment08": "SeatUpgradePurchase can be empty for a while.",
-                "SeatUpgradePurchases": {
+                "_comment08": "SeatPurchase can be empty for a while.",
+                "SeatPurchases": {
                     "GrandTotalAmount": 120.00,
                     "Tickets": [
                         {

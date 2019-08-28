@@ -139,13 +139,13 @@
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "SeatAssignment": "11C",
-                    "SeatType": ""
+                    "Assignment": "11C",
+                    "Type": ""
                 },
                 {
                     "PassengerId": "2.1",
-                    "SeatAssignment": "",
-                    "SeatType": ""
+                    "Assignment": "",
+                    "Type": ""
                 }
             ]
         }

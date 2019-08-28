@@ -28,7 +28,15 @@
                 "optionalData": [
                     {
                         "name": "Id",
+                        "value": "9a035022-6758-4c37-be06-2b2099eca4e4"
+                    },
+                    {
+                        "name": "CustomerId",
                         "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
                     },
                     {
                         "name": "RequestedDateTime",
@@ -56,7 +64,7 @@
                     },
                     {
                         "name": "FlightSegments",
-                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-07-19T10:00:00\"},\"Arrival\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles,CA\",\"DateTime\":\"2019-07-19T12:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"H\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"6152\",\"ConfirmationCode\":\"DBBOLQ\"},\"OperatingAirline\":{\"Code\":\"AA\",\"Name\":\"American\",\"Number\":\"2105\",\"ConfirmationCode\":\"VLYYKM\"},\"DisplayAirline\":{\"Code\":\"AA\",\"Name\":\"American 2105 (Alaska 6152)\"},\"CheckInInfo\":\"Check in with American Airlines\",\"OperatedByDescription\":\"Operated By American Airlines.\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"6C\",\"Type\":\"PremiumClass\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"\",\"Type\":\"\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles,CA\",\"DateTime\":\"2019-07-20T10:00:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-07-20T12:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"M\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"1347\",\"ConfirmationCode\":\"DBBOLQ\"},\"OperatingAirline\":null,\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 1347\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Airbus Series\",\"Seats\":[{\"PassengerId\":\"1.1\",\"SeatAssignment\":\"11C\",\"SeatType\":\"\"},{\"PassengerId\":\"2.1\",\"SeatAssignment\":\"\",\"SeatType\":\"\"}]}]"
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-07-19T10:00:00\"},\"Arrival\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles,CA\",\"DateTime\":\"2019-07-19T12:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"H\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"6152\",\"ConfirmationCode\":\"DBBOLQ\"},\"OperatingAirline\":{\"Code\":\"AA\",\"Name\":\"American\",\"Number\":\"2105\",\"ConfirmationCode\":\"VLYYKM\"},\"DisplayAirline\":{\"Code\":\"AA\",\"Name\":\"American 2105 (Alaska 6152)\"},\"CheckInInfo\":\"Check in with American Airlines\",\"OperatedByDescription\":\"Operated By American Airlines.\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"6C\",\"Type\":\"PremiumClass\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"\",\"Type\":\"\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles,CA\",\"DateTime\":\"2019-07-20T10:00:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-07-20T12:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"M\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"1347\",\"ConfirmationCode\":\"DBBOLQ\"},\"OperatingAirline\":null,\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 1347\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Airbus Series\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"11C\",\"Type\":\"\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"\",\"Type\":\"\"}]}]"
                     },
                     {
                         "name": "BillingSummary",

@@ -150,6 +150,9 @@
             ]
         }
     ],
+    "Footnotes": [
+        { "Symbol": "*", "Message": "Seats will be assigned based on availability"}
+    ],
     "BillingSummary": {
         "Fares": {
             "GrandTotalAmount": 1077.2,

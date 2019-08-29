@@ -3,6 +3,7 @@
         "IsRefundable": true,
         "_comment07": "NoneRevenueType can be None or GuestPass",
         "NoneRevenueType": "GuestPass",
+        "SeatAssignment": "Seats will be assigned based on availability",
         "HasMexicanSegment": false,
         "HasCanadianSegment": false,
         "HasLAXSegment": true,

@@ -97,12 +97,12 @@
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "Assignment": "6C",
+                    "Assignment": "*",
                     "Type": "PremiumClass"
                 },
                 {
                     "PassengerId": "2.1",
-                    "Assignment": "",
+                    "Assignment": "*",
                     "Type": ""
                 }
             ]
@@ -139,12 +139,12 @@
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "Assignment": "11C",
+                    "Assignment": "*",
                     "Type": ""
                 },
                 {
                     "PassengerId": "2.1",
-                    "Assignment": "",
+                    "Assignment": "*",
                     "Type": ""
                 }
             ]

@@ -1,0 +1,148 @@
+{
+    "Features": {
+        "IsRefundable": true,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "NoneRevenueType": "GuestPass",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": false,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": false,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": true,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": false,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": true,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": false,
+        "CanChangeReservationOnline": true,
+        "IsSeatPurchased": false
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Jassmin",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1",
+            "LapInfant": {
+                "Name": {
+                    "First": "Hailey",
+                    "Last": "Tester"
+                },
+                "PassengerId": ""
+            }
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-09-19T12:30:00"
+            },
+            "Arrival": {
+                "AirportCode": "DFW",
+                "Airport": "Dallas-Ft. Worth, TX",
+                "DateTime": "2019-09-19T18:30:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "Y",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "642",
+                "ConfirmationCode": "YEDDUG"
+            },
+            "OperatingAirline": "",
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 642"
+            },
+            "EquipmentType": "Boeing 737-900",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "*",
+                    "Type": ""
+                }
+            ]
+        }
+    ],
+    "Footnotes": [
+        { "Symbol": "*", "Message": "Seats will be assigned based on availability"}
+    ],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 73.27,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272139435801",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 59.04,
+                        "Tax": 14.23,
+                        "Total": 73.27
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": "",
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        },
+        "Ancillaries": {},
+        "_comment07": "I will fill it out for purchase with miles.",
+        "FlyAndBuyMiles": {},
+        "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+        "CreditInformation": []
+    },
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-08-31T00:00:00",
+            "CardType": "American Express",
+            "CardNumber": "************1111",
+            "CardHolderName": "Jassmin Tester",
+            "Amount": 73.27,
+            "DiscountCode": "ECGP1FXWP2028061",
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "DFW",
+        "PickupDateTime": "2019-09-19T19:30:00",
+        "DropoffDateTime": "2019-09-23T19:30:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "DFW",
+            "DateBegin": "2019-09-19T00:00:00",
+            "DateEnd": "2019-09-19T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

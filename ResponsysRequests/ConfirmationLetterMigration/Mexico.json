@@ -1,0 +1,141 @@
+{
+    "Features": {
+        "IsRefundable": true,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "NoneRevenueType": "GuestPass",
+        "HasMexicanSegment": true,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": true,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": false,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": true,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": false,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": false,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": true,
+        "CanChangeReservationOnline": false,
+        "IsSeatPurchased": false
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Jose",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1"
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "SJD",
+                "Airport": "Cabo San Lucas/Los Cabos, Mexico",
+                "DateTime": "2019-09-03T16:40:00"
+            },
+            "Arrival": {
+                "AirportCode": "LAX",
+                "Airport": "Los Angeles, CA",
+                "DateTime": "2019-09-03T18:10:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "Y",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "227",
+                "ConfirmationCode": "RAJIRJ"
+            },
+            "OperatingAirline": "",
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 227"
+            },
+            "EquipmentType": "Boeing 737-900",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "*",
+                    "Type": ""
+                }
+            ]
+        }
+    ],
+    "Footnotes": [
+        { "Symbol": "*", "Message": "Seats will be assigned based on availability"}
+    ],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 127.48,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272139624723",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 48.00,
+                        "Tax": 79.48,
+                        "Total": 127.48
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": "",
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        },
+        "Ancillaries": {},
+        "_comment07": "I will fill it out for purchase with miles.",
+        "FlyAndBuyMiles": {},
+        "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+        "CreditInformation": []
+    },
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-09-03T00:00:00",
+            "CardType": "Visa",
+            "CardNumber": "************1111",
+            "CardHolderName": "Jose Tester",
+            "Amount": 127.48,
+            "DiscountCode": "ECGP1RXWD2017033",
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "LAX",
+        "PickupDateTime": "2019-09-03T19:00:00",
+        "DropoffDateTime": "2019-09-10T09:00:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "LAX",
+            "DateBegin": "2019-09-03T00:00:00",
+            "DateEnd": "2019-09-03T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

@@ -1,0 +1,97 @@
+{
+    "mergeRule": {
+        "htmlValue": "H",
+        "textValue": "T",
+        "matchOperator": "NONE",
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "optinValue": "I",
+        "optoutValue": "O",
+        "defaultPermissionStatus": "OPTIN",
+        "insertOnNoMatch": true,
+        "updateOnMatch": "REPLACE_ALL",
+        "rejectRecordIfChannelEmpty": "E"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "insik.cho@alaskaair.com",
+                    "12345",
+                    "H"
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "9a035022-6758-4c37-be06-2b2099eca4e4"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2019-07-10T10:00:00"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"IsRefundable\":true,\"NoneRevenueType\":\"GuestPass\",\"HasMexicanSegment\":true,\"HasCanadianSegment\":false,\"HasLAXSegment\":true,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":true,\"CanChangeReservationOnline\":false,\"IsSeatPurchased\":false}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Jose\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\"}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SJD\",\"Airport\":\"Cabo San Lucas/Los Cabos, Mexico\",\"DateTime\":\"2019-09-03T16:40:00\"},\"Arrival\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles, CA\",\"DateTime\":\"2019-09-03T18:10:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"Y\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"227\",\"ConfirmationCode\":\"RAJIRJ\"},\"OperatingAirline\":\"\",\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 227\"},\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"}]}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[{\"Symbol\":\"*\",\"Message\":\"Seats will be assigned based on availability\"}]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":127.48,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139624723\",\"Status\":\"OK\",\"Amount\":{\"Base\":48,\"Tax\":79.48,\"Total\":127.48},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{},\"FlyAndBuyMiles\":{},\"CreditInformation\":[]}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2019-09-03T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************1111\",\"CardHolderName\":\"Jose Tester\",\"Amount\":127.48,\"DiscountCode\":\"ECGP1RXWD2017033\",\"EWalletSubTotalAmount\":0}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"LAX\",\"PickupDateTime\":\"2019-09-03T19:00:00\",\"DropoffDateTime\":\"2019-09-10T09:00:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"LAX\",\"DateBegin\":\"2019-09-03T00:00:00\",\"DateEnd\":\"2019-09-03T00:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    }
+                ]
+            }
+        ]
+    }
+}

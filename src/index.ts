@@ -12,8 +12,9 @@ var currentMode = MODE.CONFIRMATIONLETTERDATAMAPPING
 
 if (currentMode === MODE.CONFIRMATIONLETTERDATAMAPPING)
 {
-    var originalSchemaFileName = './ResponsysRequests/ConfirmationLetterMigration/OriginalSchema.json';
-    var payloadFileName = './ResponsysRequests/ConfirmationLetterMigration/DataMapping.json';
+    var scenarioName = 'ConnectingWith4AdultsAndCanadaAddress';
+    var originalSchemaFileName = `./ResponsysRequests/ConfirmationLetterMigration/OriginalSchema-${scenarioName}.json`;
+    var payloadFileName = `./ResponsysRequests/ConfirmationLetterMigration/DataMapping-${scenarioName}.json`;
     var compose = true;
     if (compose) {
         let dataMappingJson = JSON.parse(readFileSync(originalSchemaFileName, 'utf8'));

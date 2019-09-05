@@ -1,0 +1,97 @@
+{
+    "mergeRule": {
+        "htmlValue": "H",
+        "textValue": "T",
+        "matchOperator": "NONE",
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "optinValue": "I",
+        "optoutValue": "O",
+        "defaultPermissionStatus": "OPTIN",
+        "insertOnNoMatch": true,
+        "updateOnMatch": "REPLACE_ALL",
+        "rejectRecordIfChannelEmpty": "E"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "insik.cho@alaskaair.com",
+                    "12345",
+                    "H"
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "9a035022-6758-4c37-be06-2b2099eca4e4"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2019-07-10T10:00:00"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"IsRefundable\":true,\"NoneRevenueType\":\"GuestPass\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":true,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":true,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":true,\"CanChangeReservationOnline\":false,\"IsSeatPurchased\":false}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Mashere\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\"},{\"Name\":{\"First\":\"Leo\",\"Last\":\"Tester\"},\"PassengerId\":\"2.1\"},{\"Name\":{\"First\":\"Mahleo\",\"Last\":\"Tester\"},\"PassengerId\":\"3.1\"},{\"Name\":{\"First\":\"Liam\",\"Last\":\"Tester\"},\"PassengerId\":\"4.1\"}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"BOI\",\"Airport\":\"Boise\",\"DateTime\":\"2019-09-03T08:00:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-09-03T08:35:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"Y\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"894\",\"ConfirmationCode\":\"RUODYC\"},\"OperatingAirline\":\"\",\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 894\"},\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"*\",\"Type\":\"\"},{\"PassengerId\":\"3.1\",\"Assignment\":\"*\",\"Type\":\"\"},{\"PassengerId\":\"4.1\",\"Assignment\":\"*\",\"Type\":\"\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-09-03T10:20:00\"},\"Arrival\":{\"AirportCode\":\"YYC\",\"Airport\":\"Calgary, Canada\",\"DateTime\":\"2019-09-03T13:05:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"Y\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"2620\",\"ConfirmationCode\":\"RUODYC\"},\"OperatingAirline\":\"\",\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 2620\"},\"CheckInInfo\":\"Check in with Alaska Airlines\",\"OperatedByDescription\":\"Flight Operated By Horizon Air as AlaskaHorizon. Check in with Alaska Airlines.\",\"EquipmentType\":\"Embraer E175\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"*\",\"Type\":\"\"},{\"PassengerId\":\"3.1\",\"Assignment\":\"*\",\"Type\":\"\"},{\"PassengerId\":\"4.1\",\"Assignment\":\"*\",\"Type\":\"\"}]}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[{\"Symbol\":\"*\",\"Message\":\"Seats will be assigned based on availability\"}]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":255.96,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139438319\",\"Status\":\"OK\",\"Amount\":{\"Base\":46.5,\"Tax\":17.49,\"Total\":63.99},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272117831721\",\"Status\":\"OK\",\"Amount\":{\"Base\":46.5,\"Tax\":17.49,\"Total\":63.99},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"3.1\",\"Number\":\"0272139438321\",\"Status\":\"OK\",\"Amount\":{\"Base\":46.5,\"Tax\":17.49,\"Total\":63.99},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"4.1\",\"Number\":\"0272139438322\",\"Status\":\"OK\",\"Amount\":{\"Base\":46.5,\"Tax\":17.49,\"Total\":63.99},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{},\"FlyAndBuyMiles\":{},\"CreditInformation\":[]}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2019-07-19T00:00:00\",\"CardType\":\"Mastercard\",\"CardNumber\":\"************5598\",\"CardHolderName\":\"Mashere Tester\",\"Amount\":255.96,\"DiscountCode\":\"0272139438322\",\"EWalletSubTotalAmount\":0}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"YYC\",\"PickupDateTime\":\"2019-09-03T14:00:00\",\"DropoffDateTime\":\"2019-09-10T18:00:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"LAX\",\"DateBegin\":\"2019-09-03T00:00:00\",\"DateEnd\":\"2019-09-03T00:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    }
+                ]
+            }
+        ]
+    }
+}

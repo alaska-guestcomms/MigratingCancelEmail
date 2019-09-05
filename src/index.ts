@@ -12,14 +12,15 @@ var currentMode = MODE.CONFIRMATIONLETTERDATAMAPPING
 
 if (currentMode === MODE.CONFIRMATIONLETTERDATAMAPPING)
 {
-    var scenarioName = 'ConnectingWith4AdultsAndCanadaAddress';
+    var scenarioName = 'OneWayWithInfant';
     var originalSchemaFileName = `./ResponsysRequests/ConfirmationLetterMigration/OriginalSchema-${scenarioName}.json`;
-    var payloadFileName = `./ResponsysRequests/ConfirmationLetterMigration/DataMapping-${scenarioName}.json`;
+    var payloadTemplate = `./ResponsysRequests/ConfirmationLetterMigration/DataMapping.json`;
+    var targetPayload = `./ResponsysRequests/ConfirmationLetterMigration/DataMapping-${scenarioName}.json`;
     var compose = true;
     if (compose) {
         let dataMappingJson = JSON.parse(readFileSync(originalSchemaFileName, 'utf8'));
         RemoveAllComments(dataMappingJson, "comment");
-        let payloadJson = JSON.parse(readFileSync(payloadFileName, 'utf8'));
+        let payloadJson = JSON.parse(readFileSync(payloadTemplate, 'utf8'));
     
         Object.keys(dataMappingJson).forEach((key: string) => {
             let foundIdx = payloadJson.mergeTriggerRecordData.mergeTriggerRecords[0].optionalData.findIndex((data: any) => data.name === key);
@@ -34,9 +35,9 @@ if (currentMode === MODE.CONFIRMATIONLETTERDATAMAPPING)
             }
         });
 
-        writeFileSync(payloadFileName, JSON.stringify(payloadJson, null, 4));
+        writeFileSync(targetPayload, JSON.stringify(payloadJson, null, 4));
     } else {
-        let payloadJson = JSON.parse(readFileSync(payloadFileName, 'utf8'));
+        let payloadJson = JSON.parse(readFileSync(payloadTemplate, 'utf8'));
         let dataMappingJson: any = {};
         
         payloadJson.mergeTriggerRecordData.mergeTriggerRecords[0].optionalData.forEach((optional: any, idx: number) => {

@@ -70,8 +70,8 @@
                 "Code": "AS",
                 "Name": "Alaska 2031"
             },
-            "CheckInInfo": "Check in with Alaska Airlines",
-            "OperatedByDescription": "Flight Operated By Horizon Air as AlaskaHorizon. Check in with Alaska Airlines.",
+            "CheckInInfo": "Check in with Alaska Airlines.",
+            "OperatedByDescription": "Flight Operated By Horizon Air as AlaskaHorizon.",
             "EquipmentType": "Bombardier Q400",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [

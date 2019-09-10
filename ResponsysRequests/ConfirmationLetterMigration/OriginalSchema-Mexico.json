@@ -70,6 +70,8 @@
                 "Code": "AS",
                 "Name": "Alaska 227"
             },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
             "EquipmentType": "Boeing 737-900",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [

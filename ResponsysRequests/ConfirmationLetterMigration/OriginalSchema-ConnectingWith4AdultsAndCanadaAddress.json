@@ -91,6 +91,8 @@
                 "Code": "AS",
                 "Name": "Alaska 894"
             },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
             "EquipmentType": "Boeing 737-900",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [
@@ -141,8 +143,8 @@
                 "Code": "AS",
                 "Name": "Alaska 2620"
             },
-            "CheckInInfo": "Check in with Alaska Airlines",
-            "OperatedByDescription": "Flight Operated By Horizon Air as AlaskaHorizon. Check in with Alaska Airlines.",
+            "CheckInInfo": "Check in with Alaska Airlines.",
+            "OperatedByDescription": "Flight Operated By Horizon Air as AlaskaHorizon.",
             "EquipmentType": "Embraer E175",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [

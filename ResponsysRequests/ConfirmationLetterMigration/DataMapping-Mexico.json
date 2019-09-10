@@ -64,7 +64,7 @@
                     },
                     {
                         "name": "FlightSegments",
-                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SJD\",\"Airport\":\"Cabo San Lucas/Los Cabos, Mexico\",\"DateTime\":\"2019-09-03T16:40:00\"},\"Arrival\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles, CA\",\"DateTime\":\"2019-09-03T18:10:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"Y\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"227\",\"ConfirmationCode\":\"RAJIRJ\"},\"OperatingAirline\":\"\",\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 227\"},\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"}]}]"
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SJD\",\"Airport\":\"Cabo San Lucas/Los Cabos, Mexico\",\"DateTime\":\"2019-09-03T16:40:00\"},\"Arrival\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles, CA\",\"DateTime\":\"2019-09-03T18:10:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"Y\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"227\",\"ConfirmationCode\":\"RAJIRJ\"},\"OperatingAirline\":\"\",\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 227\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"}]}]"
                     },
                     {
                         "name": "Footnotes",

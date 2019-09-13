@@ -1,0 +1,166 @@
+{
+    "Features": {
+        "IsRefundable": false,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "ResponsysCampaign": "Revenue",
+        "NoneRevenueType": "None",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": true,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": false,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": true,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": false,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": false,
+        "IsSaverFare": true,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": false,
+        "CanChangeReservationOnline": false,
+        "IsSeatPurchased": false
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Andrew",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1"
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "ANC",
+                "Airport": "Anchorage",
+                "DateTime": "2019-09-18T23:50:00"
+            },
+            "Arrival": {
+                "AirportCode": "LAX",
+                "Airport": "Los Angeles, CA",
+                "DateTime": "2019-09-19T06:00:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "X",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "150",
+                "ConfirmationCode": "KFQQIX"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 6152"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Boeing 737-900",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": []
+        },
+        {
+            "FlightId": "1",
+            "Departure": {
+                "AirportCode": "LAX",
+                "Airport": "Los Angeles, CA",
+                "DateTime": "2019-09-19T12:40:00"
+            },
+            "Arrival": {
+                "AirportCode": "PDX",
+                "Airport": "Portland",
+                "DateTime": "2019-09-19T15:10:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "X",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "1795",
+                "ConfirmationCode": "KFQQIX"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 1795"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Airbus A320",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": []
+        }
+    ],
+    "Footnotes": [],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 329.56,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272139869146",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 294.66,
+                        "Tax": 34.90,
+                        "Total": 329.56
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        }
+    },
+    "Ancillaries": {},
+    "_comment07": "I will fill it out for purchase with miles.",
+    "FlyAndBuyMiles": {},
+    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+    "CreditInformation": [],
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-09-05T00:00:00",
+            "CardType": "Visa",
+            "CardNumber": "************8962",
+            "CardHolderName": "Andrew Tester",
+            "Amount": 329.56,
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "LAX",
+        "PickupDateTime": "2019-09-19T16:10:00",
+        "DropoffDateTime": "2019-09-26T06:10:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "LAX",
+            "DateBegin": "2019-09-19T00:00:00",
+            "DateEnd": "2019-09-19T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

@@ -1,0 +1,109 @@
+{
+    "mergeRule": {
+        "htmlValue": "H",
+        "textValue": "T",
+        "matchOperator": "NONE",
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "optinValue": "I",
+        "optoutValue": "O",
+        "defaultPermissionStatus": "OPTIN",
+        "insertOnNoMatch": true,
+        "updateOnMatch": "REPLACE_ALL",
+        "rejectRecordIfChannelEmpty": "E"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "insik.cho@alaskaair.com",
+                    "12345",
+                    "H"
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "9a035022-6758-4c37-be06-2b2099eca4e4"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2019-07-10T10:00:00"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"IsRefundable\":true,\"ResponsysCampaign\":\"Revenue\",\"NoneRevenueType\":\"None\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":false,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"IsSeatPurchased\":true}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Paula\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"***8793\",\"TierStatus\":\"Gold\"}},{\"Name\":{\"First\":\"Scott\",\"Last\":\"Tester\"},\"PassengerId\":\"2.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"***6975\",\"TierStatus\":\"Gold\"}}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland, OR\",\"DateTime\":\"2020-05-03T08:25:00\"},\"Arrival\":{\"AirportCode\":\"HNL\",\"Airport\":\"Honolulu\",\"DateTime\":\"2020-05-03T11:03:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"K\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"889\",\"ConfirmationCode\":\"LLXKFQ\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 889\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-800\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"6E\",\"Type\":\"PremiumClass\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"6D\",\"Type\":\"PremiumClass\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"OGG\",\"Airport\":\"Kahului/Maui\",\"DateTime\":\"2020-05-18T12:30:00\"},\"Arrival\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland, OR\",\"DateTime\":\"2020-05-18T20:55:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"Q\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"898\",\"ConfirmationCode\":\"LLXKFQ\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 898\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-800\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"6D\",\"Type\":\"PremiumClass\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"6E\",\"Type\":\"PremiumClass\"}]}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[{\"Symbol\":\"PremiumClass\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":843.62,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139982641\",\"Status\":\"OK\",\"Amount\":{\"Base\":648.57,\"Tax\":48.63,\"Total\":697.2},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272139982642\",\"Status\":\"OK\",\"Amount\":{\"Base\":99,\"Tax\":47.42,\"Total\":146.42},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]}}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2019-09-06T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************1088\",\"CardHolderName\":\"Paula Tester\",\"Amount\":843.62,\"DiscountCode\":\"ECRC201BSTC10723713\",\"EWalletSubTotalAmount\":0}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"HNL\",\"PickupDateTime\":\"2020-05-03T12:10:00\",\"DropoffDateTime\":\"2020-05-18T10:30:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"HNL\",\"DateBegin\":\"2020-05-03T00:00:00\",\"DateEnd\":\"2019-05-18T00:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "Ancillaries",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "FlyAndBuyMiles",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "CreditInformation",
+                        "value": "[]"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,266 @@
+{
+    "Features": {
+        "IsRefundable": true,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "ResponsysCampaign": "Revenue",
+        "NoneRevenueType": "None",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": false,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": false,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": false,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": false,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": true,
+        "HasLapInfant": false,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": false,
+        "CanChangeReservationOnline": true,
+        "IsSeatPurchased": true
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Raymond",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1",
+            "Loyalty": {
+                "CompanyCode": "AS",
+                "ProgramName": "*****5491",
+                "TierStatus": "Standard"
+                }
+        },
+        {
+            "Name": {
+                "First": "Lesli",
+                "Last": "Tester"
+            },
+            "PassengerId": "2.1",
+            "Loyalty": {
+                "CompanyCode": "AS",
+                "ProgramName": "*****5841",
+                "TierStatus": "Standard"
+                }
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-09-24T12:40:00"
+            },
+            "Arrival": {
+                "AirportCode": "ANC",
+                "Airport": "Anchorage",
+                "DateTime": "2019-09-24T15:25:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "H",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "105",
+                "ConfirmationCode": "JBMMRG"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 105"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Boeing 737-700",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "8C",
+                    "Type": "PremiumClass"
+                },
+                {
+                    "PassengerId": "2.1",
+                    "Assignment": "8B",
+                    "Type": "PremiumClass"
+                }
+            ]
+        },
+        {
+            "FlightId": "1",
+            "Departure": {
+                "AirportCode": "ANC",
+                "Airport": "Anchorage",
+                "DateTime": "2019-10-01T18:30:00"
+            },
+            "Arrival": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-10-01T11:00:00"
+            },
+            "Cabin": "First",
+            "ClassOfService": "F",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "260",
+                "ConfirmationCode": "JBMMRG"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 260"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Boeing 737-900",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "2F",
+                    "Type": ""
+                },
+                {
+                    "PassengerId": "2.1",
+                    "Assignment": "2D",
+                    "Type": ""
+                }
+            ]
+        }
+    ],
+    "Footnotes": [
+        {
+            "Symbol": "PremiumClass",
+            "Message": "Premium Class seat has been selected for this flight."
+        }
+    ],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 2191.40,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272126430210",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 1041.25,
+                        "Tax": 54.45,
+                        "Total": 1095.70
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                },
+                {
+                    "PassengerId": "2.1",
+                    "Number": "0272126430211",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 1041.25,
+                        "Tax": 54.45,
+                        "Total": 1095.70
+                    },
+                    "DisplayNewTicketValue": true,
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        },
+        "Ancillaries": {
+            "_comment08": "SeatPurchase can be empty for a while.",
+            "SeatPurchases": {
+                "GrandTotalAmount": 118.00,
+                "Tickets": [
+                    {
+                        "PassengerId": "1.1",
+                        "_comment10": "FlightId in FlightSegments",
+                        "FlightSegments": [
+                            {
+                                "FlightId": "0"
+                            },
+                            {
+                                "FlightId": "1"
+                            }
+                        ],
+                        "Amount": {
+                            "Base": 58.50,
+                            "Tax": 0.50,
+                            "Total": 59.00
+                        }
+                    },
+                    {
+                        "PassengerId": "2.1",
+                        "_comment10": "FlightId in FlightSegments",
+                        "FlightSegments": [
+                            {
+                                "FlightId": "0"
+                            },
+                            {
+                                "FlightId": "1"
+                            }
+                        ],
+                        "Amount": {
+                            "Base": 58.50,
+                            "Tax": 0.50,
+                            "Total": 59.00
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "_comment07": "I will fill it out for purchase with miles.",
+    "FlyAndBuyMiles": {},
+    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+    "CreditInformation": [],
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-04-26T00:00:00",
+            "CardType": "Mastercard",
+            "CardNumber": "************7745",
+            "CardHolderName": "Raymond Tester",
+            "Amount": 2309.40,
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "ANC",
+        "PickupDateTime": "2019-09-24T16:25:00",
+        "DropoffDateTime": "2019-10-01T16:30:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "ANC",
+            "DateBegin": "2019-09-24T00:00:00",
+            "DateEnd": "2019-10-01T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

@@ -1,0 +1,109 @@
+{
+    "mergeRule": {
+        "htmlValue": "H",
+        "textValue": "T",
+        "matchOperator": "NONE",
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "optinValue": "I",
+        "optoutValue": "O",
+        "defaultPermissionStatus": "OPTIN",
+        "insertOnNoMatch": true,
+        "updateOnMatch": "REPLACE_ALL",
+        "rejectRecordIfChannelEmpty": "E"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "insik.cho@alaskaair.com",
+                    "12345",
+                    "H"
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "9a035022-6758-4c37-be06-2b2099eca4e4"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2019-07-10T10:00:00"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"IsRefundable\":false,\"ResponsysCampaign\":\"Revenue\",\"NoneRevenueType\":\"None\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":true,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":true,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":false,\"IsSeatPurchased\":false}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Andrew\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\"}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"ANC\",\"Airport\":\"Anchorage\",\"DateTime\":\"2019-09-18T23:50:00\"},\"Arrival\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles, CA\",\"DateTime\":\"2019-09-19T06:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"X\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"150\",\"ConfirmationCode\":\"KFQQIX\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 6152\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"LAX\",\"Airport\":\"Los Angeles, CA\",\"DateTime\":\"2019-09-19T12:40:00\"},\"Arrival\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland\",\"DateTime\":\"2019-09-19T15:10:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"X\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"1795\",\"ConfirmationCode\":\"KFQQIX\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 1795\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Airbus A320\",\"Seats\":[]}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":329.56,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139869146\",\"Status\":\"OK\",\"Amount\":{\"Base\":294.66,\"Tax\":34.9,\"Total\":329.56},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]}}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2019-09-05T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************8962\",\"CardHolderName\":\"Andrew Tester\",\"Amount\":329.56,\"EWalletSubTotalAmount\":0}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"LAX\",\"PickupDateTime\":\"2019-09-19T16:10:00\",\"DropoffDateTime\":\"2019-09-26T06:10:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"LAX\",\"DateBegin\":\"2019-09-19T00:00:00\",\"DateEnd\":\"2019-09-19T00:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "Ancillaries",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "FlyAndBuyMiles",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "CreditInformation",
+                        "value": "[]"
+                    }
+                ]
+            }
+        ]
+    }
+}

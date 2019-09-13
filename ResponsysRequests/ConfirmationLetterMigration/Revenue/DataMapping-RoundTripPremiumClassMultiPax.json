@@ -1,0 +1,105 @@
+{
+    "mergeRule": {
+        "htmlValue": "H",
+        "textValue": "T",
+        "matchOperator": "NONE",
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "optinValue": "I",
+        "optoutValue": "O",
+        "defaultPermissionStatus": "OPTIN",
+        "insertOnNoMatch": true,
+        "updateOnMatch": "REPLACE_ALL",
+        "rejectRecordIfChannelEmpty": "E"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "insik.cho@alaskaair.com",
+                    "12345",
+                    "H"
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "9a035022-6758-4c37-be06-2b2099eca4e4"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2019-07-10T10:00:00"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"IsRefundable\":true,\"ResponsysCampaign\":\"Revenue\",\"NoneRevenueType\":\"None\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":false,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":true,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"IsSeatPurchased\":true}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Raymond\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"*****5491\",\"TierStatus\":\"Standard\"}},{\"Name\":{\"First\":\"Lesli\",\"Last\":\"Tester\"},\"PassengerId\":\"2.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"*****5841\",\"TierStatus\":\"Standard\"}}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-09-24T12:40:00\"},\"Arrival\":{\"AirportCode\":\"ANC\",\"Airport\":\"Anchorage\",\"DateTime\":\"2019-09-24T15:25:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"H\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"105\",\"ConfirmationCode\":\"JBMMRG\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 105\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-700\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"8C\",\"Type\":\"PremiumClass\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"8B\",\"Type\":\"PremiumClass\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"ANC\",\"Airport\":\"Anchorage\",\"DateTime\":\"2019-10-01T18:30:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-10-01T11:00:00\"},\"Cabin\":\"First\",\"ClassOfService\":\"F\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"260\",\"ConfirmationCode\":\"JBMMRG\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 260\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"2F\",\"Type\":\"\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"2D\",\"Type\":\"\"}]}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[{\"Symbol\":\"PremiumClass\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":2191.4,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272126430210\",\"Status\":\"OK\",\"Amount\":{\"Base\":1041.25,\"Tax\":54.45,\"Total\":1095.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272126430211\",\"Status\":\"OK\",\"Amount\":{\"Base\":1041.25,\"Tax\":54.45,\"Total\":1095.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{\"SeatPurchases\":{\"GrandTotalAmount\":118,\"Tickets\":[{\"PassengerId\":\"1.1\",\"FlightSegments\":[{\"FlightId\":\"0\"},{\"FlightId\":\"1\"}],\"Amount\":{\"Base\":58.5,\"Tax\":0.5,\"Total\":59}},{\"PassengerId\":\"2.1\",\"FlightSegments\":[{\"FlightId\":\"0\"},{\"FlightId\":\"1\"}],\"Amount\":{\"Base\":58.5,\"Tax\":0.5,\"Total\":59}}]}}}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2019-04-26T00:00:00\",\"CardType\":\"Mastercard\",\"CardNumber\":\"************7745\",\"CardHolderName\":\"Raymond Tester\",\"Amount\":2309.4,\"EWalletSubTotalAmount\":0}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"ANC\",\"PickupDateTime\":\"2019-09-24T16:25:00\",\"DropoffDateTime\":\"2019-10-01T16:30:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"ANC\",\"DateBegin\":\"2019-09-24T00:00:00\",\"DateEnd\":\"2019-10-01T00:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "FlyAndBuyMiles",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "CreditInformation",
+                        "value": "[]"
+                    }
+                ]
+            }
+        ]
+    }
+}

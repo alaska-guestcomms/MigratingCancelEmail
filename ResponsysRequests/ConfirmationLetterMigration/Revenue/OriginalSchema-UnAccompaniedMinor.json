@@ -1,0 +1,143 @@
+{
+    "Features": {
+        "IsRefundable": false,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "ResponsysCampaign": "Revenue",
+        "NoneRevenueType": "None",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": false,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": false,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": true,
+        "SomeSeatsNotSelected": false,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": false,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": false,
+        "IsSaverFare": true,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": false,
+        "CanChangeReservationOnline": false,
+        "IsSeatPurchased": true
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Forrest",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1"
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "PDX",
+                "Airport": "Portland, OR",
+                "DateTime": "2019-10-09T15:35:00"
+            },
+            "Arrival": {
+                "AirportCode": "SFO",
+                "Airport": "San Francisco",
+                "DateTime": "2019-10-09T17:20:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "X",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "1814",
+                "ConfirmationCode": "XCVRMW"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 1814"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Airbus A320",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "9A",
+                    "Type": ""
+                }
+            ]
+        }
+    ],
+    "Footnotes": [],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 68.30,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272140200921",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 50.23,
+                        "Tax": 18.07,
+                        "Total": 68.30
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        },
+        "_comment07": "I will fill it out for purchase with miles.",
+        "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though."
+    },
+    "Ancillaries": {},
+    "_comment07": "I will fill it out for purchase with miles.",
+    "FlyAndBuyMiles": {},
+    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+    "CreditInformation": [],
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-09-08T00:00:00",
+            "CardType": "Visa",
+            "CardNumber": "************8879",
+            "CardHolderName": "Gina Tester",
+            "Amount": 68.30,
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "LAX",
+        "PickupDateTime": "2019-10-09T18:20:00",
+        "DropoffDateTime": "2019-10-16T18:20:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "LAX",
+            "DateBegin": "2019-10-09T00:00:00",
+            "DateEnd": "2019-10-12T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

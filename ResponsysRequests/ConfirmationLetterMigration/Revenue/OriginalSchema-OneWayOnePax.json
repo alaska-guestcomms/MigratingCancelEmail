@@ -1,0 +1,142 @@
+{
+    "Features": {
+        "IsRefundable": true,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "ResponsysCampaign": "Revenue",
+        "NoneRevenueType": "None",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": false,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": false,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": false,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": false,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": false,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": false,
+        "CanChangeReservationOnline": true,
+        "IsSeatPurchased": true
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Louise",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1"
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "OAK",
+                "Airport": "Oakland",
+                "DateTime": "2019-09-24T14:45:00"
+            },
+            "Arrival": {
+                "AirportCode": "PDX",
+                "Airport": "Portland, OR",
+                "DateTime": "2019-09-24T16:25:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "R",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "3492",
+                "ConfirmationCode": "KEMXAS"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 3492"
+            },
+            "CheckInInfo": "Check in with Alaska Airlines.",
+            "OperatedByDescription": "Operated By SkyWest Airlines as AlaskaSkyWest.",
+            "EquipmentType": "Embraer E175",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "18D",
+                    "Type": ""
+                }
+            ]
+        }
+    ],
+    "Footnotes": [],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 73.30,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272139871278",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 54.88,
+                        "Tax": 18.42,
+                        "Total": 73.30
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        }
+    },
+    "Ancillaries": {},
+    "_comment07": "I will fill it out for purchase with miles.",
+    "FlyAndBuyMiles": {},
+    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+    "CreditInformation": [],
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-09-05T00:00:00",
+            "CardType": "Visa",
+            "CardNumber": "************6144",
+            "CardHolderName": "Louise Tester",
+            "Amount": 73.30,
+            "DiscountCode": "",
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "PDX",
+        "PickupDateTime": "2019-09-24T17:25:00",
+        "DropoffDateTime": "2019-10-01T17:25:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "PDX",
+            "DateBegin": "2019-09-24T00:00:00",
+            "DateEnd": "2019-09-27T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

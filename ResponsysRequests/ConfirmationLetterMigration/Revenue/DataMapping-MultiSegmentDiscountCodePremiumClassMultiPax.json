@@ -23,7 +23,7 @@
                 "fieldValues": [
                     "insik.cho@alaskaair.com",
                     "12345",
-                    "H"
+                    ""
                 ],
                 "optionalData": [
                     {
@@ -44,7 +44,7 @@
                     },
                     {
                         "name": "ConfirmationCode",
-                        "value": "12345"
+                        "value": "LLXKFQ"
                     },
                     {
                         "name": "Type",
@@ -60,7 +60,7 @@
                     },
                     {
                         "name": "Passengers",
-                        "value": "[{\"Name\":{\"First\":\"Paula\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"***8793\",\"TierStatus\":\"Gold\"}},{\"Name\":{\"First\":\"Scott\",\"Last\":\"Tester\"},\"PassengerId\":\"2.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"***6975\",\"TierStatus\":\"Gold\"}}]"
+                        "value": "[{\"Name\":{\"First\":\"Paula\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"Mileage Plan\",\"MemberNumber\":\"***8793\",\"TierStatus\":\"MVP Gold Member\"}},{\"Name\":{\"First\":\"Scott\",\"Last\":\"Tester\"},\"PassengerId\":\"2.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"Mileage Plan\",\"MemberNumber\":\"***6975\",\"TierStatus\":\"MVP Gold Member\"}}]"
                     },
                     {
                         "name": "FlightSegments",
@@ -68,7 +68,7 @@
                     },
                     {
                         "name": "Footnotes",
-                        "value": "[{\"Symbol\":\"PremiumClass\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
+                        "value": "[{\"Symbol\":\"&starf;\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
                     },
                     {
                         "name": "BillingSummary",
@@ -89,6 +89,10 @@
                     {
                         "name": "Baggage",
                         "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "[]"
                     },
                     {
                         "name": "Ancillaries",

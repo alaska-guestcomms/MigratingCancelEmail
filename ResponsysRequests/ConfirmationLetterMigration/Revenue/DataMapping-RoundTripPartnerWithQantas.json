@@ -1,0 +1,101 @@
+{
+    "mergeRule": {
+        "htmlValue": "H",
+        "textValue": "T",
+        "matchOperator": "NONE",
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "optinValue": "I",
+        "optoutValue": "O",
+        "defaultPermissionStatus": "OPTIN",
+        "insertOnNoMatch": true,
+        "updateOnMatch": "REPLACE_ALL",
+        "rejectRecordIfChannelEmpty": "E"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "insik.cho@alaskaair.com",
+                    "12345",
+                    ""
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "9a035022-6758-4c37-be06-2b2099eca4e4"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2019-07-10T10:00:00"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "AQWLEN"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"IsRefundable\":false,\"NoneRevenueType\":\"Revenue\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":true,\"HasAlaskaAirlinesSegment\":false,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":true,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":true,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":true,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":true,\"CanChangeReservationOnline\":false,\"IsSeatPurchased\":true}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Adam\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"Loyalty\":{\"CompanyCode\":\"QF\",\"ProgramName\":\"Qantas\",\"MemberNumber\":\"*****9421\",\"TierStatus\":\"Silver\"}},{\"Name\":{\"First\":\"Jeffrey\",\"Last\":\"Tester\"},\"PassengerId\":\"2.1\"}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2019-10-27T21:15:00\"},\"Arrival\":{\"AirportCode\":\"MEL\",\"Airport\":\"Melbourne, AU, Australia\",\"DateTime\":\"2019-10-29T06:45:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"R\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"5008\",\"ConfirmationCode\":\"AQWLEN\"},\"OperatingAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas\",\"Number\":\"50\",\"ConfirmationCode\":\"LHBTIE\"},\"DisplayAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas 50 (Alaska 5008)\"},\"CheckInInfo\":\"Check in with Qantas Airways.\",\"OperatedByDescription\":\"Operated By Qantas Airways. Check in with Qantas Airways. Confirmation code: LHBTIE\",\"EquipmentType\":\"Boeing 787-9\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"MEL\",\"Airport\":\"Melbourne, AU, Australia\",\"DateTime\":\"2019-11-02T22:35:00\"},\"Arrival\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2019-11-02T18:45:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"R\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"5009\",\"ConfirmationCode\":\"AQWLEN\"},\"OperatingAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas\",\"Number\":\"49\",\"ConfirmationCode\":\"LHBTIE\"},\"DisplayAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas 49 (Alaska 5009)\"},\"CheckInInfo\":\"Check in with Qantas Airways.\",\"OperatedByDescription\":\"Operated By Qantas Airways. Check in with Qantas Airways. Confirmation code: LHBTIE\",\"EquipmentType\":\"Boeing 787-9\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"PremiumClass\"}]}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[{\"Symbol\":\"*\",\"Message\":\"For seat assignments, contact the operating airline using the operating airline's confirmation code.\"}]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":2149.26,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272142408356\",\"Status\":\"OK\",\"Amount\":{\"Base\":939,\"Tax\":135.63,\"Total\":1074.63},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272142408357\",\"Status\":\"OK\",\"Amount\":{\"Base\":939,\"Tax\":135.63,\"Total\":1074.63},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{},\"FlyAndBuyMiles\":{},\"CreditInformation\":[]}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2019-09-30T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************3544\",\"CardHolderName\":\"Adam Tester\",\"Amount\":2149.26,\"DiscountCode\":\"\",\"EWalletSubTotalAmount\":0}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"LAX\",\"PickupDateTime\":\"2019-10-29T07:45:00\",\"DropoffDateTime\":\"2019-11-02T20:35:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"MEL\",\"DateBegin\":\"2019-10-29T00:00:00\",\"DateEnd\":\"2019-11-02T00:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "[]"
+                    }
+                ]
+            }
+        ]
+    }
+}

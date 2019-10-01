@@ -1,9 +1,8 @@
 {
     "Features": {
-        "IsRefundable": true,
+        "IsRefundable": false,
         "_comment07": "NoneRevenueType can be None or GuestPass",
-        "ResponsysCampaign": "Revenue",
-        "NoneRevenueType": "None",
+        "NoneRevenueType": "Revenue",
         "HasMexicanSegment": false,
         "HasCanadianSegment": false,
         "HasLAXSegment": false,
@@ -39,29 +38,16 @@
     "Passengers": [
         {
             "Name": {
-                "First": "Paula",
+                "First": "David",
                 "Last": "Tester"
             },
             "PassengerId": "1.1",
             "Loyalty": {
                 "CompanyCode": "AS",
                 "ProgramName": "Mileage Plan",
-                "MemberNumber": "***8793",
-                "TierStatus": "MVP Gold Member"
+                "MemberNumber": "*****4095",
+                "TierStatus": "MVP Gold 75K Member"
                 }
-        },
-        {
-            "Name": {
-                "First": "Scott",
-                "Last": "Tester"
-            },
-            "PassengerId": "2.1",
-            "Loyalty": {
-                "CompanyCode": "AS",
-                "ProgramName": "Mileage Plan",
-                "MemberNumber": "***6975",
-                "TierStatus": "MVP Gold Member"
-                } 
         }
     ],
     "FlightSegments": [
@@ -70,39 +56,34 @@
             "Departure": {
                 "AirportCode": "PDX",
                 "Airport": "Portland, OR",
-                "DateTime": "2020-05-03T08:25:00"
+                "DateTime": "2019-10-03T07:10:00"
             },
             "Arrival": {
-                "AirportCode": "HNL",
-                "Airport": "Honolulu",
-                "DateTime": "2020-05-03T11:03:00"
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-10-03T08:10:00"
             },
             "Cabin": "Coach",
-            "ClassOfService": "K",
+            "ClassOfService": "G",
             "MarketingAirline": {
                 "Code": "AS",
                 "Name": "Alaska",
-                "Number": "889",
-                "ConfirmationCode": "LLXKFQ"
+                "Number": "981",
+                "ConfirmationCode": "YYIQKH"
             },
             "OperatingAirline": {},
             "DisplayAirline": {
                 "Code": "AS",
-                "Name": "Alaska 889"
+                "Name": "Alaska 981"
             },
             "CheckInInfo": "",
             "OperatedByDescription": "",
-            "EquipmentType": "Boeing 737-800",
+            "EquipmentType": "Boeing 737-900",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "Assignment": "6E",
-                    "Type": "PremiumClass"
-                },
-                {
-                    "PassengerId": "2.1",
-                    "Assignment": "6D",
+                    "Assignment": "*",
                     "Type": "PremiumClass"
                 }
             ]
@@ -110,119 +91,103 @@
         {
             "FlightId": "1",
             "Departure": {
-                "AirportCode": "OGG",
-                "Airport": "Kahului/Maui",
-                "DateTime": "2020-05-18T12:30:00"
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-07-20T10:00:00"
             },
             "Arrival": {
-                "AirportCode": "PDX",
-                "Airport": "Portland, OR",
-                "DateTime": "2020-05-18T20:55:00"
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-10-03T19:00:00"
             },
             "Cabin": "Coach",
-            "ClassOfService": "Q",
+            "ClassOfService": "G",
             "MarketingAirline": {
                 "Code": "AS",
                 "Name": "Alaska",
-                "Number": "898",
-                "ConfirmationCode": "LLXKFQ"
+                "Number": "907",
+                "ConfirmationCode": "YYIQKH"
             },
             "OperatingAirline": {},
             "DisplayAirline": {
                 "Code": "AS",
-                "Name": "Alaska 898"
+                "Name": "Alaska 907"
             },
             "CheckInInfo": "",
             "OperatedByDescription": "",
-            "EquipmentType": "Boeing 737-800",
+            "EquipmentType": "Boeing 737-900",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "Assignment": "6D",
-                    "Type": "PremiumClass"
-                },
-                {
-                    "PassengerId": "2.1",
-                    "Assignment": "6E",
+                    "Assignment": "*",
                     "Type": "PremiumClass"
                 }
             ]
         }
     ],
     "Footnotes": [
-        {
-            "Symbol": "&starf;",
-            "Message": "Premium Class seat has been selected for this flight."
-        }
+        { "Symbol": "&starf;", "Message": "Premium Class seat has been selected for this flight."}
     ],
-    "SpecialServiceRequests": [],
+    "SpecialServiceRequests": [
+        "Mobility/wheelchair assistance",
+        "Blind/low vision",
+        "Deaf/hard of hearing",
+        "Blind/Low vision assistance. Advise Customer Service Agent upon arrival at airport",
+        "Senior assistance",
+        "Developmental disability",
+        "Difficulty with English",
+        "Animal in hold",
+        "Animal in cabin",
+        "Emotional support/psychiatric service animal <a href=\"https://resource.alaskaair.net/-/media/5B64514919D34AEDA74DC8860BC273AE\" target=\"_blank\">Documentation Required</a>. Documentation must be completed and submitted at least 48 hours before deptarture. <a href=\"https://www.alaskaair.com/content/travel-info/accessible-services/specialservices-support-animals\" target=\"_blank\">Learn More</a>. <br/> See agent upon arrival at airport."
+    ],
     "BillingSummary": {
         "Fares": {
-            "GrandTotalAmount": 843.62,
+            "GrandTotalAmount": 206.60,
             "Tickets": [
                 {
                     "_comment01": "Status can be OK (or Refunded).",
                     "PassengerId": "1.1",
-                    "Number": "0272139982641",
+                    "Number": "0272141344651",
                     "Status": "OK",
                     "Amount": {
-                        "Base": 648.57,
-                        "Tax": 48.63,
-                        "Total": 697.20
+                        "Base": 165.58,
+                        "Tax": 41.02,
+                        "Total": 206.60
                     },
                     "DisplayNewTicketValue": true,
                     "_comment02": "Additional due can be if not needed.",
                     "_comment03": "How do we handle the refund?",
                     "AdditionalDue": {
-                        "Amount": 0.0,
-                        "ExchangedTicketNumber": ""
-                    }
-                },
-                {
-                    "PassengerId": "2.1",
-                    "Number": "0272139982642",
-                    "Status": "OK",
-                    "Amount": {
-                        "Base": 99.00,
-                        "Tax": 47.42,
-                        "Total": 146.42
-                    },
-                    "DisplayNewTicketValue": true,
-                    "AdditionalDue": {
-                        "Amount": 0.0,
+                        "Amount": "",
                         "ExchangedTicketNumber": ""
                     }
                 }
             ]
-        }
+        },
+        "Ancillaries": {},
+        "_comment07": "I will fill it out for purchase with miles.",
+        "FlyAndBuyMiles": {},
+        "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+        "CreditInformation": []
     },
-    "Ancillaries": {},
-    "_comment07": "I will fill it out for purchase with miles.",
-    "FlyAndBuyMiles": {},
-    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
-    "CreditInformation": [],
     "PaymentInformation": [
         {
-            "DateTime": "2019-09-06T00:00:00",
-            "CardType": "Visa",
-            "CardNumber": "************1088",
-            "CardHolderName": "Paula Tester",
-            "Amount": 843.62,
-            "DiscountCode": "ECRC201BSTC10723713",
-            "EWalletSubTotalAmount": 0
+            "DateTime": "2019-09-19T00:00:00",
+            "CreditCardPayment": {},
+            "EWalletSubTotalAmount": 206.60
         }
     ],
     "CarRental": {
-        "PickupLocation": "HNL",
-        "PickupDateTime": "2020-05-03T12:10:00",
-        "DropoffDateTime": "2020-05-18T10:30:00"
+        "PickupLocation": "LAX",
+        "PickupDateTime": "2019-10-03T09:10:00",
+        "DropoffDateTime": "2019-10-03T17:00:00"
     },
     "HotelSearch": {
         "Destination": {
-            "CityCode": "HNL",
-            "DateBegin": "2020-05-03T00:00:00",
-            "DateEnd": "2019-05-18T00:00:00"
+            "CityCode": "SEA",
+            "DateBegin": "2019-10-03T00:00:00",
+            "DateEnd": "2019-10-03T00:00:00"
         }
     },
     "Baggage": {}

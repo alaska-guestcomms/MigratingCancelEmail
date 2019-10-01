@@ -23,7 +23,7 @@
                 "fieldValues": [
                     "insik.cho@alaskaair.com",
                     "12345",
-                    "H"
+                    ""
                 ],
                 "optionalData": [
                     {
@@ -44,7 +44,7 @@
                     },
                     {
                         "name": "ConfirmationCode",
-                        "value": "12345"
+                        "value": "KEMXAS"
                     },
                     {
                         "name": "Type",
@@ -89,6 +89,10 @@
                     {
                         "name": "Baggage",
                         "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "[]"
                     },
                     {
                         "name": "Ancillaries",

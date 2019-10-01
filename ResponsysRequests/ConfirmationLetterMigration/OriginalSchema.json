@@ -90,7 +90,7 @@
                 "Code": "AA",
                 "Name": "American 2105 (Alaska 6152)"
             },
-            "CheckInInfo": "Check in with American Airlines",
+            "CheckInInfo": "Check in with American Airlines.",
             "OperatedByDescription": "Operated By American Airlines.",
             "EquipmentType": "Boeing 737-900",
             "_comment13": "find Travelers associated with PassengerID",

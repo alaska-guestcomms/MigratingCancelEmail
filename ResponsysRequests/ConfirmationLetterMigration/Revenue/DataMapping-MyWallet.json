@@ -1,0 +1,101 @@
+{
+    "mergeRule": {
+        "htmlValue": "H",
+        "textValue": "T",
+        "matchOperator": "NONE",
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "optinValue": "I",
+        "optoutValue": "O",
+        "defaultPermissionStatus": "OPTIN",
+        "insertOnNoMatch": true,
+        "updateOnMatch": "REPLACE_ALL",
+        "rejectRecordIfChannelEmpty": "E"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "insik.cho@alaskaair.com",
+                    "12345",
+                    ""
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "9a035022-6758-4c37-be06-2b2099eca4e4"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2019-07-10T10:00:00"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "YYIQKH"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"IsRefundable\":false,\"NoneRevenueType\":\"Revenue\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":false,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"IsSeatPurchased\":true}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"David\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"Mileage Plan\",\"MemberNumber\":\"*****4095\",\"TierStatus\":\"MVP Gold 75K Member\"}}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland, OR\",\"DateTime\":\"2019-10-03T07:10:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-10-03T08:10:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"G\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"981\",\"ConfirmationCode\":\"YYIQKH\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 981\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"PremiumClass\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-07-20T10:00:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-10-03T19:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"G\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"907\",\"ConfirmationCode\":\"YYIQKH\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 907\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"PremiumClass\"}]}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[{\"Symbol\":\"&starf;\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":206.6,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272141344651\",\"Status\":\"OK\",\"Amount\":{\"Base\":165.58,\"Tax\":41.02,\"Total\":206.6},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{},\"FlyAndBuyMiles\":{},\"CreditInformation\":[]}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2019-09-19T00:00:00\",\"CreditCardPayment\":{},\"EWalletSubTotalAmount\":206.6}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"LAX\",\"PickupDateTime\":\"2019-10-03T09:10:00\",\"DropoffDateTime\":\"2019-10-03T17:00:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"SEA\",\"DateBegin\":\"2019-10-03T00:00:00\",\"DateEnd\":\"2019-10-03T00:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "[\"Mobility/wheelchair assistance\",\"Blind/low vision\",\"Deaf/hard of hearing\",\"Blind/Low vision assistance. Advise Customer Service Agent upon arrival at airport\",\"Senior assistance\",\"Developmental disability\",\"Difficulty with English\",\"Animal in hold\",\"Animal in cabin\",\"Emotional support/psychiatric service animal <a href=\\\"https://resource.alaskaair.net/-/media/5B64514919D34AEDA74DC8860BC273AE\\\" target=\\\"_blank\\\">Documentation Required</a>. Documentation must be completed and submitted at least 48 hours before deptarture. <a href=\\\"https://www.alaskaair.com/content/travel-info/accessible-services/specialservices-support-animals\\\" target=\\\"_blank\\\">Learn More</a>. <br/> See agent upon arrival at airport.\"]"
+                    }
+                ]
+            }
+        ]
+    }
+}

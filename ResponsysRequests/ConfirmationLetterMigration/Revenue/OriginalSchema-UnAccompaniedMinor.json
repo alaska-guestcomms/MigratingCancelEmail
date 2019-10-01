@@ -85,6 +85,9 @@
         }
     ],
     "Footnotes": [],
+    "SpecialServiceRequests": [
+        "Unaccompanied minor"
+    ],
     "BillingSummary": {
         "Fares": {
             "GrandTotalAmount": 68.30,

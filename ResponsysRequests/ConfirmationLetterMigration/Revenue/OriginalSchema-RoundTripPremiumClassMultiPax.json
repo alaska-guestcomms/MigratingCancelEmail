@@ -45,8 +45,9 @@
             "PassengerId": "1.1",
             "Loyalty": {
                 "CompanyCode": "AS",
-                "ProgramName": "*****5491",
-                "TierStatus": "Standard"
+                "ProgramName": "Mileage Plan",
+                "MemberNumber": "*****5491",
+                "TierStatus": "MVP Member"
                 }
         },
         {
@@ -57,8 +58,9 @@
             "PassengerId": "2.1",
             "Loyalty": {
                 "CompanyCode": "AS",
-                "ProgramName": "*****5841",
-                "TierStatus": "Standard"
+                "ProgramName": "Mileage Plan",
+                "MemberNumber": "*****5841",
+                "TierStatus": "MVP Member"
                 }
         }
     ],
@@ -150,10 +152,11 @@
     ],
     "Footnotes": [
         {
-            "Symbol": "PremiumClass",
+            "Symbol": "&starf;",
             "Message": "Premium Class seat has been selected for this flight."
         }
     ],
+    "SpecialServiceRequests": [],
     "BillingSummary": {
         "Fares": {
             "GrandTotalAmount": 2191.40,

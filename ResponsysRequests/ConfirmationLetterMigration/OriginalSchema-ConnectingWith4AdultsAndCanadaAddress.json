@@ -269,9 +269,9 @@
     },
     "HotelSearch": {
         "Destination": {
-            "CityCode": "LAX",
-            "DateBegin": "2019-09-03T00:00:00",
-            "DateEnd": "2019-09-03T00:00:00"
+            "CityCode": "YYC",
+            "DateBegin": "2019-09-01T00:00:00",
+            "DateEnd": "2019-09-04T00:00:00"
         }
     },
     "Baggage": {}

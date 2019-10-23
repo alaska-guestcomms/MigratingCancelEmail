@@ -76,7 +76,7 @@
                     },
                     {
                         "name": "PaymentInformation",
-                        "value": "[{\"DateTime\":\"2019-09-19T00:00:00\",\"CreditCardPayment\":{},\"EWalletSubTotalAmount\":206.6}]"
+                        "value": "[{\"DateTime\":\"2019-09-19T00:00:00\",\"CreditCardPayment\":{},\"DiscountCode\":\"\",\"EWalletSubTotalAmount\":206.6}]"
                     },
                     {
                         "name": "CarRental",

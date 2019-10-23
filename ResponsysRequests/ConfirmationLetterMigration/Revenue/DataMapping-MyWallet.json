@@ -56,7 +56,7 @@
                     },
                     {
                         "name": "Features",
-                        "value": "{\"IsRefundable\":false,\"NoneRevenueType\":\"Revenue\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":false,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"IsSeatPurchased\":true}"
+                        "value": "{\"IsRefundable\":false,\"ResponsysCampaign\":\"Revenue\",\"NoneRevenueType\":\"Revenue\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":false,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"IsSeatPurchased\":true}"
                     },
                     {
                         "name": "Passengers",
@@ -76,7 +76,7 @@
                     },
                     {
                         "name": "PaymentInformation",
-                        "value": "[{\"DateTime\":\"2019-09-19T00:00:00\",\"CreditCardPayment\":{},\"DiscountCode\":\"\",\"EWalletSubTotalAmount\":206.6}]"
+						"value": "[{\"DateTime\":\"2019-09-19T00:00:00\",\"CardType\":\"\",\"CardNumber\":\"\",\"CardHolderName\":\"\",\"Amount\":0.0,\"DiscountCode\":\"\",\"EWalletSubTotalAmount\":206.6}]"
                     },
                     {
                         "name": "CarRental",

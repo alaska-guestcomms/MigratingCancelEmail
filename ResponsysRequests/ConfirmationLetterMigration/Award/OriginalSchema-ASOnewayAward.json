@@ -1,0 +1,152 @@
+{
+    "Features": {
+        "IsRefundable": true,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "ResponsysCampaign": "Award",
+        "NoneRevenueType": "None",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": false,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": false,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": false,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": false,
+        "IsASQXAward": true,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": false,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": false,
+        "CanChangeReservationOnline": true,
+        "IsSeatPurchased": true
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Landen",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1",
+            "Loyalty": {
+                "CompanyCode": "AS",
+                "ProgramName": "Mileage Plan",
+                "MemberNumber": "*****3441",
+                "TierStatus": "MVP Member"
+                }
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "ADQ",
+                "Airport": "Kodiak",
+                "DateTime": "2019-10-03T08:00:00"
+            },
+            "Arrival": {
+                "AirportCode": "ANC",
+                "Airport": "Anchorage",
+                "DateTime": "2019-10-03T08:50:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "W",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "48",
+                "ConfirmationCode": "AHYIIR"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 48"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Boeing 737-800",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "26A",
+                    "Type": ""
+                }
+            ]
+        }
+    ],
+    "Footnotes": [],
+    "SpecialServiceRequests": [],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 5.60,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272139871278",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 0.00,
+                        "Tax": 5.60,
+                        "Total": 5.60
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        }
+    },
+    "Ancillaries": {},
+    "_comment07": "I will fill it out for purchase with miles.",
+    "FlyAndBuyMiles": {
+        "AdditionalPurchaseInfo": "7,500 miles have been redeemed from Mileage Plan #*****5643."
+    },
+    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+    "CreditInformation": [],
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-09-30T00:00:00",
+            "CardType": "Visa",
+            "CardNumber": "************1287",
+            "CardHolderName": "Asia Tester",
+            "Amount": 5.60,
+            "DiscountCode": "",
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+
+    "CarRental": {
+        "PickupLocation": "ANC",
+        "PickupDateTime": "2019-10-03T09:50:00",
+        "DropoffDateTime": "2019-10-10T09:50:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "ANC",
+            "DateBegin": "2019-10-03T00:00:00",
+            "DateEnd": "2019-10-06T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

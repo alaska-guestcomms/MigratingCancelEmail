@@ -1,0 +1,330 @@
+{
+    "Features": {
+        "IsRefundable": false,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "ResponsysCampaign": "Award",
+        "NoneRevenueType": "None",
+        "HasMexicanSegment": true,
+        "HasCanadianSegment": true,
+        "HasLAXSegment": true,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": true,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": true,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": true,
+        "IsASQXAward": false,
+        "IsCanadianAddress": true,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": true,
+        "HasLapInfant": false,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": true,
+        "CanChangeReservationOnline": false,
+        "IsSeatPurchased": false
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Robert",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1",
+            "Loyalty": {
+                "CompanyCode": "AS",
+                "ProgramName": "Mileage Plan",
+                "MemberNumber": "*****5060",
+                "TierStatus": "MVP Member"
+                }
+        },
+        {
+            "Name": {
+                "First": "Heiderose",
+                "Last": "Tester"
+            },
+            "PassengerId": "2.1",
+            "Loyalty": {
+                "CompanyCode": "AS",
+                "ProgramName": "Mileage Plan",
+                "MemberNumber": "*****9095",
+                "TierStatus": "MVP Member"
+                }
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "YLW",
+                "Airport": "Kelowna, Canada",
+                "DateTime": "2020-01-17T15:45:00"
+            },
+            "Arrival": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2020-01-17T16:45:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "W",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "2303",
+                "ConfirmationCode": "FTHZAY"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 2303"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Boeing 737-700",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "9A",
+                    "Type": ""
+                },
+                {
+                    "PassengerId": "2.1",
+                    "Assignment": "9B",
+                    "Type": ""
+                }
+            ]
+        },
+        {
+            "FlightId": "1",
+            "Departure": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2020-01-17T20:00:00"
+            },
+            "Arrival": {
+                "AirportCode": "LAX",
+                "Airport": "Los Angeles, CA",
+                "DateTime": "2020-01-17T22:48:00"
+            },
+            "Cabin": "Business",
+            "ClassOfService": "U",
+            "MarketingAirline": {
+                "Code": "AA",
+                "Name": "American",
+                "Number": "6052",
+                "ConfirmationCode": "XVJWVK"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AA",
+                "Name": "American 6052"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "Operated By Compass Airlines as American Eagle. Confirmation code: XVJWVK",
+            "EquipmentType": "Embraer E175",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": []
+        },
+        {
+            "FlightId": "2",
+            "Departure": {
+                "AirportCode": "LAX",
+                "Airport": "Los Angeles, CA",
+                "DateTime": "2020-01-18T10:05:00"
+            },
+            "Arrival": {
+                "AirportCode": "PVR",
+                "Airport": "Puerto Vallarta/Riviera Nayarit, Mexico",
+                "DateTime": "2020-01-18T15:00:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "T",
+            "MarketingAirline": {
+                "Code": "AA",
+                "Name": "American",
+                "Number": "6097",
+                "ConfirmationCode": "XVJWVK"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AA",
+                "Name": "American 6097"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "Operated By Compass Airlines as American Eagle. Confirmation code: XVJWVK",
+            "EquipmentType": "Embraer E175",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": []
+        },
+        {
+            "FlightId": "3",
+            "Departure": {
+                "AirportCode": "PVR",
+                "Airport": "Puerto Vallarta/Riviera Nayarit, Mexico",
+                "DateTime": "2020-02-08T17:50:00"
+            },
+            "Arrival": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2020-02-08T21:00:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "W",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "203",
+                "ConfirmationCode": "FTHZAY"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 203"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Boeing 737-900",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "25A",
+                    "Type": ""
+                },
+                {
+                    "PassengerId": "2.1",
+                    "Assignment": "25C",
+                    "Type": ""
+                }
+            ]
+        },
+        {
+            "FlightId": "4",
+            "Departure": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2020-02-09T09:10:00"
+            },
+            "Arrival": {
+                "AirportCode": "YLW",
+                "Airport": "Kelowna, Canada",
+                "DateTime": "2020-02-09T10:23:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "W",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "2465",
+                "ConfirmationCode": "FTHZAY"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 2465"
+            },
+            "CheckInInfo": " Check in with Alaska Airlines.",
+            "OperatedByDescription": "Flight Operated By Horizon Air as AlaskaHorizon.",
+            "EquipmentType": "Bombardier Q400",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "9A",
+                    "Type": ""
+                },
+                {
+                    "PassengerId": "2.1",
+                    "Assignment": "9B",
+                    "Type": ""
+                }
+            ]
+        }       
+    ],
+    "Footnotes": [],
+    "SpecialServiceRequests": [],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 328.92,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272126430210",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 0.00,
+                        "Tax": 151.96,
+                        "PartnerAwardBookingFee": 12.50,
+                        "Total": 164.46
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                },
+                {
+                    "PassengerId": "2.1",
+                    "Number": "0272126430211",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 0.00,
+                        "Tax": 151.96,
+                        "Total": 164.46
+                    },
+                    "DisplayNewTicketValue": true,
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        },
+        "Ancillaries":{}
+    },
+    "_comment07": "I will fill it out for purchase with miles.",
+    "FlyAndBuyMiles": {
+        "AdditionalPurchaseInfo": "90,000 miles have been redeemed from Mileage Plan #*****5060."
+    },
+    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+    "CreditInformation": [],
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-04-26T00:00:00",
+            "CardType": "Mastercard",
+            "CardNumber": "************2720",
+            "CardHolderName": "Robert Tester",
+            "Amount": 328.92,
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "PVR",
+        "PickupDateTime": "2020-01-18T16:00:00",
+        "DropoffDateTime": "2019-02-09T07:10:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "PVR",
+            "DateBegin": "2020-01-18T00:00:00",
+            "DateEnd": "2020-02-08T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

@@ -1,0 +1,175 @@
+{
+    "Features": {
+        "IsRefundable": false,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "ResponsysCampaign": "Award",
+        "NoneRevenueType": "None",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": true,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": true,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": true,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": true,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": false,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": false,
+        "CanChangeReservationOnline": false,
+        "IsSeatPurchased": false
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "John",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1"
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "LAX",
+                "Airport": "Los Angeles, CA",
+                "DateTime": "2019-12-31T18:10:00"
+            },
+            "Arrival": {
+                "AirportCode": "MFR",
+                "Airport": "Medford",
+                "DateTime": "2019-12-31T20:16:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "T",
+            "MarketingAirline": {
+                "Code": "AA",
+                "Name": "American",
+                "Number": "3077",
+                "ConfirmationCode": "LLXKFQ"
+            },
+            "OperatingAirline": {
+                "Code": "OO",
+                "Name": "SkyWest",
+                "Number": "3077",
+                "ConfirmationCode": "XLFCPE"
+            },
+            "DisplayAirline": {
+                "Code": "OO",
+                "Name": "SkyWest 3077 (American 3077)"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "Operated By SkyWest Airlines as American Eagle. Confirmation code: XLFCPE",
+            "EquipmentType": "Bombardier CRJ-700",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": []
+        },
+        {
+            "FlightId": "1",
+            "Departure": {
+                "AirportCode": "MFR",
+                "Airport": "Medford",
+                "DateTime": "2019-10-31T20:55:00"
+            },
+            "Arrival": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-10-31T22:33:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "W",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "2272",
+                "ConfirmationCode": "LLXKFQ"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 2272"
+            },
+            "CheckInInfo": "Check in with Alaska Airlines.",
+            "OperatedByDescription": "Operated by.",
+            "EquipmentType": "Bombardier Q400",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": []
+        }
+    ],
+    "Footnotes": [],
+    "SpecialServiceRequests": [],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 18.10,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272139869146",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 0.00,
+                        "Tax": 5.60,
+                        "PartnerAwardBookingFee": 12.50,
+                        "Total": 18.10
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        }
+    },
+    "Ancillaries": {},
+    "_comment07": "I will fill it out for purchase with miles.",
+    "FlyAndBuyMiles": {
+        "AdditionalPurchaseInfo": "12,500 miles have been redeemed from Mileage Plan #****4094."
+    },
+    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+    "CreditInformation": [],
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-12-16T00:00:00",
+            "CardType": "Visa",
+            "CardNumber": "************2146",
+            "CardHolderName": "Mara Tester",
+            "Amount": 18.10,
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "SEA",
+        "PickupDateTime": "2019-12-31T23:33:00",
+        "DropoffDateTime": "2020-01-07T23:33:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "SEA",
+            "DateBegin": "2019-12-13T00:00:00",
+            "DateEnd": "2020-01-03T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

@@ -1,0 +1,180 @@
+{
+    "Features": {
+        "IsRefundable": false,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "ResponsysCampaign": "Award",
+        "NoneRevenueType": "None",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": true,
+        "HasGeneralTravelerAdvisories": false,
+        "HasOtherAirlineSegment": true,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": true,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": true,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": true,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": false,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": true,
+        "CanChangeReservationOnline": false,
+        "IsSeatPurchased": false
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Barkha",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1",
+            "Loyalty": {
+                "CompanyCode": "AS",
+                "ProgramName": "Mileage Plan",
+                "MemberNumber": "*****5785",
+                "TierStatus": "MVP Member"
+                }
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "BNE",
+                "Airport": "Brisbane, Australia",
+                "DateTime": "2019-12-07T11:10:00"
+            },
+            "Arrival": {
+                "AirportCode": "LAX",
+                "Airport": "Los Angeles, CA",
+                "DateTime": "2019-12-07T06:00:00"
+            },
+            "Cabin": "Business",
+            "ClassOfService": "U",
+            "MarketingAirline": {
+                "Code": "QF",
+                "Name": "Qantas",
+                "Number": "15",
+                "ConfirmationCode": "JELRNY"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "QF",
+                "Name": "Qantas 15"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "Confirmation code: J299N5",
+            "EquipmentType": "Boeing 787-9",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": []
+        },
+        {
+            "FlightId": "1",
+            "Departure": {
+                "AirportCode": "LAX",
+                "Airport": "Los Angeles, CA",
+                "DateTime": "2019-12-07T09:35:00"
+            },
+            "Arrival": {
+                "AirportCode": "EWR",
+                "Airport": "Newark-Newark Intl.",
+                "DateTime": "2019-12-07T05:56:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "W",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "546",
+                "ConfirmationCode": "JELRNY"
+            },
+            "OperatingAirline": {},
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 546"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Boeing 737-900",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": []
+        }
+    ],
+    "Footnotes": [
+       {"Symbol": "*",
+        "Message": "For seat assignments, contact the operating airline using the operating airline's confirmation code."
+       }
+    ],
+    "SpecialServiceRequests": [],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 95.93,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272139869146",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 0.00,
+                        "Tax": 83.43,
+                        "PartnerAwardBookingFee": 12.50,
+                        "Total": 95.93
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": 0.0,
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        }
+    },
+    "Ancillaries": {},
+    "_comment07": "I will fill it out for purchase with miles.",
+    "FlyAndBuyMiles": {
+        "AdditionalPurchaseInfo": "55,000 miles have been redeemed from Mileage Plan #*****5785."
+    },
+    "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+    "CreditInformation": [],
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-09-29T00:00:00",
+            "CardType": "American Express",
+            "CardNumber": "************6001",
+            "CardHolderName": "Mara Tester",
+            "Amount": 95.93,
+            "EWalletSubTotalAmount": 0
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "SEA",
+        "PickupDateTime": "2019-12-31T23:33:00",
+        "DropoffDateTime": "2020-01-07T23:33:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "SEA",
+            "DateBegin": "2019-12-13T00:00:00",
+            "DateEnd": "2020-01-03T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

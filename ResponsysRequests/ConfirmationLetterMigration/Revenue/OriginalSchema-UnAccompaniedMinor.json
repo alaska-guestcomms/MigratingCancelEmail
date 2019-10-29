@@ -131,13 +131,13 @@
         }
     ],
     "CarRental": {
-        "PickupLocation": "LAX",
+        "PickupLocation": "SFO",
         "PickupDateTime": "2019-10-09T18:20:00",
         "DropoffDateTime": "2019-10-16T18:20:00"
     },
     "HotelSearch": {
         "Destination": {
-            "CityCode": "LAX",
+            "CityCode": "SFO",
             "DateBegin": "2019-10-09T00:00:00",
             "DateEnd": "2019-10-12T00:00:00"
         }

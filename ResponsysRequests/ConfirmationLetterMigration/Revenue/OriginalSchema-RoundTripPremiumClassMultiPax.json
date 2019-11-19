@@ -207,9 +207,6 @@
                         "FlightSegments": [
                             {
                                 "FlightId": "0"
-                            },
-                            {
-                                "FlightId": "1"
                             }
                         ],
                         "Amount": {
@@ -224,9 +221,6 @@
                         "FlightSegments": [
                             {
                                 "FlightId": "0"
-                            },
-                            {
-                                "FlightId": "1"
                             }
                         ],
                         "Amount": {

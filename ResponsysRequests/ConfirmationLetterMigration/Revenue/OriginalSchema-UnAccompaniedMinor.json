@@ -85,9 +85,13 @@
         }
     ],
     "Footnotes": [],
-    "SpecialServiceRequests": [
+    "SpecialServiceRequests": {
+        "List": [
         "Unaccompanied minor"
-    ],
+        ],
+        "EmotionalSupportAnimal": false,
+        "WheelchairInformationForm": false
+    },
     "BillingSummary": {
         "Fares": {
             "GrandTotalAmount": 68.30,
@@ -112,10 +116,10 @@
                 }
             ]
         },
+        "Ancillaries": {},
         "_comment07": "I will fill it out for purchase with miles.",
         "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though."
     },
-    "Ancillaries": {},
     "_comment07": "I will fill it out for purchase with miles.",
     "FlyAndBuyMiles": {},
     "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",

@@ -60,31 +60,31 @@
                     },
                     {
                         "name": "Passengers",
-                        "value": "[{\"Name\":{\"First\":\"Paula\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"Mileage Plan\",\"MemberNumber\":\"***8793\",\"TierStatus\":\"MVP Gold Member\"}},{\"Name\":{\"First\":\"Scott\",\"Last\":\"Tester\"},\"PassengerId\":\"2.1\",\"Loyalty\":{\"CompanyCode\":\"AS\",\"ProgramName\":\"Mileage Plan\",\"MemberNumber\":\"***6975\",\"TierStatus\":\"MVP Gold Member\"}}]"
+                        "value": "[{\"Name\":{\"First\":\"Tummala\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\"}]"
                     },
                     {
                         "name": "FlightSegments",
-                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland, OR\",\"DateTime\":\"2020-05-03T08:25:00\"},\"Arrival\":{\"AirportCode\":\"HNL\",\"Airport\":\"Honolulu\",\"DateTime\":\"2020-05-03T11:03:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"K\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"889\",\"ConfirmationCode\":\"LLXKFQ\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 889\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-800\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"15E\",\"Type\":\"\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"15D\",\"Type\":\"\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"OGG\",\"Airport\":\"Kahului/Maui\",\"DateTime\":\"2020-05-18T12:30:00\"},\"Arrival\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland, OR\",\"DateTime\":\"2020-05-18T20:55:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"Q\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"898\",\"ConfirmationCode\":\"LLXKFQ\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 898\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-800\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"18D\",\"Type\":\"\"},{\"PassengerId\":\"2.1\",\"Assignment\":\"18E\",\"Type\":\"\"}]}]"
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-12-21T06:00:00\"},\"Arrival\":{\"AirportCode\":\"SJC\",\"Airport\":\"San Jose, CA\",\"DateTime\":\"2019-12-21T08:19:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"K\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"344\",\"ConfirmationCode\":\"BKOWWU\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 344\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"9C\",\"Type\":\"PremiumClass\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"SJC\",\"Airport\":\"San Jose, CA\",\"DateTime\":\"2019-12-21T09:30:00\"},\"Arrival\":{\"AirportCode\":\"SAN\",\"Airport\":\"San Diego\",\"DateTime\":\"2019-12-21T11:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"S\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"1898\",\"ConfirmationCode\":\"BKOWWU\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 1898\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Airbus Series\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"17D\",\"Type\":\"\"}]}]"
                     },
                     {
                         "name": "Footnotes",
-                        "value": "[]"
+                        "value": "[{\"Symbol\":\"★\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
                     },
                     {
                         "name": "BillingSummary",
-                        "value": "{\"Fares\":{\"GrandTotalAmount\":843.62,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139982641\",\"Status\":\"OK\",\"Amount\":{\"Base\":648.57,\"Tax\":48.63,\"Total\":697.2},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272139982642\",\"Status\":\"OK\",\"Amount\":{\"Base\":99,\"Tax\":47.42,\"Total\":146.42},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":348.7,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272126430210\",\"Status\":\"OK\",\"Amount\":{\"Base\":302.98,\"Tax\":45.72,\"Total\":348.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{\"SeatPurchases\":{\"GrandTotalAmount\":118,\"Tickets\":[{\"PassengerId\":\"1.1\",\"FlightSegments\":[{\"FlightId\":\"0\"},{\"FlightId\":\"1\"}],\"Amount\":{\"Base\":59.54,\"Tax\":4.46,\"Total\":64}}]}}}"
                     },
                     {
                         "name": "PaymentInformation",
-                        "value": "[{\"DateTime\":\"2019-09-06T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************1088\",\"CardHolderName\":\"Paula Tester\",\"Amount\":843.62,\"DiscountCode\":\"ECRC201BSTC10723713\",\"EWalletSubTotalAmount\":0}]"
+                        "value": "[{\"DateTime\":\"2019-11-21T00:00:00\",\"CardType\":\"Alaska Airlines Commercial Account card\",\"CardNumber\":\"*******1165\",\"CardHolderName\":\"Tummala Tester\",\"Amount\":412.7,\"EWalletSubTotalAmount\":0}]"
                     },
                     {
                         "name": "CarRental",
-                        "value": "{\"PickupLocation\":\"HNL\",\"PickupDateTime\":\"2020-05-03T12:10:00\",\"DropoffDateTime\":\"2020-05-18T10:30:00\"}"
+                        "value": "{\"PickupLocation\":\"SAN\",\"PickupDateTime\":\"2019-12-21T12:00:00\",\"DropoffDateTime\":\"2019-12-28T12:00:00\"}"
                     },
                     {
                         "name": "HotelSearch",
-                        "value": "{\"Destination\":{\"CityCode\":\"HNL\",\"DateBegin\":\"2020-05-03T00:00:00\",\"DateEnd\":\"2019-05-18T00:00:00\"}}"
+                        "value": "{\"Destination\":{\"CityCode\":\"SAN\",\"DateBegin\":\"2019-12-21T12:00:00\",\"DateEnd\":\"2019-12-24T12:00:00\"}}"
                     },
                     {
                         "name": "Baggage",

@@ -68,11 +68,11 @@
                     },
                     {
                         "name": "Footnotes",
-                        "value": "[{\"Symbol\":\"&starf;\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
+                        "value": "[{\"Symbol\":\"★\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
                     },
                     {
                         "name": "BillingSummary",
-                        "value": "{\"Fares\":{\"GrandTotalAmount\":2191.4,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272126430210\",\"Status\":\"OK\",\"Amount\":{\"Base\":1041.25,\"Tax\":54.45,\"Total\":1095.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272126430211\",\"Status\":\"OK\",\"Amount\":{\"Base\":1041.25,\"Tax\":54.45,\"Total\":1095.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{\"SeatPurchases\":{\"GrandTotalAmount\":118,\"Tickets\":[{\"PassengerId\":\"1.1\",\"FlightSegments\":[{\"FlightId\":\"0\"}],\"Amount\":{\"Base\":58.5,\"Tax\":0.5,\"Total\":59}},{\"PassengerId\":\"2.1\",\"FlightSegments\":[{\"FlightId\":\"0\"}],\"Amount\":{\"Base\":58.5,\"Tax\":0.5,\"Total\":59}}]}}}"
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":2191.4,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272126430210\",\"Status\":\"OK\",\"Amount\":{\"Base\":1041.25,\"Tax\":54.45,\"Total\":1095.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272126430211\",\"Status\":\"OK\",\"Amount\":{\"Base\":1041.25,\"Tax\":54.45,\"Total\":1095.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{\"SeatPurchases\":{\"GrandTotalAmount\":118,\"Tickets\":[{\"PassengerId\":\"1.1\",\"NumberOfSeats\":1,\"FlightSegments\":[{\"FlightId\":\"0\"}],\"Amount\":{\"Base\":58.5,\"Tax\":0.5,\"Total\":59}},{\"PassengerId\":\"2.1\",\"NumberOfSeats\":1,\"FlightSegments\":[{\"FlightId\":\"0\"}],\"Amount\":{\"Base\":58.5,\"Tax\":0.5,\"Total\":59}}]}}}"
                     },
                     {
                         "name": "PaymentInformation",
@@ -92,7 +92,7 @@
                     },
                     {
                         "name": "SpecialServiceRequests",
-                        "value": "[]"
+                        "value": "{}"
                     },
                     {
                         "name": "FlyAndBuyMiles",

@@ -44,7 +44,7 @@
                     },
                     {
                         "name": "ConfirmationCode",
-                        "value": "YYIQKH"
+                        "value": "12345"
                     },
                     {
                         "name": "Type",
@@ -56,7 +56,7 @@
                     },
                     {
                         "name": "Features",
-                        "value": "{\"IsRefundable\":false,\"ResponsysCampaign\":\"Revenue\",\"NoneRevenueType\":\"Revenue\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":false,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"IsSeatPurchased\":true}"
+                        "value": "{\"IsRefundable\":false,\"NoneRevenueType\":\"Revenue\",\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":false,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"IsCanadianAddress\":false,\"HasInternationalStop\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"HasLapInfant\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"IsSeatPurchased\":true}"
                     },
                     {
                         "name": "Passengers",
@@ -64,19 +64,19 @@
                     },
                     {
                         "name": "FlightSegments",
-                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland, OR\",\"DateTime\":\"2019-10-03T07:10:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-10-03T08:10:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"G\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"981\",\"ConfirmationCode\":\"YYIQKH\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 981\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"PremiumClass\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-07-20T10:00:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-10-03T19:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"G\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"907\",\"ConfirmationCode\":\"YYIQKH\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 907\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"PremiumClass\"}]}]"
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland, OR\",\"DateTime\":\"2019-10-03T07:10:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-10-03T08:10:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"G\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"981\",\"ConfirmationCode\":\"YYIQKH\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 981\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"12D\",\"Type\":\"\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-07-20T10:00:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-10-03T19:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"G\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"907\",\"ConfirmationCode\":\"YYIQKH\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 907\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"12E\",\"Type\":\"\"}]}]"
                     },
                     {
                         "name": "Footnotes",
-                        "value": "[{\"Symbol\":\"&starf;\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
+                        "value": "[]"
                     },
                     {
                         "name": "BillingSummary",
-                        "value": "{\"Fares\":{\"GrandTotalAmount\":206.6,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272141344651\",\"Status\":\"OK\",\"Amount\":{\"Base\":165.58,\"Tax\":41.02,\"Total\":206.6},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{},\"FlyAndBuyMiles\":{},\"CreditInformation\":[]}"
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":206.6,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272141344651\",\"Status\":\"OK\",\"Amount\":{\"Base\":165.58,\"Tax\":41.02,\"Total\":206.6},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
                     },
                     {
                         "name": "PaymentInformation",
-						"value": "[{\"DateTime\":\"2019-09-19T00:00:00\",\"CardType\":\"\",\"CardNumber\":\"\",\"CardHolderName\":\"\",\"Amount\":0.0,\"DiscountCode\":\"\",\"EWalletSubTotalAmount\":206.6}]"
+                        "value": "[{\"DateTime\":\"2019-09-19T00:00:00\",\"CreditCardPayment\":{},\"EWalletSubTotalAmount\":206.6}]"
                     },
                     {
                         "name": "CarRental",
@@ -92,7 +92,15 @@
                     },
                     {
                         "name": "SpecialServiceRequests",
-                        "value": "[\"Mobility/wheelchair assistance\",\"Blind/low vision\",\"Deaf/hard of hearing\",\"Blind/Low vision assistance. Advise Customer Service Agent upon arrival at airport\",\"Senior assistance\",\"Developmental disability\",\"Difficulty with English\",\"Animal in hold\",\"Animal in cabin\",\"Emotional support/psychiatric service animal <a href=\\\"https://resource.alaskaair.net/-/media/5B64514919D34AEDA74DC8860BC273AE\\\" target=\\\"_blank\\\">Documentation Required</a>. Documentation must be completed and submitted at least 48 hours before deptarture. <a href=\\\"https://www.alaskaair.com/content/travel-info/accessible-services/specialservices-support-animals\\\" target=\\\"_blank\\\">Learn More</a>. <br/> See agent upon arrival at airport.\"]"
+                        "value": "{\"List\":[\"Mobility or wheelchair assistance\",\"Developmental and/or intellectual disability - assistance through the airport\",\"Blind or low vision – gate assistance\",\"Deaf or hard of hearing – service animal\",\"Does not speak English – gate assistance\",\"Courtesy assistance through the airport\",\"Service animal\"],\"EmotionalSupportAnimal\":true,\"WheelchairInformationForm\":true}"
+                    },
+                    {
+                        "name": "FlyAndBuyMiles",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "CreditInformation",
+                        "value": "[]"
                     }
                 ]
             }

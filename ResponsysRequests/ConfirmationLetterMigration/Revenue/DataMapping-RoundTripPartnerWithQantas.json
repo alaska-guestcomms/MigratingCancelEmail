@@ -44,7 +44,7 @@
                     },
                     {
                         "name": "ConfirmationCode",
-                        "value": "AQWLEN"
+                        "value": "12345"
                     },
                     {
                         "name": "Type",
@@ -64,7 +64,7 @@
                     },
                     {
                         "name": "FlightSegments",
-                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2019-10-27T21:15:00\"},\"Arrival\":{\"AirportCode\":\"MEL\",\"Airport\":\"Melbourne, AU, Australia\",\"DateTime\":\"2019-10-29T06:45:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"R\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"5008\",\"ConfirmationCode\":\"AQWLEN\"},\"OperatingAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas\",\"Number\":\"50\",\"ConfirmationCode\":\"LHBTIE\"},\"DisplayAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas 50 (Alaska 5008)\"},\"CheckInInfo\":\"Check in with Qantas Airways.\",\"OperatedByDescription\":\"Operated By Qantas Airways. Check in with Qantas Airways. Confirmation code: LHBTIE\",\"EquipmentType\":\"Boeing 787-9\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"MEL\",\"Airport\":\"Melbourne, AU, Australia\",\"DateTime\":\"2019-11-02T22:35:00\"},\"Arrival\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2019-11-02T18:45:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"R\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"5009\",\"ConfirmationCode\":\"AQWLEN\"},\"OperatingAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas\",\"Number\":\"49\",\"ConfirmationCode\":\"LHBTIE\"},\"DisplayAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas 49 (Alaska 5009)\"},\"CheckInInfo\":\"Check in with Qantas Airways.\",\"OperatedByDescription\":\"Operated By Qantas Airways. Check in with Qantas Airways. Confirmation code: LHBTIE\",\"EquipmentType\":\"Boeing 787-9\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"PremiumClass\"}]}]"
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2019-10-27T21:15:00\"},\"Arrival\":{\"AirportCode\":\"MEL\",\"Airport\":\"Melbourne, AU, Australia\",\"DateTime\":\"2019-10-29T06:45:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"R\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"5008\",\"ConfirmationCode\":\"AQWLEN\"},\"OperatingAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas\",\"Number\":\"50\",\"ConfirmationCode\":\"LHBTIE\"},\"DisplayAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas 50 (Alaska 5008)\"},\"CheckInInfo\":\"Check in with Qantas Airways.\",\"OperatedByDescription\":\"Operated By Qantas Airways. Check in with Qantas Airways. Confirmation code: LHBTIE\",\"EquipmentType\":\"Boeing 787-9\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"MEL\",\"Airport\":\"Melbourne, AU, Australia\",\"DateTime\":\"2019-11-02T22:35:00\"},\"Arrival\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2019-11-02T18:45:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"R\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"5009\",\"ConfirmationCode\":\"AQWLEN\"},\"OperatingAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas\",\"Number\":\"49\",\"ConfirmationCode\":\"LHBTIE\"},\"DisplayAirline\":{\"Code\":\"QF\",\"Name\":\"Qantas 49 (Alaska 5009)\"},\"CheckInInfo\":\"Check in with Qantas Airways.\",\"OperatedByDescription\":\"Operated By Qantas Airways. Check in with Qantas Airways. Confirmation code: LHBTIE\",\"EquipmentType\":\"Boeing 787-9\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"*\",\"Type\":\"\"}]}]"
                     },
                     {
                         "name": "Footnotes",
@@ -72,7 +72,7 @@
                     },
                     {
                         "name": "BillingSummary",
-                        "value": "{\"Fares\":{\"GrandTotalAmount\":2149.26,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272142408356\",\"Status\":\"OK\",\"Amount\":{\"Base\":939,\"Tax\":135.63,\"Total\":1074.63},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272142408357\",\"Status\":\"OK\",\"Amount\":{\"Base\":939,\"Tax\":135.63,\"Total\":1074.63},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{},\"FlyAndBuyMiles\":{},\"CreditInformation\":[]}"
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":2149.26,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272142408356\",\"Status\":\"OK\",\"Amount\":{\"Base\":939,\"Tax\":135.63,\"Total\":1074.63},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}},{\"PassengerId\":\"2.1\",\"Number\":\"0272142408357\",\"Status\":\"OK\",\"Amount\":{\"Base\":939,\"Tax\":135.63,\"Total\":1074.63},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":\"\",\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
                     },
                     {
                         "name": "PaymentInformation",
@@ -92,6 +92,14 @@
                     },
                     {
                         "name": "SpecialServiceRequests",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "FlyAndBuyMiles",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "CreditInformation",
                         "value": "[]"
                     }
                 ]

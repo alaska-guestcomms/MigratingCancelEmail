@@ -39,132 +39,108 @@
     "Passengers": [
         {
             "Name": {
-                "First": "Paula",
+                "First": "Tummala",
                 "Last": "Tester"
             },
-            "PassengerId": "1.1",
-            "Loyalty": {
-                "CompanyCode": "AS",
-                "ProgramName": "Mileage Plan",
-                "MemberNumber": "***8793",
-                "TierStatus": "MVP Gold Member"
-                }
-        },
-        {
-            "Name": {
-                "First": "Scott",
-                "Last": "Tester"
-            },
-            "PassengerId": "2.1",
-            "Loyalty": {
-                "CompanyCode": "AS",
-                "ProgramName": "Mileage Plan",
-                "MemberNumber": "***6975",
-                "TierStatus": "MVP Gold Member"
-                } 
+            "PassengerId": "1.1"
         }
     ],
     "FlightSegments": [
         {
             "FlightId": "0",
             "Departure": {
-                "AirportCode": "PDX",
-                "Airport": "Portland, OR",
-                "DateTime": "2020-05-03T08:25:00"
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-12-21T06:00:00"
             },
             "Arrival": {
-                "AirportCode": "HNL",
-                "Airport": "Honolulu",
-                "DateTime": "2020-05-03T11:03:00"
+                "AirportCode": "SJC",
+                "Airport": "San Jose, CA",
+                "DateTime": "2019-12-21T08:19:00"
             },
             "Cabin": "Coach",
             "ClassOfService": "K",
             "MarketingAirline": {
                 "Code": "AS",
                 "Name": "Alaska",
-                "Number": "889",
-                "ConfirmationCode": "LLXKFQ"
+                "Number": "344",
+                "ConfirmationCode": "BKOWWU"
             },
             "OperatingAirline": {},
             "DisplayAirline": {
                 "Code": "AS",
-                "Name": "Alaska 889"
+                "Name": "Alaska 344"
             },
             "CheckInInfo": "",
             "OperatedByDescription": "",
-            "EquipmentType": "Boeing 737-800",
+            "EquipmentType": "Boeing 737-900",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "Assignment": "15E",
-                    "Type": ""
-                },
-                {
-                    "PassengerId": "2.1",
-                    "Assignment": "15D",
-                    "Type": ""
+                    "Assignment": "9C",
+                    "Type": "PremiumClass"
                 }
             ]
         },
         {
             "FlightId": "1",
             "Departure": {
-                "AirportCode": "OGG",
-                "Airport": "Kahului/Maui",
-                "DateTime": "2020-05-18T12:30:00"
+                "AirportCode": "SJC",
+                "Airport": "San Jose, CA",
+                "DateTime": "2019-12-21T09:30:00"
             },
             "Arrival": {
-                "AirportCode": "PDX",
-                "Airport": "Portland, OR",
-                "DateTime": "2020-05-18T20:55:00"
+                "AirportCode": "SAN",
+                "Airport": "San Diego",
+                "DateTime": "2019-12-21T11:00:00"
             },
             "Cabin": "Coach",
-            "ClassOfService": "Q",
+            "ClassOfService": "S",
             "MarketingAirline": {
                 "Code": "AS",
                 "Name": "Alaska",
-                "Number": "898",
-                "ConfirmationCode": "LLXKFQ"
+                "Number": "1898",
+                "ConfirmationCode": "BKOWWU"
             },
             "OperatingAirline": {},
             "DisplayAirline": {
                 "Code": "AS",
-                "Name": "Alaska 898"
+                "Name": "Alaska 1898"
             },
             "CheckInInfo": "",
             "OperatedByDescription": "",
-            "EquipmentType": "Boeing 737-800",
+            "EquipmentType": "Airbus Series",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "Assignment": "18D",
-                    "Type": ""
-                },
-                {
-                    "PassengerId": "2.1",
-                    "Assignment": "18E",
-                    "Type": ""
+                    "Assignment": "17D",
+                    "Type": "PremiumClass"
                 }
             ]
         }
     ],
-    "Footnotes": [],
+    "Footnotes": [
+        {
+            "Symbol": "★",
+            "Message": "Premium Class seat has been selected for this flight."
+        }
+    ],
     "SpecialServiceRequests": {},
     "BillingSummary": {
         "Fares": {
-            "GrandTotalAmount": 843.62,
+            "GrandTotalAmount": 348.70,
             "Tickets": [
                 {
                     "_comment01": "Status can be OK (or Refunded).",
                     "PassengerId": "1.1",
-                    "Number": "0272139982641",
+                    "Number": "0272126430210",
                     "Status": "OK",
                     "Amount": {
-                        "Base": 648.57,
-                        "Tax": 48.63,
-                        "Total": 697.20
+                        "Base": 302.98,
+                        "Tax": 45.72,
+                        "Total": 348.70
                     },
                     "DisplayNewTicketValue": true,
                     "_comment02": "Additional due can be if not needed.",
@@ -173,25 +149,34 @@
                         "Amount": 0.0,
                         "ExchangedTicketNumber": ""
                     }
-                },
-                {
-                    "PassengerId": "2.1",
-                    "Number": "0272139982642",
-                    "Status": "OK",
-                    "Amount": {
-                        "Base": 99.00,
-                        "Tax": 47.42,
-                        "Total": 146.42
-                    },
-                    "DisplayNewTicketValue": true,
-                    "AdditionalDue": {
-                        "Amount": 0.0,
-                        "ExchangedTicketNumber": ""
-                    }
                 }
             ]
         },
-        "Ancillaries": {}
+        "Ancillaries": {
+            "_comment08": "SeatPurchase can be empty for a while.",
+            "SeatPurchases": {
+                "GrandTotalAmount": 118.00,
+                "Tickets": [
+                    {
+                        "PassengerId": "1.1",
+                        "_comment10": "FlightId in FlightSegments",
+                        "FlightSegments": [
+                            {
+                                "FlightId": "0"
+                            },
+							{
+                                "FlightId": "1"
+                            }
+                        ],
+                        "Amount": {
+                            "Base": 59.54,
+                            "Tax": 4.46,
+                            "Total": 64.00
+                        }
+                    }
+                ]
+            }
+        }
     },
     "_comment07": "I will fill it out for purchase with miles.",
     "FlyAndBuyMiles": {},
@@ -199,25 +184,24 @@
     "CreditInformation": [],
     "PaymentInformation": [
         {
-            "DateTime": "2019-09-06T00:00:00",
-            "CardType": "Visa",
-            "CardNumber": "************1088",
-            "CardHolderName": "Paula Tester",
-            "Amount": 843.62,
-            "DiscountCode": "ECRC201BSTC10723713",
+            "DateTime": "2019-11-21T00:00:00",
+            "CardType": "Alaska Airlines Commercial Account card",
+            "CardNumber": "*******1165",
+            "CardHolderName": "Tummala Tester",
+            "Amount": 412.70,
             "EWalletSubTotalAmount": 0
         }
     ],
     "CarRental": {
-        "PickupLocation": "HNL",
-        "PickupDateTime": "2020-05-03T12:10:00",
-        "DropoffDateTime": "2020-05-18T10:30:00"
+        "PickupLocation": "SAN",
+        "PickupDateTime": "2019-12-21T12:00:00",
+        "DropoffDateTime": "2019-12-28T12:00:00"
     },
     "HotelSearch": {
         "Destination": {
-            "CityCode": "HNL",
-            "DateBegin": "2020-05-03T00:00:00",
-            "DateEnd": "2019-05-18T00:00:00"
+            "CityCode": "SAN",
+            "DateBegin": "2019-12-21T12:00:00",
+            "DateEnd": "2019-12-24T12:00:00"
         }
     },
     "Baggage": {}

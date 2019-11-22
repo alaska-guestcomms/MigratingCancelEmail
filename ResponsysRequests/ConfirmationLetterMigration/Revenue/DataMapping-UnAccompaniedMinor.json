@@ -44,7 +44,7 @@
                     },
                     {
                         "name": "ConfirmationCode",
-                        "value": "XCVRMW"
+                        "value": "12345"
                     },
                     {
                         "name": "Type",
@@ -72,11 +72,11 @@
                     },
                     {
                         "name": "BillingSummary",
-                        "value": "{\"Fares\":{\"GrandTotalAmount\":68.3,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272140200921\",\"Status\":\"OK\",\"Amount\":{\"Base\":50.23,\"Tax\":18.07,\"Total\":68.3},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]}}"
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":68.3,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272140200921\",\"Status\":\"OK\",\"Amount\":{\"Base\":50.23,\"Tax\":18.07,\"Total\":68.3},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
                     },
                     {
                         "name": "PaymentInformation",
-                        "value": "[{\"DateTime\":\"2019-09-08T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************8879\",\"CardHolderName\":\"Gina Tester\",\"Amount\":68.3,\"DiscountCode\":\"\",\"EWalletSubTotalAmount\":0}]"
+                        "value": "[{\"DateTime\":\"2019-09-08T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************8879\",\"CardHolderName\":\"Gina Tester\",\"Amount\":68.3,\"EWalletSubTotalAmount\":0}]"
                     },
                     {
                         "name": "CarRental",
@@ -92,11 +92,7 @@
                     },
                     {
                         "name": "SpecialServiceRequests",
-                        "value": "[\"Unaccompanied minor\"]"
-                    },
-                    {
-                        "name": "Ancillaries",
-                        "value": "{}"
+                        "value": "{\"List\":[\"Unaccompanied minor\"],\"EmotionalSupportAnimal\":false,\"WheelchairInformationForm\":false}"
                     },
                     {
                         "name": "FlyAndBuyMiles",

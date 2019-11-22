@@ -110,7 +110,7 @@
         }
     ],
     "Footnotes": [],
-    "SpecialServiceRequests": [],
+    "SpecialServiceRequests": {},
     "BillingSummary": {
         "Fares": {
             "GrandTotalAmount": 329.56,
@@ -134,9 +134,9 @@
                     }
                 }
             ]
-        }
+        },
+        "Ancillaries": {}
     },
-    "Ancillaries": {},
     "_comment07": "I will fill it out for purchase with miles.",
     "FlyAndBuyMiles": {},
     "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",

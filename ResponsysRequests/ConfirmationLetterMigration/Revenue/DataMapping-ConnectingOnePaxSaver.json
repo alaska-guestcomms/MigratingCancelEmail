@@ -44,7 +44,7 @@
                     },
                     {
                         "name": "ConfirmationCode",
-                        "value": "KFQQIX"
+                        "value": "12345"
                     },
                     {
                         "name": "Type",
@@ -72,11 +72,11 @@
                     },
                     {
                         "name": "BillingSummary",
-                        "value": "{\"Fares\":{\"GrandTotalAmount\":329.56,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139869146\",\"Status\":\"OK\",\"Amount\":{\"Base\":294.66,\"Tax\":34.9,\"Total\":329.56},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]}}"
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":329.56,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139869146\",\"Status\":\"OK\",\"Amount\":{\"Base\":294.66,\"Tax\":34.9,\"Total\":329.56},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
                     },
                     {
                         "name": "PaymentInformation",
-                        "value": "[{\"DateTime\":\"2019-09-05T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************8962\",\"CardHolderName\":\"Andrew Tester\",\"Amount\":329.56,\"DiscountCode\":\"\",\"EWalletSubTotalAmount\":0}]"
+                        "value": "[{\"DateTime\":\"2019-09-05T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************8962\",\"CardHolderName\":\"Andrew Tester\",\"Amount\":329.56,\"EWalletSubTotalAmount\":0}]"
                     },
                     {
                         "name": "CarRental",
@@ -92,10 +92,6 @@
                     },
                     {
                         "name": "SpecialServiceRequests",
-                        "value": "[]"
-                    },
-                    {
-                        "name": "Ancillaries",
                         "value": "{}"
                     },
                     {

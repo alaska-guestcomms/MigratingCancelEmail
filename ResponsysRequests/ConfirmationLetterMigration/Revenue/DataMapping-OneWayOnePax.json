@@ -44,7 +44,7 @@
                     },
                     {
                         "name": "ConfirmationCode",
-                        "value": "KEMXAS"
+                        "value": "12345"
                     },
                     {
                         "name": "Type",
@@ -72,7 +72,7 @@
                     },
                     {
                         "name": "BillingSummary",
-                        "value": "{\"Fares\":{\"GrandTotalAmount\":73.3,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139871278\",\"Status\":\"OK\",\"Amount\":{\"Base\":54.88,\"Tax\":18.42,\"Total\":73.3},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]}}"
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":73.3,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272139871278\",\"Status\":\"OK\",\"Amount\":{\"Base\":54.88,\"Tax\":18.42,\"Total\":73.3},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
                     },
                     {
                         "name": "PaymentInformation",
@@ -92,10 +92,6 @@
                     },
                     {
                         "name": "SpecialServiceRequests",
-                        "value": "[]"
-                    },
-                    {
-                        "name": "Ancillaries",
                         "value": "{}"
                     },
                     {

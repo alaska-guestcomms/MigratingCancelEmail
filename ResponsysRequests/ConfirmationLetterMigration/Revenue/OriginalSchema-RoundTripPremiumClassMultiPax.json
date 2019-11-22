@@ -156,7 +156,7 @@
             "Message": "Premium Class seat has been selected for this flight."
         }
     ],
-    "SpecialServiceRequests": [],
+    "SpecialServiceRequests": {},
     "BillingSummary": {
         "Fares": {
             "GrandTotalAmount": 2191.40,
@@ -204,6 +204,7 @@
                     {
                         "PassengerId": "1.1",
                         "_comment10": "FlightId in FlightSegments",
+                        "NumberOfSeats": 1,
                         "FlightSegments": [
                             {
                                 "FlightId": "0"
@@ -218,6 +219,7 @@
                     {
                         "PassengerId": "2.1",
                         "_comment10": "FlightId in FlightSegments",
+                        "NumberOfSeats": 1,
                         "FlightSegments": [
                             {
                                 "FlightId": "0"

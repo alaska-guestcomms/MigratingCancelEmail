@@ -83,8 +83,8 @@
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "Assignment": "*",
-                    "Type": "PremiumClass"
+                    "Assignment": "12D",
+                    "Type": ""
                 }
             ]
         },
@@ -120,27 +120,26 @@
             "Seats": [
                 {
                     "PassengerId": "1.1",
-                    "Assignment": "*",
-                    "Type": "PremiumClass"
+                    "Assignment": "12E",
+                    "Type": ""
                 }
             ]
         }
     ],
-    "Footnotes": [
-        { "Symbol": "&starf;", "Message": "Premium Class seat has been selected for this flight."}
-    ],
-    "SpecialServiceRequests": [
-        "Mobility/wheelchair assistance",
-        "Blind/low vision",
-        "Deaf/hard of hearing",
-        "Blind/Low vision assistance. Advise Customer Service Agent upon arrival at airport",
-        "Senior assistance",
-        "Developmental disability",
-        "Difficulty with English",
-        "Animal in hold",
-        "Animal in cabin",
-        "Emotional support/psychiatric service animal <a href=\"https://resource.alaskaair.net/-/media/5B64514919D34AEDA74DC8860BC273AE\" target=\"_blank\">Documentation Required</a>. Documentation must be completed and submitted at least 48 hours before deptarture. <a href=\"https://www.alaskaair.com/content/travel-info/accessible-services/specialservices-support-animals\" target=\"_blank\">Learn More</a>. <br/> See agent upon arrival at airport."
-    ],
+    "Footnotes": [],
+    "SpecialServiceRequests": {
+        "List":[
+            "Mobility or wheelchair assistance",
+            "Developmental and/or intellectual disability - assistance through the airport",
+            "Blind or low vision – gate assistance",
+            "Deaf or hard of hearing – service animal",
+            "Does not speak English – gate assistance",
+            "Courtesy assistance through the airport",
+            "Service animal"
+        ],
+        "EmotionalSupportAnimal": true,
+        "WheelchairInformationForm": true
+    },
     "BillingSummary": {
         "Fares": {
             "GrandTotalAmount": 206.60,
@@ -165,12 +164,12 @@
                 }
             ]
         },
-        "Ancillaries": {},
+        "Ancillaries": {}
+    },
         "_comment07": "I will fill it out for purchase with miles.",
         "FlyAndBuyMiles": {},
         "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
-        "CreditInformation": []
-    },
+        "CreditInformation": [],
     "PaymentInformation": [
         {
             "DateTime": "2019-09-19T00:00:00",

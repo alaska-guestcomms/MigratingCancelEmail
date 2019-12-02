@@ -76,7 +76,7 @@
                     },
                     {
                         "name": "PaymentInformation",
-                        "value": "[{\"DateTime\":\"2019-09-30T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************3544\",\"CardHolderName\":\"Adam Tester\",\"Amount\":2149.26,\"DiscountCode\":\"\",\"EWalletSubTotalAmount\":0}]"
+                        "value": "[{\"DateTime\":\"2019-09-30T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"************3544\",\"CardHolderName\":\"Adam Tester\",\"Amount\":2149.26,\"DiscountCode\":\"\"}]"
                     },
                     {
                         "name": "CarRental",

@@ -64,7 +64,7 @@
                     },
                     {
                         "name": "FlightSegments",
-                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-12-21T06:00:00\"},\"Arrival\":{\"AirportCode\":\"SJC\",\"Airport\":\"San Jose, CA\",\"DateTime\":\"2019-12-21T08:19:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"K\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"344\",\"ConfirmationCode\":\"BKOWWU\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 344\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"9C\",\"Type\":\"PremiumClass\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"SJC\",\"Airport\":\"San Jose, CA\",\"DateTime\":\"2019-12-21T09:30:00\"},\"Arrival\":{\"AirportCode\":\"SAN\",\"Airport\":\"San Diego\",\"DateTime\":\"2019-12-21T11:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"S\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"1898\",\"ConfirmationCode\":\"BKOWWU\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 1898\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Airbus Series\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"17D\",\"Type\":\"\"}]}]"
+                        "value": "[{\"FlightId\":\"0\",\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2019-12-21T06:00:00\"},\"Arrival\":{\"AirportCode\":\"SJC\",\"Airport\":\"San Jose, CA\",\"DateTime\":\"2019-12-21T08:19:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"K\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"344\",\"ConfirmationCode\":\"BKOWWU\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 344\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Boeing 737-900\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"9C\",\"Type\":\"PremiumClass\"}]},{\"FlightId\":\"1\",\"Departure\":{\"AirportCode\":\"SJC\",\"Airport\":\"San Jose, CA\",\"DateTime\":\"2019-12-21T09:30:00\"},\"Arrival\":{\"AirportCode\":\"SAN\",\"Airport\":\"San Diego\",\"DateTime\":\"2019-12-21T11:00:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"S\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"1898\",\"ConfirmationCode\":\"BKOWWU\"},\"OperatingAirline\":{},\"DisplayAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska 1898\"},\"CheckInInfo\":\"\",\"OperatedByDescription\":\"\",\"EquipmentType\":\"Airbus Series\",\"Seats\":[{\"PassengerId\":\"1.1\",\"Assignment\":\"17D\",\"Type\":\"PremiumClass\"}]}]"
                     },
                     {
                         "name": "Footnotes",
@@ -76,7 +76,7 @@
                     },
                     {
                         "name": "PaymentInformation",
-                        "value": "[{\"DateTime\":\"2019-11-21T00:00:00\",\"CardType\":\"Alaska Airlines Commercial Account card\",\"CardNumber\":\"*******1165\",\"CardHolderName\":\"Tummala Tester\",\"Amount\":412.7,\"EWalletSubTotalAmount\":0}]"
+                        "value": "[{\"DateTime\":\"2019-11-21T00:00:00\",\"CardType\":\"Alaska Airlines Commercial Account card\",\"CardNumber\":\"*******1165\",\"CardHolderName\":\"Tummala Tester\",\"Amount\":412.7}]"
                     },
                     {
                         "name": "CarRental",

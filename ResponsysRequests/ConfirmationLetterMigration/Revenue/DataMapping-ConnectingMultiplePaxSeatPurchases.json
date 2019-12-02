@@ -76,7 +76,7 @@
                     },
                     {
                         "name": "PaymentInformation",
-                        "value": "[{\"DateTime\":\"2019-11-21T00:00:00\",\"CardType\":\"Alaska Airlines Commercial Account card\",\"CardNumber\":\"*******1165\",\"CardHolderName\":\"Tummala Tester\",\"Amount\":768.02,\"EWalletSubTotalAmount\":0}]"
+                        "value": "[{\"DateTime\":\"2019-11-21T00:00:00\",\"CardType\":\"Alaska Airlines Commercial Account card\",\"CardNumber\":\"*******1165\",\"CardHolderName\":\"Tummala Tester\",\"Amount\":768.02}]"
                     },
                     {
                         "name": "CarRental",

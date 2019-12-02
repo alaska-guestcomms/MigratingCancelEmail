@@ -155,7 +155,7 @@
         "Ancillaries": {
             "_comment08": "SeatPurchase can be empty for a while.",
             "SeatPurchases": {
-                "GrandTotalAmount": 118.00,
+                "GrandTotalAmount": 128.00,
                 "Tickets": [
                     {
                         "PassengerId": "1.1",

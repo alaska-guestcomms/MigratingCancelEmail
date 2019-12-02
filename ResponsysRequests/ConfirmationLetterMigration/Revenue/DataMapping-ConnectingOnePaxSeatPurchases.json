@@ -72,7 +72,7 @@
                     },
                     {
                         "name": "BillingSummary",
-                        "value": "{\"Fares\":{\"GrandTotalAmount\":348.7,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272126430210\",\"Status\":\"OK\",\"Amount\":{\"Base\":302.98,\"Tax\":45.72,\"Total\":348.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{\"SeatPurchases\":{\"GrandTotalAmount\":118,\"Tickets\":[{\"PassengerId\":\"1.1\",\"NumberOfSeats\":2,\"Amount\":{\"Base\":59.54,\"Tax\":4.46,\"Total\":64}}]}}}"
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":348.7,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272126430210\",\"Status\":\"OK\",\"Amount\":{\"Base\":302.98,\"Tax\":45.72,\"Total\":348.7},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{\"SeatPurchases\":{\"GrandTotalAmount\":128,\"Tickets\":[{\"PassengerId\":\"1.1\",\"NumberOfSeats\":2,\"Amount\":{\"Base\":59.54,\"Tax\":4.46,\"Total\":64}}]}}}"
                     },
                     {
                         "name": "PaymentInformation",

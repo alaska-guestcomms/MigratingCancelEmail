@@ -45,9 +45,9 @@
             "PassengerId": "1.1",
             "Loyalty": {
                 "CompanyCode": "AS",
-                "ProgramName": "Mileage Plan",
+                "ProgramName": "Alaska",
                 "MemberNumber": "*****5491",
-                "TierStatus": "MVP Member"
+                "TierStatus": "MVP"
                 }
         },
         {
@@ -58,9 +58,9 @@
             "PassengerId": "2.1",
             "Loyalty": {
                 "CompanyCode": "AS",
-                "ProgramName": "Mileage Plan",
+                "ProgramName": "Alaska",
                 "MemberNumber": "*****5841",
-                "TierStatus": "MVP Member"
+                "TierStatus": "MVP"
                 }
         }
     ],

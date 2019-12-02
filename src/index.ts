@@ -12,7 +12,7 @@ var currentMode = MODE.CONFIRMATIONLETTERDATAMAPPING
 
 if (currentMode === MODE.CONFIRMATIONLETTERDATAMAPPING)
 {
-    var scenarioName = 'RoundTripPremiumClassMultiPax';
+    var scenarioName = 'ConnectingMultiplePaxSeatPurchases';
     var originalSchemaFileName = `./ResponsysRequests/ConfirmationLetterMigration/Revenue/OriginalSchema-${scenarioName}.json`;
     var payloadTemplate = `./ResponsysRequests/ConfirmationLetterMigration/DataMapping.json`;
     var targetPayload = `./ResponsysRequests/ConfirmationLetterMigration/Revenue/DataMapping-${scenarioName}.json`;

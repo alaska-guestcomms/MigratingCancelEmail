@@ -205,11 +205,6 @@
                         "PassengerId": "1.1",
                         "_comment10": "FlightId in FlightSegments",
                         "NumberOfSeats": 1,
-                        "FlightSegments": [
-                            {
-                                "FlightId": "0"
-                            }
-                        ],
                         "Amount": {
                             "Base": 58.50,
                             "Tax": 0.50,
@@ -220,11 +215,6 @@
                         "PassengerId": "2.1",
                         "_comment10": "FlightId in FlightSegments",
                         "NumberOfSeats": 1,
-                        "FlightSegments": [
-                            {
-                                "FlightId": "0"
-                            }
-                        ],
                         "Amount": {
                             "Base": 58.50,
                             "Tax": 0.50,

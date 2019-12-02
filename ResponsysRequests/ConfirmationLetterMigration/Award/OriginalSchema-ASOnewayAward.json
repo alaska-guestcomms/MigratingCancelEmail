@@ -131,8 +131,7 @@
             "CardNumber": "************1287",
             "CardHolderName": "Asia Tester",
             "Amount": 5.60,
-            "DiscountCode": "",
-            "EWalletSubTotalAmount": 0
+            "DiscountCode": ""
         }
     ],
 

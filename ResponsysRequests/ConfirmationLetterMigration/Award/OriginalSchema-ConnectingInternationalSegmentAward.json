@@ -160,8 +160,7 @@
             "CardType": "American Express",
             "CardNumber": "************6001",
             "CardHolderName": "Mara Tester",
-            "Amount": 95.93,
-            "EWalletSubTotalAmount": 0
+            "Amount": 95.93
         }
     ],
     "CarRental": {

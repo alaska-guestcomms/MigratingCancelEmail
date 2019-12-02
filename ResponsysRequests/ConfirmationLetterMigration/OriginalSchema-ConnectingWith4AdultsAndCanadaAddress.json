@@ -258,8 +258,7 @@
             "CardNumber": "************5598",
             "CardHolderName": "Mashere Tester",
             "Amount": 255.96,
-            "DiscountCode": "0272139438322",
-            "EWalletSubTotalAmount": 0
+            "DiscountCode": "0272139438322"
         }
     ],
     "CarRental": {

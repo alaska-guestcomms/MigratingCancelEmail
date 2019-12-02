@@ -202,8 +202,7 @@
             "CardNumber": "************3544",
             "CardHolderName": "Adam Tester",
             "Amount": 2149.26,
-            "DiscountCode": "",
-            "EWalletSubTotalAmount": 0
+            "DiscountCode": ""
         }
     ],
     "CarRental": {

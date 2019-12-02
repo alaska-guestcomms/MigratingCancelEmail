@@ -246,8 +246,7 @@
             "CardNumber": "************1111",
             "CardHolderName": "Insik Tester",
             "Amount": 1197.2,
-            "DiscountCode": "ECGP1XTDT1688402",
-            "EWalletSubTotalAmount": 0
+            "DiscountCode": "ECGP1XTDT1688402"
         }
     ],
     "CarRental": {

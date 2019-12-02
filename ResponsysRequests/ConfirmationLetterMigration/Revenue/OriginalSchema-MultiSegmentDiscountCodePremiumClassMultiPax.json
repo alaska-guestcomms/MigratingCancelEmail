@@ -204,8 +204,7 @@
             "CardNumber": "************1088",
             "CardHolderName": "Paula Tester",
             "Amount": 843.62,
-            "DiscountCode": "ECRC201BSTC10723713",
-            "EWalletSubTotalAmount": 0
+            "DiscountCode": "ECRC201BSTC10723713"
         }
     ],
     "CarRental": {

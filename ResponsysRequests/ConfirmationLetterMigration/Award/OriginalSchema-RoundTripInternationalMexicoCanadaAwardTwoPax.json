@@ -310,8 +310,7 @@
             "CardType": "Mastercard",
             "CardNumber": "************2720",
             "CardHolderName": "Robert Tester",
-            "Amount": 328.92,
-            "EWalletSubTotalAmount": 0
+            "Amount": 328.92
         }
     ],
     "CarRental": {

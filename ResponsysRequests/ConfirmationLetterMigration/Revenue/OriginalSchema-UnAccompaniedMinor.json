@@ -130,8 +130,7 @@
             "CardType": "Visa",
             "CardNumber": "************8879",
             "CardHolderName": "Gina Tester",
-            "Amount": 68.30,
-            "EWalletSubTotalAmount": 0
+            "Amount": 68.30
         }
     ],
     "CarRental": {

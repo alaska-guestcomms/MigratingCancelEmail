@@ -155,8 +155,7 @@
             "CardType": "Visa",
             "CardNumber": "************2146",
             "CardHolderName": "Mara Tester",
-            "Amount": 18.10,
-            "EWalletSubTotalAmount": 0
+            "Amount": 18.10
         }
     ],
     "CarRental": {

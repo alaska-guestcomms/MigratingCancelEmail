@@ -173,7 +173,16 @@
     "PaymentInformation": [
         {
             "DateTime": "2019-09-19T00:00:00",
-            "EWalletAmount": 206.60
+            "CardType": "Visa",
+            "CardNumber": "************6144",
+            "CardHolderName": "Insik Tester",
+            "Amount": 104.60,
+            "DiscountCode": ""
+        },
+        {
+            "DateTime": "2019-09-19T00:00:00",
+            "GiftCertificates": [ "****AAAA", "****BBBB", "****CCCC" ],
+            "GiftCertificatesAmount": 102.00 
         }
     ],
     "CarRental": {

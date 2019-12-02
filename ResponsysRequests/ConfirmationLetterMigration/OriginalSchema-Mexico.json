@@ -123,8 +123,7 @@
             "CardNumber": "************1111",
             "CardHolderName": "Jose Tester",
             "Amount": 127.48,
-            "DiscountCode": "ECGP1RXWD2017033",
-            "EWalletSubTotalAmount": 0
+            "DiscountCode": "ECGP1RXWD2017033"
         }
     ],
     "CarRental": {

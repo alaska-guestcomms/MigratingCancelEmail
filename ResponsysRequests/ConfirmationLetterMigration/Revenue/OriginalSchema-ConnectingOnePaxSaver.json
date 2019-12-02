@@ -147,8 +147,7 @@
             "CardType": "Visa",
             "CardNumber": "************8962",
             "CardHolderName": "Andrew Tester",
-            "Amount": 329.56,
-            "EWalletSubTotalAmount": 0
+            "Amount": 329.56
         }
     ],
     "CarRental": {

@@ -130,8 +130,7 @@
             "CardNumber": "************1111",
             "CardHolderName": "Jassmin Tester",
             "Amount": 73.27,
-            "DiscountCode": "ECGP1FXWP2028061",
-            "EWalletSubTotalAmount": 0
+            "DiscountCode": "ECGP1FXWP2028061"
         }
     ],
     "CarRental": {

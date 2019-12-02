@@ -160,8 +160,7 @@
             "CardNumber": "************0273",
             "CardHolderName": "Bert Tester",
             "Amount": 74.60,
-            "DiscountCode": "ECGP1NXFK2023939",
-            "EWalletSubTotalAmount": 0
+            "DiscountCode": "ECGP1NXFK2023939"
         }
     ],
     "CarRental": {

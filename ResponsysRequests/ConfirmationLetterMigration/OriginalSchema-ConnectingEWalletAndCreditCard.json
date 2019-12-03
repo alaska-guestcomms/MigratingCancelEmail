@@ -1,0 +1,183 @@
+{
+    "Features": {
+        "IsRefundable": true,
+        "_comment07": "NoneRevenueType can be None or GuestPass",
+        "NoneRevenueType": "GuestPass",
+        "HasMexicanSegment": false,
+        "HasCanadianSegment": false,
+        "HasLAXSegment": false,
+        "HasGeneralTravelerAdvisories": true,
+        "HasOtherAirlineSegment": false,
+        "HasAlaskaAirlinesSegment": true,
+        "HasHorizonAirSegment": false,
+        "HasDeltaOrNorthwestSegment": false,
+        "AreAllSegmentsOtherAirlines": false,
+        "HasPennAirSegment": false,
+        "HasAeromexicoSegment": false,
+        "HasQantasAirSegment": false,
+        "HasFijiAirSegment": false,
+        "HasKoreanAirSegment": false,
+        "HasLanAirSegment": false,
+        "HasUnaccompaniedMinor": false,
+        "SomeSeatsNotSelected": true,
+        "HasSegmentWithOpenSeatingCarrier": false,
+        "IsPartnerAward": false,
+        "IsASQXAward": false,
+        "IsCanadianAddress": false,
+        "HasInternationalStop": false,
+        "WetLeaseCheckInRequired": false,
+        "_comment06": "Trip insurance url is needed.",
+        "TripInsurancePurchased": false,
+        "HasLapInfant": false,
+        "IsSaverFare": false,
+        "IsReservationNonChangeable": false,
+        "IsInternationalItinerary": false,
+        "CanChangeReservationOnline": true,
+        "IsSeatPurchased": false
+    },
+    "Passengers": [
+        {
+            "Name": {
+                "First": "Chance",
+                "Last": "Tester"
+            },
+            "PassengerId": "1.1"
+        }
+    ],
+    "FlightSegments": [
+        {
+            "FlightId": "0",
+            "Departure": {
+                "AirportCode": "ALW",
+                "Airport": "Walla Walla",
+                "DateTime": "2019-09-03T13:30:00"
+            },
+            "Arrival": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-09-03T15:35:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "Y",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "2031",
+                "ConfirmationCode": "CBIWBB"
+            },
+            "OperatingAirline": "",
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 2031"
+            },
+            "CheckInInfo": "Check in with Alaska Airlines.",
+            "OperatedByDescription": "Flight Operated By Horizon Air as AlaskaHorizon.",
+            "EquipmentType": "Bombardier Q400",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "*",
+                    "Type": ""
+                }
+            ]
+        },
+        {
+            "FlightId": "1",
+            "Departure": {
+                "AirportCode": "SEA",
+                "Airport": "Seattle",
+                "DateTime": "2019-09-03T18:35:00"
+            },
+            "Arrival": {
+                "AirportCode": "ABQ",
+                "Airport": "Albuquerque",
+                "DateTime": "2019-09-03T22:30:00"
+            },
+            "Cabin": "Coach",
+            "ClassOfService": "Y",
+            "MarketingAirline": {
+                "Code": "AS",
+                "Name": "Alaska",
+                "Number": "1111",
+                "ConfirmationCode": "CBIWBB"
+            },
+            "OperatingAirline": "",
+            "DisplayAirline": {
+                "Code": "AS",
+                "Name": "Alaska 1111"
+            },
+            "CheckInInfo": "",
+            "OperatedByDescription": "",
+            "EquipmentType": "Airbus Series",
+            "_comment13": "find Travelers associated with PassengerID",
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "*",
+                    "Type": ""
+                }
+            ]
+        }
+    ],
+    "Footnotes": [
+        { "Symbol": "*", "Message": "Seats will be assigned based on availability"}
+    ],
+    "BillingSummary": {
+        "Fares": {
+            "GrandTotalAmount": 74.60,
+            "Tickets": [
+                {
+                    "_comment01": "Status can be OK (or Refunded).",
+                    "PassengerId": "1.1",
+                    "Number": "0272139633265",
+                    "Status": "OK",
+                    "Amount": {
+                        "Base": 56.37,
+                        "Tax": 18.23,
+                        "Total": 74.60
+                    },
+                    "DisplayNewTicketValue": true,
+                    "_comment02": "Additional due can be if not needed.",
+                    "_comment03": "How do we handle the refund?",
+                    "AdditionalDue": {
+                        "Amount": "",
+                        "ExchangedTicketNumber": ""
+                    }
+                }
+            ]
+        },
+        "Ancillaries": {},
+        "_comment07": "I will fill it out for purchase with miles.",
+        "FlyAndBuyMiles": {},
+        "_comment04": "OFOP, EWallet and EasyBizWallet will show up here. We need examples,though.",
+        "CreditInformation": []
+    },
+    "PaymentInformation": [
+        {
+            "DateTime": "2019-09-03T00:00:00",
+            "CardType": "Visa",
+            "CardNumber": "************6144",
+            "CardHolderName": "Insik Tester",
+            "Amount": 14.60,
+            "DiscountCode": ""
+        },
+        {
+            "DateTime": "2019-09-03T00:00:00",
+            "EWalletAmount": 60.00 
+        }
+    ],
+    "CarRental": {
+        "PickupLocation": "ABQ",
+        "PickupDateTime": "2019-09-03T23:30:00",
+        "DropoffDateTime": "2019-09-10T09:00:00"
+    },
+    "HotelSearch": {
+        "Destination": {
+            "CityCode": "ABQ",
+            "DateBegin": "2019-09-03T00:00:00",
+            "DateEnd": "2019-09-03T00:00:00"
+        }
+    },
+    "Baggage": {}
+}

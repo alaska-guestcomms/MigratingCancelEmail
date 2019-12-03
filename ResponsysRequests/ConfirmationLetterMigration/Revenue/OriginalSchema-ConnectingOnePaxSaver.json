@@ -75,7 +75,13 @@
             "OperatedByDescription": "",
             "EquipmentType": "Boeing 737-900",
             "_comment13": "find Travelers associated with PassengerID",
-            "Seats": []
+            "Seats": [
+                {
+                    "PassengerId": "1.1",
+                    "Assignment": "",
+                    "Type": ""
+                }
+            ]
         },
         {
             "FlightId": "1",

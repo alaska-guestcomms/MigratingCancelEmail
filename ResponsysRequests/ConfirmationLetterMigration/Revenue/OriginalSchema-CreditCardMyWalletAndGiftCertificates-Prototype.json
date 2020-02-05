@@ -93,10 +93,10 @@
             "Departure": {
                 "AirportCode": "SEA",
                 "Airport": "Seattle",
-                "DateTime": "2019-07-20T10:00:00"
+                "DateTime": "2019-10-03T18:00:00"
             },
             "Arrival": {
-                "AirportCode": "SEA",
+                "AirportCode": "PDX",
                 "Airport": "Seattle",
                 "DateTime": "2019-10-03T19:00:00"
             },

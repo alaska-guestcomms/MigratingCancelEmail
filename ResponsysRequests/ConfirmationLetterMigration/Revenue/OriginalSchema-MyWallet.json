@@ -93,10 +93,10 @@
             "Departure": {
                 "AirportCode": "SEA",
                 "Airport": "Seattle",
-                "DateTime": "2019-07-20T10:00:00"
+                "DateTime": "2019-10-03T18:00:00"
             },
             "Arrival": {
-                "AirportCode": "SEA",
+                "AirportCode": "PDX",
                 "Airport": "Seattle",
                 "DateTime": "2019-10-03T19:00:00"
             },
@@ -131,8 +131,8 @@
         "List":[
             "Mobility or wheelchair assistance",
             "Developmental and/or intellectual disability - assistance through the airport",
-            "Blind or low vision – gate assistance",
-            "Deaf or hard of hearing – service animal",
+            "Blind or low vision &ndash; gate assistance",
+            "Deaf or hard of hearing &ndash; service animal",
             "Does not speak English – gate assistance",
             "Courtesy assistance through the airport",
             "Service animal"

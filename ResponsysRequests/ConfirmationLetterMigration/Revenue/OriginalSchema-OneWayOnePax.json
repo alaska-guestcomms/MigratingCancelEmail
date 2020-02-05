@@ -72,7 +72,7 @@
                 "Name": "Alaska 3492"
             },
             "CheckInInfo": "Check in with Alaska Airlines.",
-            "OperatedByDescription": "Operated By SkyWest Airlines as AlaskaSkyWest.",
+            "OperatedByDescription": "Operated by SkyWest Airlines as Alaska SkyWest.",
             "EquipmentType": "Embraer E175",
             "_comment13": "find Travelers associated with PassengerID",
             "Seats": [

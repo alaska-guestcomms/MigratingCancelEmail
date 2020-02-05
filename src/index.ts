@@ -12,8 +12,8 @@ var currentMode = MODE.CONFIRMATIONLETTERDATAMAPPING
 
 if (currentMode === MODE.CONFIRMATIONLETTERDATAMAPPING)
 {
-    var scenarioName = 'ConnectingOnePaxSaver';
-    var originalSchemaFileName = `./ResponsysRequests/ConfirmationLetterMigration/Revenue/OriginalSchema-${scenarioName}.json`;
+    var scenarioName = 'ConnectingGiftCertificateAndCreditCard';
+    var originalSchemaFileName = `./ResponsysRequests/ConfirmationLetterMigration/OriginalSchema-${scenarioName}.json`;
     var payloadTemplate = `./ResponsysRequests/ConfirmationLetterMigration/DataMapping.json`;
     var targetPayload = `./ResponsysRequests/ConfirmationLetterMigration/Revenue/DataMapping-${scenarioName}.json`;
     var compose = true;

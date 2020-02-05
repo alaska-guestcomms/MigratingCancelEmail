@@ -1,0 +1,101 @@
+{
+    "mergeRule": {
+        "defaultPermissionStatus": "OPTIN",
+        "htmlValue": "H",
+        "insertOnNoMatch": true,
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "matchOperator": "NONE",
+        "optinValue": "I",
+        "optoutValue": "O",
+        "rejectRecordIfChannelEmpty": "E",
+        "textValue": "T",
+        "updateOnMatch": "REPLACE_ALL"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "guestcomms@alaskaair.onmicrosoft.com",
+                    "12345",
+                    ""
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "e84af002-7eb9-4e5a-97f4-cb535aa6d4c1"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2020-02-05T22:56:43"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "LBARNC"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"ResponsysCampaign\":\"Revenue\",\"IsValidForMigration\":true,\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasInternationalStop\":false,\"IsCanadianAddress\":false,\"HasLapInfant\":false,\"IsSeatPurchased\":false,\"IsGuestPass\":false,\"IsRefundable\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"NoneRevenueType\":\"\"}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Bob\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"PaxId\":0.0,\"Loyalty\":{\"CompanyCode\":\"AA\",\"TierStatus\":\"\",\"ProgramName\":\"American\",\"MemberNumber\":\"***RT52\"}}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":0,\"Departure\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2020-02-27T09:10:00\"},\"Arrival\":{\"AirportCode\":\"PDX\",\"Airport\":\"Portland, OR\",\"DateTime\":\"2020-02-27T11:05:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"R\",\"EquipmentType\":\"Airbus A320\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"383\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"383\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"\",\"PassengerId\":\"1.1\",\"Type\":\"\"}],\"CheckInInfo\":\"\"}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":93.40,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272154451227\",\"Status\":\"\",\"Amount\":{\"Base\":73.49,\"Tax\":19.91,\"Total\":93.40},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0.0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2020-02-05T00:00:00\",\"CardType\":\"American Express\",\"CardNumber\":\"********123\",\"CardHolderName\":\"Bob Tester\",\"Amount\":93.40}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"PDX\",\"PickupDateTime\":\"2020-02-27T12:05:00\",\"DropoffDateTime\":\"2020-03-05T12:05:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"PDX\",\"DateBegin\":\"2020-02-27T11:05:00\",\"DateEnd\":\"2020-03-01T09:10:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "{}"
+                    }
+                ]
+            }
+        ]
+    }
+}

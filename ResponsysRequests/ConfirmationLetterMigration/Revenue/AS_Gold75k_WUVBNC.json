@@ -1,0 +1,101 @@
+{
+    "mergeRule": {
+        "defaultPermissionStatus": "OPTIN",
+        "htmlValue": "H",
+        "insertOnNoMatch": true,
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "matchOperator": "NONE",
+        "optinValue": "I",
+        "optoutValue": "O",
+        "rejectRecordIfChannelEmpty": "E",
+        "textValue": "T",
+        "updateOnMatch": "REPLACE_ALL"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "guestcomms@alaskaair.onmicrosoft.com",
+                    "12345",
+                    ""
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "442d0ad1-f357-47e9-a507-2b00084410eb"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2020-02-05T00:03:20"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "WUVBNC"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"ResponsysCampaign\":\"Revenue\",\"IsValidForMigration\":true,\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasInternationalStop\":false,\"IsCanadianAddress\":false,\"HasLapInfant\":false,\"IsSeatPurchased\":false,\"IsGuestPass\":false,\"IsRefundable\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"NoneRevenueType\":\"\"}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Bob\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"PaxId\":0.0,\"Loyalty\":{\"CompanyCode\":\"AS\",\"TierStatus\":\"Gold 75K\",\"ProgramName\":\"Alaska\",\"MemberNumber\":\"*****0694\"}}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":0,\"Departure\":{\"AirportCode\":\"FAI\",\"Airport\":\"Fairbanks\",\"DateTime\":\"2020-04-16T06:00:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-04-16T10:40:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"R\",\"EquipmentType\":\"Boeing 737-900\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"594\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"594\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"7D★\",\"PassengerId\":\"1.1\",\"Type\":\"PremiumClass\"}],\"CheckInInfo\":\"\"}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[{\"Symbol\":\"★\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":143.90,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272153836964\",\"Status\":\"\",\"Amount\":{\"Base\":118.11,\"Tax\":25.79,\"Total\":143.90},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0.0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2020-01-29T00:00:00\",\"CardType\":\"Alaska Airlines Visa\",\"CardNumber\":\"******1244\",\"CardHolderName\":\"Bob Tuy Tester\",\"Amount\":143.90}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"SEA\",\"PickupDateTime\":\"2020-04-16T11:40:00\",\"DropoffDateTime\":\"2020-04-23T11:40:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"SEA\",\"DateBegin\":\"2020-04-16T10:40:00\",\"DateEnd\":\"2020-04-19T06:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "{}"
+                    }
+                ]
+            }
+        ]
+    }
+}

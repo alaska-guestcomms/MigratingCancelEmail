@@ -1,0 +1,101 @@
+{
+    "mergeRule": {
+        "defaultPermissionStatus": "OPTIN",
+        "htmlValue": "H",
+        "insertOnNoMatch": true,
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "matchOperator": "NONE",
+        "optinValue": "I",
+        "optoutValue": "O",
+        "rejectRecordIfChannelEmpty": "E",
+        "textValue": "T",
+        "updateOnMatch": "REPLACE_ALL"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "guestcomms@alaskaair.onmicrosoft.com",
+                    "12345",
+                    ""
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "5e2aca8c-1efc-4d57-9cd3-7854f457bc23"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2020-02-12T21:22:51"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "MGJJFQ"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"ResponsysCampaign\":\"Guestpass\",\"IsValidForMigration\":true,\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasInternationalStop\":false,\"IsCanadianAddress\":false,\"HasLapInfant\":false,\"IsSeatPurchased\":false,\"IsGuestPass\":true,\"IsRefundable\":true,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"NoneRevenueType\":\"GuestPass\"}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Bob\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"PaxId\":0.0}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":0,\"Departure\":{\"AirportCode\":\"DAL\",\"Airport\":\"Dallas\",\"DateTime\":\"2020-01-29T13:45:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-01-29T16:39:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"Y\",\"EquipmentType\":\"Embraer E175\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"2711\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"QX\",\"Name\":\"Horizon Air\",\"Number\":\"2711\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"*\",\"PassengerId\":\"1.1\"}],\"CheckInInfo\":\"Check in with Alaska Airlines.\",\"OperatedByDescription\":\"Flight Operated by Horizon Air as AlaskaHorizon.\"}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[{\"Symbol\":\"*\",\"Message\":\"Seats will be assigned based on availability.\"}]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":73.36,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272153795395\",\"Status\":\"\",\"Amount\":{\"Base\":59.03,\"Tax\":14.33,\"Total\":73.36},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0.0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{\"SeatPurchases\":null}}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2020-01-29T00:00:00\",\"CardType\":\"MasterCard\",\"CardNumber\":\"****1234\",\"CardHolderName\":\"Leitawsha Bronson\",\"Amount\":73.36,\"DiscountCode\":\"ECGP1GXRR2086116\"}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"SEA\",\"PickupDateTime\":\"2020-01-29T17:39:00\",\"DropoffDateTime\":\"2020-02-05T17:39:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"SEA\",\"DateBegin\":\"2020-01-29T16:39:00\",\"DateEnd\":\"2020-02-01T13:45:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "{}"
+                    }
+                ]
+            }
+        ]
+    }
+}

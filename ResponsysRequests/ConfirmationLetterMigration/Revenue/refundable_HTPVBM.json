@@ -1,0 +1,101 @@
+{
+    "mergeRule": {
+        "defaultPermissionStatus": "OPTIN",
+        "htmlValue": "H",
+        "insertOnNoMatch": true,
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "matchOperator": "NONE",
+        "optinValue": "I",
+        "optoutValue": "O",
+        "rejectRecordIfChannelEmpty": "E",
+        "textValue": "T",
+        "updateOnMatch": "REPLACE_ALL"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "guestcomms@alaskaair.onmicrosoft.com",
+                    "12345",
+                    ""
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "bf9e40e8-0bc1-44a5-97a3-e08b5416a900"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2020-02-14T18:37:21"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "HTPVBM"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"ResponsysCampaign\":\"Revenue\",\"IsValidForMigration\":true,\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasInternationalStop\":false,\"IsCanadianAddress\":false,\"HasLapInfant\":false,\"IsSeatPurchased\":false,\"IsGuestPass\":false,\"IsRefundable\":true,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"NoneRevenueType\":\"\"}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Koshy\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"PaxId\":0.0}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":0,\"Departure\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2020-05-22T11:00:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-05-22T13:18:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"H\",\"EquipmentType\":\"Airbus\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"373\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"373\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"\",\"PassengerId\":\"1.1\",\"Type\":\"\"}],\"CheckInInfo\":\"\"}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":267.40,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272154501780\",\"Status\":\"\",\"Amount\":{\"Base\":235.35,\"Tax\":32.05,\"Total\":267.40},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0.0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2020-02-05T00:00:00\",\"CardType\":\"Alaska Airlines Commercial Account\",\"CardNumber\":\"*********123\",\"CardHolderName\":\"KOSHY TESTER\",\"Amount\":267.40}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"SEA\",\"PickupDateTime\":\"2020-05-22T14:18:00\",\"DropoffDateTime\":\"2020-05-29T14:18:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"SEA\",\"DateBegin\":\"2020-05-22T13:18:00\",\"DateEnd\":\"2020-05-25T11:00:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "{}"
+                    }
+                ]
+            }
+        ]
+    }
+}

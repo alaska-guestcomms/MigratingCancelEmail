@@ -1,0 +1,101 @@
+{
+    "mergeRule": {
+        "defaultPermissionStatus": "OPTIN",
+        "htmlValue": "H",
+        "insertOnNoMatch": true,
+        "matchColumnName1": "CUSTOMER_ID_",
+        "matchColumnName2": null,
+        "matchOperator": "NONE",
+        "optinValue": "I",
+        "optoutValue": "O",
+        "rejectRecordIfChannelEmpty": "E",
+        "textValue": "T",
+        "updateOnMatch": "REPLACE_ALL"
+    },
+    "mergeTriggerRecordData": {
+        "fieldNames": [
+            "EMAIL_ADDRESS_",
+            "CUSTOMER_ID_",
+            "EMAIL_FORMAT_"
+        ],
+        "mergeTriggerRecords": [
+            {
+                "fieldValues": [
+                    "guestcomms@alaskaair.onmicrosoft.com",
+                    "12345",
+                    ""
+                ],
+                "optionalData": [
+                    {
+                        "name": "Id",
+                        "value": "d2982817-65ac-4e7a-87a0-72e7c2ae5b59"
+                    },
+                    {
+                        "name": "CustomerId",
+                        "value": "12345"
+                    },
+                    {
+                        "name": "ReferenceId",
+                        "value": "TL04358685"
+                    },
+                    {
+                        "name": "RequestedDateTime",
+                        "value": "2020-02-14T18:30:34"
+                    },
+                    {
+                        "name": "ConfirmationCode",
+                        "value": "MGJVKF"
+                    },
+                    {
+                        "name": "Type",
+                        "value": "Personal"
+                    },
+                    {
+                        "name": "LetterType",
+                        "value": "New"
+                    },
+                    {
+                        "name": "Features",
+                        "value": "{\"ResponsysCampaign\":\"Revenue\",\"IsValidForMigration\":true,\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasInternationalStop\":false,\"IsCanadianAddress\":false,\"HasLapInfant\":false,\"IsSeatPurchased\":false,\"IsGuestPass\":false,\"IsRefundable\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"IsSaverFare\":true,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"NoneRevenueType\":\"\"}"
+                    },
+                    {
+                        "name": "Passengers",
+                        "value": "[{\"Name\":{\"First\":\"Bob\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"PaxId\":0.0,\"Loyalty\":{\"CompanyCode\":\"AS\",\"TierStatus\":\"\",\"ProgramName\":\"Alaska\",\"MemberNumber\":\"*****7903\"}}]"
+                    },
+                    {
+                        "name": "FlightSegments",
+                        "value": "[{\"FlightId\":0,\"Departure\":{\"AirportCode\":\"BLI\",\"Airport\":\"Bellingham\",\"DateTime\":\"2020-03-30T15:45:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-03-30T16:38:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"X\",\"EquipmentType\":\"Bombardier Q400\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"2529\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"QX\",\"Name\":\"Horizon Air\",\"Number\":\"2529\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"16A\",\"PassengerId\":\"1.1\",\"Type\":\"\"}],\"CheckInInfo\":\"Check in with Alaska Airlines.\",\"OperatedByDescription\":\"Flight Operated by Horizon Air as AlaskaHorizon.\"},{\"FlightId\":1,\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-03-30T18:30:00\"},\"Arrival\":{\"AirportCode\":\"GEG\",\"Airport\":\"Spokane\",\"DateTime\":\"2020-03-30T19:34:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"X\",\"EquipmentType\":\"Bombardier Q400\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"2192\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"QX\",\"Name\":\"Horizon Air\",\"Number\":\"2192\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"16A\",\"PassengerId\":\"1.1\",\"Type\":\"\"}],\"CheckInInfo\":\"Check in with Alaska Airlines.\",\"OperatedByDescription\":\"Flight Operated by Horizon Air as AlaskaHorizon.\"},{\"FlightId\":2,\"Departure\":{\"AirportCode\":\"GEG\",\"Airport\":\"Spokane\",\"DateTime\":\"2020-04-03T17:10:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-04-03T18:24:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"X\",\"EquipmentType\":\"Bombardier Q400\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"2357\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"QX\",\"Name\":\"Horizon Air\",\"Number\":\"2357\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"16A\",\"PassengerId\":\"1.1\",\"Type\":\"\"}],\"CheckInInfo\":\"Check in with Alaska Airlines.\",\"OperatedByDescription\":\"Flight Operated by Horizon Air as AlaskaHorizon.\"},{\"FlightId\":3,\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-04-03T21:25:00\"},\"Arrival\":{\"AirportCode\":\"BLI\",\"Airport\":\"Bellingham\",\"DateTime\":\"2020-04-03T22:12:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"X\",\"EquipmentType\":\"Bombardier Q400\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"2496\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"QX\",\"Name\":\"Horizon Air\",\"Number\":\"2496\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"16A\",\"PassengerId\":\"1.1\",\"Type\":\"\"}],\"CheckInInfo\":\"Check in with Alaska Airlines.\",\"OperatedByDescription\":\"Flight Operated by Horizon Air as AlaskaHorizon.\"}]"
+                    },
+                    {
+                        "name": "Footnotes",
+                        "value": "[]"
+                    },
+                    {
+                        "name": "BillingSummary",
+                        "value": "{\"Fares\":{\"GrandTotalAmount\":456.41,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272153797224\",\"Status\":\"\",\"Amount\":{\"Base\":381.40,\"Tax\":75.01,\"Total\":456.41},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0.0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{}}"
+                    },
+                    {
+                        "name": "PaymentInformation",
+                        "value": "[{\"DateTime\":\"2020-01-29T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"*****1234\",\"CardHolderName\":\"Bob M Tester\",\"Amount\":456.41}]"
+                    },
+                    {
+                        "name": "CarRental",
+                        "value": "{\"PickupLocation\":\"GEG\",\"PickupDateTime\":\"2020-03-30T20:34:00\",\"DropoffDateTime\":\"2020-04-03T19:25:00\"}"
+                    },
+                    {
+                        "name": "HotelSearch",
+                        "value": "{\"Destination\":{\"CityCode\":\"GEG\",\"DateBegin\":\"2020-03-30T19:34:00\",\"DateEnd\":\"2020-04-03T17:10:00\"}}"
+                    },
+                    {
+                        "name": "Baggage",
+                        "value": "{}"
+                    },
+                    {
+                        "name": "SpecialServiceRequests",
+                        "value": "{}"
+                    }
+                ]
+            }
+        ]
+    }
+}

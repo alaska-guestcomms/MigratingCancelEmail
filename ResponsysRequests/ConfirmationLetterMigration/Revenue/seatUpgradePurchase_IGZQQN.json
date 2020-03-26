@@ -1,0 +1,112 @@
+{
+    "pnr": "IGZQQN",
+    "count": 1,
+    "payloads": [
+        {
+            "campaignName": "_TR_BookingConfirmation_AlaskaDollar_Test",
+            "payload": {
+                "mergeRule": {
+                    "defaultPermissionStatus": "OPTIN",
+                    "htmlValue": "H",
+                    "insertOnNoMatch": true,
+                    "matchColumnName1": "CUSTOMER_ID_",
+                    "matchColumnName2": null,
+                    "matchOperator": "NONE",
+                    "optinValue": "I",
+                    "optoutValue": "O",
+                    "rejectRecordIfChannelEmpty": "E",
+                    "textValue": "T",
+                    "updateOnMatch": "REPLACE_ALL"
+                },
+                "mergeTriggerRecordData": {
+                    "fieldNames": [
+                        "EMAIL_ADDRESS_",
+                        "CUSTOMER_ID_",
+                        "EMAIL_FORMAT_"
+                    ],
+                    "mergeTriggerRecords": [
+                        {
+                            "fieldValues": [
+                                "warren.chen@alaskaair.com",
+                                "12345",
+                                ""
+                            ],
+                            "optionalData": [
+                                {
+                                    "name": "Id",
+                                    "value": "90723252-63a3-4945-93e9-9975cca86ffb"
+                                },
+                                {
+                                    "name": "CustomerId",
+                                    "value": "12345"
+                                },
+                                {
+                                    "name": "ReferenceId",
+                                    "value": "TL04358685"
+                                },
+                                {
+                                    "name": "RequestedDateTime",
+                                    "value": "2020-03-25T23:18:32"
+                                },
+                                {
+                                    "name": "ConfirmationCode",
+                                    "value": "IGZQQN"
+                                },
+                                {
+                                    "name": "Type",
+                                    "value": "Personal"
+                                },
+                                {
+                                    "name": "LetterType",
+                                    "value": "New"
+                                },
+                                {
+                                    "name": "Features",
+                                    "value": "{\"ResponsysCampaign\":\"Revenue\",\"IsValidForMigration\":true,\"HasMexicanSegment\":false,\"HasCanadianSegment\":false,\"HasInternationalStop\":false,\"IsCanadianAddress\":false,\"HasLapInfant\":false,\"IsSeatPurchased\":false,\"IsGuestPass\":false,\"IsRefundable\":false,\"HasLAXSegment\":false,\"HasGeneralTravelerAdvisories\":false,\"HasOtherAirlineSegment\":false,\"HasAlaskaAirlinesSegment\":true,\"HasHorizonAirSegment\":false,\"HasDeltaOrNorthwestSegment\":false,\"AreAllSegmentsOtherAirlines\":false,\"HasPennAirSegment\":false,\"HasAeromexicoSegment\":false,\"HasQantasAirSegment\":false,\"HasFijiAirSegment\":false,\"HasKoreanAirSegment\":false,\"HasLanAirSegment\":false,\"HasUnaccompaniedMinor\":false,\"SomeSeatsNotSelected\":true,\"HasSegmentWithOpenSeatingCarrier\":false,\"IsPartnerAward\":false,\"IsASQXAward\":false,\"WetLeaseCheckInRequired\":false,\"TripInsurancePurchased\":false,\"IsSaverFare\":false,\"IsReservationNonChangeable\":false,\"IsInternationalItinerary\":false,\"CanChangeReservationOnline\":true,\"NoneRevenueType\":\"\",\"SeatUpgradePurchaseAfterPurchase\":true}"
+                                },
+                                {
+                                    "name": "Passengers",
+                                    "value": "[{\"Name\":{\"First\":\"Bob\",\"Last\":\"Tester\"},\"PassengerId\":\"1.1\",\"PaxId\":0.0,\"Loyalty\":{\"CompanyCode\":\"AS\",\"TierStatus\":\"\",\"ProgramName\":\"Alaska\",\"MemberNumber\":\"*****1322\"}}]"
+                                },
+                                {
+                                    "name": "FlightSegments",
+                                    "value": "[{\"FlightId\":0,\"Departure\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2020-01-31T09:05:00\"},\"Arrival\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-01-31T11:25:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"M\",\"EquipmentType\":\"Embraer E175\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"2951\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"QX\",\"Name\":\"Horizon Air\",\"Number\":\"2951\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"7D★\",\"PassengerId\":\"1.1\",\"Type\":\"PremiumClass\"}],\"CheckInInfo\":\"Check in with Alaska Airlines.\",\"OperatedByDescription\":\"Flight Operated by Horizon Air as AlaskaHorizon.\"},{\"FlightId\":1,\"Departure\":{\"AirportCode\":\"SEA\",\"Airport\":\"Seattle\",\"DateTime\":\"2020-02-01T17:25:00\"},\"Arrival\":{\"AirportCode\":\"SFO\",\"Airport\":\"San Francisco\",\"DateTime\":\"2020-02-01T19:40:00\"},\"Cabin\":\"Coach\",\"ClassOfService\":\"M\",\"EquipmentType\":\"Boeing 737-900\",\"MarketingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"1754\",\"ConfirmationCode\":\"\"},\"OperatingAirline\":{\"Code\":\"AS\",\"Name\":\"Alaska\",\"Number\":\"1754\"},\"DisplayAirline\":{\"Code\":\"\",\"Name\":\"\",\"Number\":\"\",\"ConfirmationCode\":\"\"},\"Seats\":[{\"Assignment\":\"6F★\",\"PassengerId\":\"1.1\",\"Type\":\"PremiumClass\"}],\"CheckInInfo\":\"\"}]"
+                                },
+                                {
+                                    "name": "Footnotes",
+                                    "value": "[{\"Symbol\":\"★\",\"Message\":\"Premium Class seat has been selected for this flight.\"}]"
+                                },
+                                {
+                                    "name": "BillingSummary",
+                                    "value": "{\"Fares\":{\"GrandTotalAmount\":556.80,\"Tickets\":[{\"PassengerId\":\"1.1\",\"Number\":\"0272153797236\",\"Status\":\"\",\"Amount\":{\"Base\":491.16,\"Tax\":65.64,\"Total\":556.80},\"DisplayNewTicketValue\":true,\"AdditionalDue\":{\"Amount\":0.0,\"ExchangedTicketNumber\":\"\"}}]},\"Ancillaries\":{\"SeatPurchases\":{\"GrandTotalAmount\":50.00,\"Tickets\":[{\"PassengerId\":\"1.1\",\"NumberOfSeats\":2,\"Amount\":{\"Base\":46.52,\"Tax\":3.48,\"Total\":50.00}}]}}}"
+                                },
+                                {
+                                    "name": "PaymentInformation",
+                                    "value": "[{\"DateTime\":\"2020-01-29T00:00:00\",\"CardType\":\"Visa\",\"CardNumber\":\"******1234\",\"CardHolderName\":\"Bob E Tester\",\"Amount\":606.80}]"
+                                },
+                                {
+                                    "name": "CarRental",
+                                    "value": "{\"PickupLocation\":\"SEA\",\"PickupDateTime\":\"2020-01-31T12:25:00\",\"DropoffDateTime\":\"2020-02-01T15:25:00\"}"
+                                },
+                                {
+                                    "name": "HotelSearch",
+                                    "value": "{\"Destination\":{\"CityCode\":\"SEA\",\"DateBegin\":\"2020-01-31T11:25:00\",\"DateEnd\":\"2020-02-01T17:25:00\"}}"
+                                },
+                                {
+                                    "name": "Baggage",
+                                    "value": "{}"
+                                },
+                                {
+                                    "name": "SpecialServiceRequests",
+                                    "value": "{}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "recipient": "warren.chen@alaskaair.com",
+            "timestamp": "2020-03-25T23:18:33.5242772+00:00"
+        }
+    ]
+}
